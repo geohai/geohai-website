@@ -1,0 +1,18 @@
+<div class="project-nav">
+  <span>
+    {% if include.project.previous %}
+      {% include icon.html icon="fa-solid fa-angle-left" %} Previous project<br>
+      <a href="{{ include.project.previous.url | relative_url }}">
+        {{ include.project.previous.title }}
+      </a>
+    {% endif %}
+  </span>
+  <span>
+    {% if include.project.next %}
+      Next project {% include icon.html icon="fa-solid fa-angle-right" %}<br>
+      <a href="{{ include.project.next.url | relative_url }}">
+        {{ include.project.next.title }}
+      </a>
+    {% endif %}
+  </span>
+</div>

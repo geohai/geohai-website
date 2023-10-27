@@ -1,5 +1,5 @@
 
-# jenmacdonald's Website
+# GeoHAI's Website
 
 Visit **[jenmacdonald.github.io/geohai-website](https://jenmacdonald.github.io/geohai-website)** 🚀
 

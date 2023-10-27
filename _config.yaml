@@ -1,5 +1,5 @@
 # site properties and page defaults
-title: jenmacdonald
+title: GeoHAI
 subtitle: 
 description: An engaging 1-3 sentence description of your lab.
 header: images/background.jpg
@@ -7,12 +7,12 @@ footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@jenmacdonald.com
+  email: contact@geohai.com
   orcid: 0000-0001-8713-9213
   google-scholar: ETJoidYAAAAJ
-  github: jenmacdonald
-  twitter: jenmacdonald
-  youtube: jenmacdonald
+  github: geohai
+  twitter: geohai
+  youtube: geohai
 
 ### jekyll settings
 
@@ -33,6 +33,11 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # markdown files in /_projects
+  - scope:
+      type: "projects"
+    values:
+      layout: project
 
 collections:
   # generate page for each member
@@ -40,6 +45,9 @@ collections:
     output: true
   # generate page for each post
   posts:
+    output: true
+    # generate page for each project
+  projects:
     output: true
 
 # jekyll plugins

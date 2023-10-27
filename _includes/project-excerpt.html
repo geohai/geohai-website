@@ -1,0 +1,36 @@
+{% assign project = site.projects 
+    | where_exp: "project", "project.slug == include.lookup"
+    | first
+    | default: include
+  %}
+  
+  <div class="project-excerpt">
+    {% assign url = project.url %}
+    {% assign title = project.title %}
+    <a href="{{ url | relative_url }}">{{ title }}</a>
+  
+    {%
+      include project-info.html
+      author=project.author
+      published=project.date
+      updated=project.last_modified_at
+      tags=project.tags
+    %}
+  
+    {% assign excerpt = project.content
+      | default: ""
+      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+      | default: project.excerpt
+      | default: ""
+      | strip_html
+    %}
+    {% assign search = project.content
+      | strip_html 
+      | strip_newlines
+      | regex_strip
+    %}
+    <p data-search="{{ search }}">
+      {{ excerpt }}
+    </p>
+  </div>
+  
