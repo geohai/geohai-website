@@ -70,8 +70,12 @@ search:
   text: Search
   tooltip: Search
 
-# social media
+CV:
+  icon: fa-solid fa-magnifying-glass
+  text: CV
+  tooltip: CV
 
+# social media
 orcid:
   icon: fa-brands fa-orcid
   text: ORCID

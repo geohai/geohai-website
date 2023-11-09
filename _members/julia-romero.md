@@ -11,10 +11,10 @@ aliases:
   - Julia Romero
 links:
   github: julialromero
-  email: julia.romero@ colorado.edu
-  home-page: https://julialromero.github.io/
-  orcid: 0000-0001-5635-5407
-  # twitter: sarahjohnson
+  email: julia.romero@colorado.edu
+  #home-page: https://julialromero.github.io/
+  linkedin: https://www.linkedin.com/in/julialromero/
+  CV: https://julialromero.github.io/CV/Julia_Romero_CV.pdf
 ---
 
 Currently, I am a 4th year Ph.D. student in computer science at CU Boulder with a B.S. in biomedical engineering from the University of Texas at Austin. I am advised by Dr. Morteza Karimzadeh and Dr. Qin (Christine) Lv. I have completed internships with the Pervasive Systems Group at Nokia Bell Labs, Stryd (wearable sports tech startup) and Johns Hopkins Applied Physics Laboratory.
