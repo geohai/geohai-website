@@ -30,6 +30,10 @@ mascot:
   icon: fa-solid fa-dog
   description: Mascot
 
+masters:
+  icon: fa-solid fa-user-graduate
+  description: Masters Student
+
 # general
 
 link:
