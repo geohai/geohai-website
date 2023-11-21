@@ -16,4 +16,10 @@ links:
   # twitter: sarahjohnson
 ---
 
-This is a description about Jen MacDonald. Update more later.
+I am currently a first-year Ph.D. student in computer science at CU Boulder, advised by Dr. Morteza Karimzadeh. My academic background includes a B.S. in Cognitive Science with a specialization in computation from UCLA, where I conducted my undergraduate thesis on contour interpolation and object perception under the guidance of Dr. Philip Kellman.
+
+In addition, I have gained practical experience as a software engineer at both startups and large businesses. Concurrently, I obtained an M.S. in Data Science Engineering from UCLA and an MBA from Carnegie Mellon, focusing on entrepreneurship.
+
+My current research is focused on sea ice classification utilizing satellite imagery and deep learning. Within the broader scope of computer science, my academic interests encompass climate modeling, artificial intelligence, spatiotemporal forecasting, and the analysis of space and remote sensing data.
+
+In my free time, I enjoy traveling, trying spicy foods, and am currently learning how to brew my own beer. During the winter, you can find me skiing in the mountains.
