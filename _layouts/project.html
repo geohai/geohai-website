@@ -17,6 +17,10 @@ layout: default
 
 {{ content }}
 
+{% if page.image %}
+  <img src="{{ page.image }}" alt="{{ page.title | default: "project image" }}">
+{% endif %}
+
 {% include section.html %}
 
 {% include project-nav.html project=page %}

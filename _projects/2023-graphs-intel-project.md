@@ -2,7 +2,7 @@
 title: Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data
 author: julia-romero
 tags: graph-deep-learning, sensors, spatiotemporal, human-behavior
-image: images/50salads.jpeg
+# image: images/50salads.jpeg
 ---
 In collaboration with **Intel Labs**, we are developing deep learning methods for human activity recognition in multimodal data collected from video, depth, and 10 accelerometers (the 50 Salads dataset). Specifically, we are exploring graph-based methods to model spatiotemporal information and to perform multimodal data fusion, such that the learning process is more data-efficient and resource-efficient.
 

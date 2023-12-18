@@ -5,32 +5,44 @@
   %}
   
   <div class="project-excerpt">
-    {% assign url = project.url %}
-    {% assign title = project.title %}
-    <a href="{{ url | relative_url }}">{{ title }}</a>
-  
-    {%
-      include project-info.html
-      author=project.author
-      published=project.date
-      updated=project.last_modified_at
-      tags=project.tags
-    %}
-  
-    {% assign excerpt = project.content
-      | default: ""
-      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-      | default: project.excerpt
-      | default: ""
-      | strip_html
-    %}
-    {% assign search = project.content
-      | strip_html 
-      | strip_newlines
-      | regex_strip
-    %}
-    <p data-search="{{ search }}">
-      {{ excerpt }}
-    </p>
+    <div class="project-content">
+      {% assign url = project.url %}
+      {% assign title = project.title %}
+      <a href="{{ url | relative_url }}">{{ title }}</a>
+      
+      {% if project.tags %}
+        <div>
+          {% include tags.html tags=project.tags link="blog" %}
+        </div>
+      {% endif %}  
+    
+      {% assign excerpt = project.content
+        | default: ""
+        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+        | default: project.excerpt
+        | default: ""
+        | strip_html
+      %}
+      {% assign search = project.content
+        | strip_html 
+        | strip_newlines
+        | regex_strip
+      %}
+      {% if project.tags and project.tags.size > 0 %}
+        <p data-search="{{ search }}" class="tags-excerpt">
+          {{ excerpt }}
+        </p>
+      {% else %}
+        <p data-search="{{ search }}" class="tags-no-excerpt">
+          {{ excerpt }}
+        </p>
+      {% endif %}  
+    </div>
+
+    {% if project.image %}
+      <div class="project-image-container">
+        <img src="{{ project.image }}" alt="{{ project.title | default: "project image" }}" class="project-image">
+      </div>
+    {% endif %}
   </div>
   
