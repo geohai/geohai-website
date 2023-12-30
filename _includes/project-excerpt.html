@@ -39,9 +39,9 @@
       {% endif %}  
     </div>
 
-    {% if project.image %}
+    {% if project.thumbnail %}
       <div class="project-image-container">
-        <img src="{{ project.image }}" alt="{{ project.title | default: "project image" }}" class="project-image">
+        <img src="{{ project.thumbnail }}" alt="{{ project.title | default: "project thumbnail" }}" class="project-image">
       </div>
     {% endif %}
   </div>

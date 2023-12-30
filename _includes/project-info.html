@@ -1,6 +1,6 @@
 <div class="project-info">
   {% if include.author %}
-    {% assign author = include.author | split: ", " %}
+    {% assign author = include.author | split: "," %}
       {% for auth in author %}
         {% assign member = site.members
           | where_exp: "member", "member.slug == auth"
