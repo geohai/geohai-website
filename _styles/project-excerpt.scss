@@ -13,6 +13,31 @@
   box-shadow: var(--shadow);
 }
 
+.project-content {
+  flex: 1;
+}
+
+.tags-excerpt {
+  margin: 0;
+}
+
+.tags-no-excerpt {
+  margin: 20px 0 0 0;
+}
+
+.project-image-container {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .project-excerpt > * {
   margin: 0 !important;
 }
