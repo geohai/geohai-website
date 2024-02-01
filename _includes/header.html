@@ -2,7 +2,9 @@
 {% assign dark = page.header-dark | is_nil: site.header-dark | is_nil: true %}
 
 {% assign svg = "images/logo.svg" | file_exists %}
-{% assign png = "images/logo.png" | file_exists %}
+{% assign png = "images/icon.png" | file_exists %}
+{% assign png1 = "images/logo-name-1.png" | file_exists %}
+{% assign png2 = "images/logo-name-2.png" | file_exists %}
 {% assign jpg = "images/logo.jpg" | file_exists %}
 {% assign logo = svg | default: png | default: jpg | default: nil %}
 
@@ -17,13 +19,19 @@
   {% endif %}
 >
   <a href="{{ "/" | relative_url }}" class="home">
-    {% if logo %}
+    {% if logo and page.url == "/" %}
       <span class="logo">
         {% if svg %}
           {{ svg | file_read }}
         {% else %}
           <img src="{{ logo | relative_url }}" alt="logo">
         {% endif %}
+      </span>
+    {% else if logo %}
+      <span class="logo logo-header">
+        <img src="{{ png | relative_url }}" alt="logo">
+        <img class="logo-name-1" src="{{ png1 | relative_url }}" alt="GEOHAI">
+        <img class="logo-name-2" src="{{ png2 | relative_url }}" alt="Research Lab">
       </span>
     {% endif %}
     {% if site.logo-text != false %}

@@ -2,8 +2,8 @@
 ---
 
 $logo-big: 200px;
-$logo: 40px;
-$big-padding: 50px;
+$logo: 60px;
+$big-padding: 10px;
 $collapse: 700px;
 $sticky: true;
 
@@ -13,7 +13,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: var(--shadow);
 
   @if $sticky {
@@ -44,6 +44,25 @@ header a {
 
 .logo > * {
   height: 100%;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name-1 {
+  height: 40px;
+  position: relative;
+  bottom: 5px;
+  margin-left: 10px;
+}
+
+.logo-name-2 {
+  height: 10px;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
 }
 
 .title {
