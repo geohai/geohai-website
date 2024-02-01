@@ -8,4 +8,6 @@ Our project leverages deep learning techniques, specifically Long Short-Term Mem
 
 By developing the capabilities of LSTM and ConvLSTM, our project aims to not only provide monthly predictions of post-fire vegetation recovery but also generate recovery-potential surfaces for recent fires, aiding land managers in targeted interventions. The convolutional aspect enhances the model's ability to discern spatial patterns, offering a comprehensive understanding of how different intra-fire regions recover over time. This cutting-edge fusion of deep learning and remote sensing technologies has potential to advance our insights into the complex dynamics of post-fire landscape recovery, contributing valuable information for adaptive, restorative land management practices and ecological resilience in the face of increasing wildfires.
 
-This project is funded by a National Science Foundation Graduate Research Fellowship.
+Click [here](https://www.youtube.com/watch?v=17DyExtguvI) to watch a brief video discussing preliminary work.
+
+This project is funded by a National Science Foundation Graduate Research Fellowship under Grant No. DGE 2040434.
