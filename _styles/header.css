@@ -4,7 +4,7 @@ header {
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: var(--shadow);
   position: sticky !important;
   top: 0;
@@ -27,11 +27,30 @@ header a {
 }
 
 .logo {
-  height: 40px;
+  height: 60px;
 }
 
 .logo > * {
   height: 100%;
+}
+
+.logo-header {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name-1 {
+  height: 40px;
+  position: relative;
+  bottom: 5px;
+  margin-left: 10px;
+}
+
+.logo-name-2 {
+  height: 10px;
+  position: relative;
+  top: 5px;
+  margin-left: 5px;
 }
 
 .title {
@@ -121,7 +140,7 @@ header[data-big] {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px 20px;
+  padding: 10px 20px;
   top: unset;
 }
 header[data-big] .home {
