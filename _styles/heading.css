@@ -7,12 +7,16 @@ h4 {
 }
 
 h1 {
-  margin: 20px 0 20px 0;
+  margin: 20px 0 0 0;
   font-size: var(--xxl);
   font-weight: var(--regular);
   letter-spacing: 1px;
   text-transform: uppercase;
   text-align: left;
+}
+
+h1 + p {
+  margin: 0;
 }
 
 h2 {
