@@ -45,3 +45,13 @@
   repo: greenelab/lab-website-template
   tags:
     - software
+
+- title: GeoDEN
+  subtitle: Visual Analytics
+  image: images/photo.jpg
+  link: https://github.com/
+  description: GeoDEN is a tool for exploring spatiotemporal spread and interaction of dengue serotypes.
+  repo: greenelab/geoDEN
+  tags:
+    - software
+    - website
