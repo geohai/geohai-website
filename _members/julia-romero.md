@@ -14,7 +14,7 @@ links:
   email: julia.romero@colorado.edu
   #home-page: https://julialromero.github.io/
   linkedin: https://www.linkedin.com/in/julialromero/
-  CV: https://julialromero.github.io/CV/Julia_Romero_CV.pdf
+  CV: https://julialromero.github.io/files/Julia_Romero_CV.pdf
 ---
 
 I am a 5th year Ph.D. student in computer science at CU Boulder with a B.S. in biomedical engineering from The University of Texas at Austin. I am advised by Professor Morteza Karimzadeh and Professor Qin (Christine) Lv. I have completed internships with the Pervasive Systems Group at Nokia Bell Labs, Stryd (wearable sports tech startup), and Johns Hopkins Applied Physics Laboratory. My Ph.D. research is focused on AI/ML algorithms and applications in computer vision, wearable computing systems, and geography.  
