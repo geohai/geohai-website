@@ -4,7 +4,7 @@ name: Claire Simpson
 image: images/claire-simpson.jpeg
 # description: Geography Student
 role: masters
-# group: alum
+group: alum
 aliases:
   - C. Simpson
   - C Simpson
