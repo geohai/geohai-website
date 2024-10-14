@@ -34,7 +34,7 @@ For Windows, try the Ruby installation related steps from here: https://gorails.
 
 ## Adding Yourself as a Team Member to the Website
 1. In the “\_members” folder, add a file “\[first name\]-\[last name\].md”  E.g. “jen-macdonald.md”
-2. Find a picture of yourself and name it “\[first name\]-\[last name\].jpg”. Then add it to the “images” folder and make sure the “image” prop points to your image
+2. Find a picture of yourself and name it “\[first name\]-\[last name\].jpg”. Then add it to the “images/member-images” folder and make sure the “image” prop points to your image
 3. Fill out the page. Use “jen-macdonald.md” a guide (you can copy the file and paste it in, and then modify)
 4. For “role” fill out based on your title
     1. pi == Principal Investigator

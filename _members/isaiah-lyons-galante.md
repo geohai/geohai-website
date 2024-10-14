@@ -1,9 +1,11 @@
 ---
 name: Isaiah Lyons-Galante
-image: images/isaiah-lyons-galante.jpg
+image: images/member-images/isaiah-lyons-galante.jpg
 # description: Lead Programmer
 role: masters
-group: alum, affiliates
+group: 
+  - affiliate
+  - alum
 aliases:
   - I. Lyons-Galante
   - I Lyons-Galante

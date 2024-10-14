@@ -1,6 +1,6 @@
 ---
 name: Zhongying Wang
-image: images/zhongying-wang.jpg
+image: images/member-images/zhongying-wang.jpg
 # description: Lead Programmer
 role: phd
 # group: alum

@@ -1,6 +1,6 @@
 ---
 name: Aidan Marler
-image: images/aidan-marler.jpg
+image: images/member-images/aidan-marler.jpg
 # description: Researcher
 role: programmer
 group: alum

@@ -7,28 +7,28 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
+Please feel free to contact our members for specific projects, or contact the director:
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="karimzadeh@colorado.com"
+  link="karimzadeh@colorado.com"
 %}
 {%
   include button.html
   type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text=" 303-492-3252"
+  link="+1-303-492-3252"
 %}
 {%
   include button.html
+  text="Location on Map"
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://maps.app.goo.gl/i7x78WEjK8BFjYeC7"
 %}
+
+**Note for Prospective students** Students interested in a graduate degree in Geography or Computer Science whose research and interests align with GeoHAI: Please feel free to reach out to Dr. Karimzadeh with your CV, explaining how your research background and expertise may align with our work, and what areas you'd be interested in working on in the future. Please use the projects page, and see our latest papers on our research page or [here](https://scholar.google.com/citations?hl=en&user=Vy2oR2kAAAAJ&view_op=list_works&sortby=pubdate).
 
 {% include section.html %}
 
@@ -36,19 +36,19 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
+  image="images/website-images/gugg-in-fall.jpg"
+  caption="Guggenheim Geography on CU Boulder's campus"
 %}
 
 {% endcapture %}
 
 {% capture col2 %}
 
-{%
+<!-- {%
   include figure.html
   image="images/photo.jpg"
   caption="Lorem ipsum"
-%}
+%} -->
 
 {% endcapture %}
 
@@ -57,21 +57,20 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include section.html dark=true %}
 
 {% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+Mailing Address: 
+Morteza Karimzadeh,
+
+GUGG 110, 260 UCB 
+
+Boulder, CO 80309-0260
 {% endcapture %}
 
 {% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+[Department of Geography](https://www.colorado.edu/geography/)
 {% endcapture %}
 
 {% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
+[Department of Computer Science](https://www.colorado.edu/cs/)
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
