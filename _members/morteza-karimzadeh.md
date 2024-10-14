@@ -1,6 +1,6 @@
 ---
 name: Morteza Karimzadeh
-image: images/morteza-karimzadeh.jpg
+image: images/member-images/morteza-karimzadeh.jpg
 description: Director 
 role: pi
 #group: alum
@@ -8,12 +8,14 @@ aliases:
   - M. Karimzadeh
   - M Karimzadeh
   - Morteza Karimzadeh
+  - Karimzadeh, M.
 links:
-  github: geohai
+  google-scholar: Vy2oR2kAAAAJ&
   email: karimzadeh@colorado.edu
-  home-page: https://www.colorado.edu/geography/morteza-karimzadeh
   orcid: 0000-0002-6498-1763
+  home-page: https://www.colorado.edu/geography/morteza-karimzadeh
+  github: geohai
   linkedin: karimzadeh-m
   # twitter: sarahjohnson
 ---
-test
+Text to be updated here.

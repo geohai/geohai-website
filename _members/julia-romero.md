@@ -1,7 +1,7 @@
 ---
 
 name: Julia Romero
-image: images/julia-romero.jpg
+image: images/member-images/julia-romero.jpg
 # description: Comp Sci Student
 role: phd
 # group: alum

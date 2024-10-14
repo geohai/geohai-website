@@ -1,6 +1,6 @@
 ---
 name: Jen MacDonald
-image: images/jen-macdonald.jpg
+image: images/member-images/jen-macdonald.jpg
 # description: Lead Programmer
 role: phd
 # group: alum

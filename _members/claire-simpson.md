@@ -1,7 +1,7 @@
 ---
 
 name: Claire Simpson
-image: images/claire-simpson.jpeg
+image: images/member-images/claire-simpson.jpeg
 # description: Geography Student
 role: masters
 group: alum

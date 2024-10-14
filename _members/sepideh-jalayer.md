@@ -1,6 +1,6 @@
 ---
 name: Sepideh Jalayer
-image: images/sepideh-jalayer.JPG
+image: images/member-images/sepideh-jalayer.JPG
 # description: 
 role: phd
 # group: alum
