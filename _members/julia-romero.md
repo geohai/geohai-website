@@ -1,7 +1,7 @@
 ---
 
 name: Julia Romero
-image: images/julia-romero.jpg
+image: images/member-images/julia-romero.jpg
 # description: Comp Sci Student
 role: phd
 # group: alum
@@ -14,11 +14,13 @@ links:
   email: julia.romero@colorado.edu
   #home-page: https://julialromero.github.io/
   linkedin: https://www.linkedin.com/in/julialromero/
-  CV: https://julialromero.github.io/CV/Julia_Romero_CV.pdf
+  CV: https://julialromero.github.io/files/Julia_Romero_CV.pdf
 ---
 
-Currently, I am a 4th year Ph.D. student in computer science at CU Boulder with a B.S. in biomedical engineering from the University of Texas at Austin. I am advised by Dr. Morteza Karimzadeh and Dr. Qin (Christine) Lv. I have completed internships with the Pervasive Systems Group at Nokia Bell Labs, Stryd (wearable sports tech startup) and Johns Hopkins Applied Physics Laboratory.
+I am a 5th year Ph.D. student in computer science at CU Boulder with a B.S. in biomedical engineering from The University of Texas at Austin. I am advised by Professor Morteza Karimzadeh and Professor Qin (Christine) Lv. I have completed internships with the Pervasive Systems Group at Nokia Bell Labs, Stryd (wearable sports tech startup), and Johns Hopkins Applied Physics Laboratory. My Ph.D. research is focused on AI/ML algorithms and applications in computer vision, wearable computing systems, and geography.  
 
-My Ph.D. research is focused on data analytics for mobile, wearable, ubiquitous computing and Internet-of-Things systems, and I am passionate about health and medical applications. I have worked on projects for patient monitoring, medical diagnostics, human activity recognition, exercise behavior, injury prediction, and urban neighborhood representation learning. I have expertise in developing pipelines for signal processing, data mining, machine learning, and deep learning, using sensor data from PPG (optical), accelerometers, video, and depth sensors, in addition to other types of data related to self-logging nutrition, the COVID-19 pandemic, air quality, exercise, and satellite imagery, and ranging from raw sensor measurements to high-level preprocessed features. I have special technical interests in developing methods for multimodal data, spatiotemporal data, sensor data quality, and graph-based deep learning.
+In computer vision, I am developing deep learning techniques that harness multi-view and multi-modal data to understand human actions in video using Meta's EgoExo4D dataset. Additionally, I am working on a GeoHAI lab collaborative project to create a multi-modal geoAI foundational model utilizing contrastive learning on satellite imagery. My work in mobile/wearable computing systems includes mining a large wearables dataset to investigate physical activity behaviors, applying machine learning on wearables data to predict injuries in runners, and collecting and publishing a novel dataset for basketball activity recognition with smartwatch inertial sensors. Furthermore, I have worked to design resource-efficient algorithms for an in-ear wearable device to sense health metrics using embedded sensors. I have filed two patents in wearable and multi-device systems with Nokia Bell Labs.
 
-Outside of research, I am a competitive trail, marathon, and ultramarathon runner. I am very passionate about using mobile and wearable devices to collect data about my activity, nutrition, sleep, and more for the purpose of analyzing and experimenting with my training. I also enjoy playing soccer, skiing, cycling, cooking, and electronic music. Additionally, I enjoy working on (dorky) personal projects for my own smart devices, including Wi-Fi enabled smart lights, my Garmin watch, and my smartphone! 
+I have expertise in signal processing, data mining, machine learning, and deep learning, using sensor data from PPG (optical), accelerometers, video, and depth sensors, satellite imagery, and wearable exercise data. I have special technical interests in developing methods for multi-modal data, spatial and temporal data, sensor data quality, and graph-based deep learning.
+
+Outside of research, I am a competitive trail, marathon, and ultramarathon runner. I have recently completed in two 50 mile races in extreme mountain conditions! I am very passionate about using mobile and wearable devices to collect data about my activity, nutrition, sleep, and more for the purpose of analyzing and experimenting with my training. I also enjoy playing soccer, skiing, cycling, cooking, and electronic music. Additionally, I enjoy working on (dorky) personal projects for my own smart devices, including Wi-Fi enabled smart lights, my Garmin watch, and my smartphone! 
