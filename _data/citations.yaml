@@ -651,16 +651,6 @@
   morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: ':'
-  title: 'Report on new methods for representing and interacting with qualitative
-    geographic information, stage 2: Task group 4 message-Focused use case'
-  date: '2020-02-17'
-  link: https://apps.dtic.mil/dtic/tr/fulltext/u2/a616154.pdf
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
-  publisher: PENNSYLVANIA STATE UNIV STATE COLLEGE
 - id: doi:10.1038/s41467-021-26742-6
   title: Spatiotemporal prediction of COVID-19 cases using inter- and intra-county
     proxies of human interactions
@@ -799,15 +789,6 @@
     (HST)
   date: '2019-11-01'
   link: https://doi.org/g8dzhg
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: arxiv:arXiv:1910.05441v1
-  title: Geovisual Analytics and Interactive Machine Learning for Situational Awareness
-  publisher: US National Report to the International Cartographic Association, ICC
-    2019, Tokyo, Japan
-  date: '2020-02-17'
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
   plugin: orcid.py
@@ -1016,16 +997,6 @@
   publisher: Proceedings of the 7th Workshop on Geographic Information Retrieval
   date: '2013-11-05'
   link: https://doi.org/gr9j84
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: eid:2-s2.0-81255162582
-  title: Communicating positional accuracy within a standard-based geospatial service
-    chain
-  publisher: International Review on Computers and Software
-  date: '2022-05-31'
-  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-81255162582&partnerID=MN8TOARS
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
   plugin: orcid.py
