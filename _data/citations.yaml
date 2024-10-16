@@ -1,174 +1,1033 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1093/nar/gkad1082
-  title: "The Monarch Initiative in 2024: an analytic platform integrating phenotypes,\
-    \ genes\_and diseases across species"
+- id: doi:10.60692/698ss-xy050
+  title: Assessing vulnerability for future Zika virus outbreaks using seroprevalence
+    data and environmental suitability maps
   authors:
-  - Tim E Putman
-  - Kevin Schaper
-  - Nicolas Matentzoglu
-  - "Vincent\_P Rubinetti"
-  - "Faisal\_S Alquaddoomi"
-  - Corey Cox
-  - J Harry Caufield
-  - Glass Elsarboukh
-  - Sarah Gehrke
-  - Harshad Hegde
-  - "Justin\_T Reese"
-  - Ian Braun
-  - "Richard\_M Bruskiewich"
-  - Luca Cappelletti
-  - Seth Carbon
-  - "Anita\_R Caron"
-  - "Lauren\_E Chan"
-  - "Christopher\_G Chute"
-  - "Katherina\_G Cortes"
-  - "Vin\xEDcius De\_Souza"
-  - Tommaso Fontana
-  - "Nomi\_L Harris"
-  - "Emily\_L Hartley"
-  - Eric Hurwitz
-  - "Julius\_O B Jacobsen"
-  - Madan Krishnamurthy
-  - "Bryan\_J Laraway"
-  - "James\_A McLaughlin"
-  - "Julie\_A McMurry"
-  - "Sierra\_A T Moxon"
-  - "Kathleen\_R Mullen"
-  - "Shawn\_T O\u2019Neil"
-  - "Kent\_A Shefchek"
-  - Ray Stefancsik
-  - Sabrina Toro
-  - "Nicole\_A Vasilevsky"
-  - "Ramona\_L Walls"
-  - "Patricia\_L Whetzel"
-  - David Osumi-Sutherland
-  - Damian Smedley
-  - "Peter\_N Robinson"
-  - "Christopher\_J Mungall"
-  - "Melissa\_A Haendel"
-  - "Monica\_C Munoz-Torres"
-  publisher: Nucleic Acids Research
-  date: '2023-11-24'
-  link: https://doi.org/gs6kmr
-  orcid: 0000-0002-4655-3773
+  - ' Yannik Roell'
+  - ' Laura Pezzi'
+  - " Anyela Lozano\u2010Parra"
+  - ' Daniel G. Olson'
+  - ' Jane P. Messina'
+  - " Tal\xEDa M. Quandelacy"
+  - ' Jan Felix Drexler'
+  - ' Oliver J. Brady'
+  - ' Morteza Karimzadeh'
+  - ' Thomas Jaenisch'
+  publisher: OpenAlex
+  date: '2024-03-22'
+  link: https://doi.org/g8dzf4
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.10.11.560955
-  title: Integration of 168,000 samples reveals global patterns of the human gut microbiome
+- id: doi:10.60692/zjk6x-4tj41
+  title: Assessing vulnerability for future Zika virus outbreaks using seroprevalence
+    data and environmental suitability maps
   authors:
-  - Richard J. Abdill
-  - Samantha P. Graham
-  - Vincent Rubinetti
-  - Frank W. Albert
-  - Casey S. Greene
-  - Sean Davis
-  - Ran Blekhman
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-10-11'
-  link: https://doi.org/gsvf5z
-  orcid: 0000-0002-4655-3773
+  - ' Yannik Roell'
+  - ' Laura Pezzi'
+  - " Anyela Lozano\u2010Parra"
+  - ' Daniel G. Olson'
+  - ' Jane P. Messina'
+  - " Tal\xEDa M. Quandelacy"
+  - ' Jan Felix Drexler'
+  - ' Oliver J. Brady'
+  - ' Morteza Karimzadeh'
+  - ' Thomas Jaenisch'
+  publisher: OpenAlex
+  date: '2024-03-22'
+  link: https://doi.org/g8dzf7
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/nar/gkad289
-  title: 'MyGeneset.info: an interactive and programmatic platform for community-curated
-    and user-created collections of genes'
+- id: doi:10.22224/gistbok/2024.1.8
+  title: Texts
   authors:
-  - Ricardo Avila
-  - Vincent Rubinetti
-  - Xinghua Zhou
-  - Dongbo Hu
-  - Zhongchao Qian
-  - Marco Alvarado Cano
-  - Everaldo Rodolpho
-  - Ginger Tsueng
-  - Casey Greene
-  - Chunlei Wu
-  publisher: Nucleic Acids Research
-  date: '2023-04-18'
-  link: https://doi.org/gr5hb5
-  orcid: 0000-0002-4655-3773
+  - Morteza Karimzadeh
+  publisher: Geographic Information Science &amp; Technology Body of Knowledge
+  date: '2024-01-01'
+  link: https://doi.org/g8dzf9
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2023.01.05.522941
-  title: Hetnet connectivity search provides rapid insights into how two biomedical
-    entities are related
+- id: doi:10.1109/JSTARS.2024.3413003
+  title: Partial Label Learning With Focal Loss for Sea Ice Classification Based on
+    Ice Charts
   authors:
-  - Daniel S. Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J. Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N. Nicholson
-  - Yun Hao
-  - Blair D. Sullivan
-  - Michael W. Nagle
-  - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2023-01-07'
-  link: https://doi.org/grmcb9
-  orcid: 0000-0002-4655-3773
+  - Behzad Vahedi
+  - Benjamin Lucas
+  - Farnoush Banaei-Kashani
+  - Andrew P. Barrett
+  - Walter N. Meier
+  - Siri Jodha Singh Khalsa
+  - Morteza Karimzadeh
+  publisher: IEEE Journal of Selected Topics in Applied Earth Observations and Remote
+    Sensing
+  date: '2024-01-01'
+  link: https://doi.org/g8dzgb
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1093/gigascience/giad047
-  title: Hetnet connectivity search provides rapid insights into how biomedical entities
-    are related
+- id: doi:10.1109/energyvis60781.2023.00009
+  title: Alternatives to Contour Visualizations for Power Systems Data
   authors:
-  - Daniel S Himmelstein
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Kyle Kloster
-  - Benjamin J Heil
-  - Faisal Alquaddoomi
-  - Dongbo Hu
-  - David N Nicholson
-  - Yun Hao
-  - Blair D Sullivan
-  - Michael W Nagle
-  - Casey S Greene
-  publisher: GigaScience
-  date: '2022-12-28'
-  link: https://doi.org/gsd85n
-  orcid: 0000-0002-4655-3773
+  - Isaiah Lyons-Galante
+  - Morteza Karimzadeh
+  - Samantha Molnar
+  - Graham Johnson
+  - Kenny Gruchalla
+  publisher: 2023 Workshop on Energy Data Visualization (EnergyVis)
+  date: '2023-10-22'
+  link: https://doi.org/g8dzgc
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1101/2022.02.18.461833
-  title: 'MolEvolvR: A web-app for characterizing proteins using molecular evolution
-    and phylogeny'
+- id: doi:10.1080/01431161.2023.2248560
+  title: Enhancing sea ice segmentation in Sentinel-1 images with atrous convolutions
   authors:
-  - Jacob D Krol
-  - Joseph T Burke
-  - Samuel Z Chen
-  - Lo M Sosinski
-  - Faisal S Alquaddoomi
-  - Evan P Brenner
-  - Ethan P Wolfe
-  - Vincent P Rubinetti
-  - Shaddai Amolitos
-  - Kellen M Reason
-  - John B Johnston
-  - Janani Ravi
-  publisher: Cold Spring Harbor Laboratory
-  date: '2022-02-22'
-  link: https://doi.org/gstx7j
-  orcid: 0000-0002-4655-3773
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Nick Hughes
+  - Andrew P. Barrett
+  - Walter Meier
+  - Morteza Karimzadeh
+  publisher: International Journal of Remote Sensing
+  date: '2023-09-02'
+  link: https://doi.org/g8dzgj
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1186/s13059-020-02021-3
-  title: Compressing gene expression data using multiple latent space dimensionalities
-    learns complementary biological representations
+- id: doi:10.5194/ica-adv-4-12-2023
+  title: Characterizing Spatial Accessibility of COVID-19 Testing and Vaccination
+    Sites using Dasymetric Mapping and GIS
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
-  - Casey S. Greene
-  publisher: Genome Biology
-  date: '2020-05-11'
-  link: https://doi.org/gg2mjh
-  orcid: 0000-0002-4655-3773
+  - Morteza Karimzadeh
+  - Braden Hance
+  - Alex Posen
+  - Rita Sherwood
+  - Tiger Su
+  publisher: Advances in Cartography and GIScience of the ICA
+  date: '2023-08-07'
+  link: https://doi.org/g8dzgk
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/igarss52108.2023.10282060
+  title: Comparison of Cross-Entropy, Dice, and Focal Loss for Sea Ice Type Segmentation
+  authors:
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  publisher: IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2023-07-16'
+  link: https://doi.org/g8dzgn
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/igarss52108.2023.10281892
+  title: 'Deep Learning on SAR Imagery: Transfer Learning Versus Randomly Initialized
+    Weights'
+  authors:
+  - Morteza Karimzadeh
+  - Rafael Pires de Lima
+  publisher: IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2023-07-16'
+  link: https://doi.org/g8dzgq
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/igarss52108.2023.10282685
+  title: Increasing the Spatial Coverage of Atmospheric Aerosol Depth Measurements
+    using Random Forest and Mean Filters
+  authors:
+  - Zhongying Wang
+  - Rafael Pires de Lima
+  - James L. Crooks
+  - Elizabeth Anne Regan
+  - Morteza Karimzadeh
+  publisher: IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2023-07-16'
+  link: https://doi.org/g8dzgr
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11524-022-00714-7
+  title: 'Forecasting COVID-19 and Other Infectious Diseases for Proactive Policy:
+    Artificial Intelligence Can Help'
+  authors:
+  - Morteza Karimzadeh
+  - Thoai Ngo
+  - Benjamin Lucas
+  - Hamidreza Zoraghein
+  publisher: Journal of Urban Health
+  date: '2023-01-23'
+  link: https://doi.org/g8dzgs
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/TGRS.2023.3331276
+  title: Model Ensemble With Dropout for Uncertainty Estimation in Sea Ice Segmentation
+    Using Sentinel-1 SAR
+  authors:
+  - Rafael Pires de Lima
+  - Morteza Karimzadeh
+  publisher: IEEE Transactions on Geoscience and Remote Sensing
+  date: '2023-01-01'
+  link: https://doi.org/gtx5zp
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41597-022-01517-w
+  title: The United States COVID-19 Forecast Hub dataset
+  authors:
+  - Estee Y. Cramer
+  - Yuxin Huang
+  - Yijin Wang
+  - Evan L. Ray
+  - Matthew Cornell
+  - Johannes Bracher
+  - Andrea Brennen
+  - Alvaro J. Castro Rivadeneira
+  - Aaron Gerding
+  - Katie House
+  - Dasuni Jayawardena
+  - Abdul Hannan Kanji
+  - Ayush Khandelwal
+  - Khoa Le
+  - Vidhi Mody
+  - Vrushti Mody
+  - Jarad Niemi
+  - Ariane Stark
+  - Apurv Shah
+  - Nutcha Wattanchit
+  - Martha W. Zorn
+  - Nicholas G. Reich
+  - Tilmann Gneiting
+  - "Anja M\xFChlemann"
+  - Youyang Gu
+  - Yixian Chen
+  - Krishna Chintanippu
+  - Viresh Jivane
+  - Ankita Khurana
+  - Ajay Kumar
+  - Anshul Lakhani
+  - Prakhar Mehrotra
+  - Sujitha Pasumarty
+  - Monika Shrivastav
+  - Jialu You
+  - Nayana Bannur
+  - Ayush Deva
+  - Sansiddh Jain
+  - Mihir Kulkarni
+  - Srujana Merugu
+  - Alpan Raval
+  - Siddhant Shingi
+  - Avtansh Tiwari
+  - Jerome White
+  - Aniruddha Adiga
+  - Benjamin Hurt
+  - Bryan Lewis
+  - Madhav Marathe
+  - Akhil Sai Peddireddy
+  - Przemyslaw Porebski
+  - Srinivasan Venkatramanan
+  - Lijing Wang
+  - Maytal Dahan
+  - Spencer Fox
+  - Kelly Gaither
+  - Michael Lachmann
+  - Lauren Ancel Meyers
+  - James G. Scott
+  - Mauricio Tec
+  - Spencer Woody
+  - Ajitesh Srivastava
+  - Tianjian Xu
+  - Jeffrey C. Cegan
+  - Ian D. Dettwiller
+  - William P. England
+  - Matthew W. Farthing
+  - Glover E. George
+  - Robert H. Hunter
+  - Brandon Lafferty
+  - Igor Linkov
+  - Michael L. Mayo
+  - Matthew D. Parno
+  - Michael A. Rowland
+  - Benjamin D. Trump
+  - Samuel Chen
+  - Stephen V. Faraone
+  - Jonathan Hess
+  - Christopher P. Morley
+  - Asif Salekin
+  - Dongliang Wang
+  - Yanli Zhang-James
+  - Thomas M. Baer
+  - Sabrina M. Corsetti
+  - Marisa C. Eisenberg
+  - Karl Falb
+  - Yitao Huang
+  - Emily T. Martin
+  - Ella McCauley
+  - Robert L. Myers
+  - Tom Schwarz
+  - Graham Casey Gibson
+  - Daniel Sheldon
+  - Liyao Gao
+  - Yian Ma
+  - Dongxia Wu
+  - Rose Yu
+  - Xiaoyong Jin
+  - Yu-Xiang Wang
+  - Xifeng Yan
+  - YangQuan Chen
+  - Lihong Guo
+  - Yanting Zhao
+  - Jinghui Chen
+  - Quanquan Gu
+  - Lingxiao Wang
+  - Pan Xu
+  - Weitong Zhang
+  - Difan Zou
+  - Ishanu Chattopadhyay
+  - Yi Huang
+  - Guoqing Lu
+  - Ruth Pfeiffer
+  - Timothy Sumner
+  - Dongdong Wang
+  - Liqiang Wang
+  - Shunpu Zhang
+  - Zihang Zou
+  - Hannah Biegel
+  - Joceline Lega
+  - Fazle Hussain
+  - Zeina Khan
+  - Frank Van Bussel
+  - Steve McConnell
+  - Stephanie L Guertin
+  - Christopher Hulme-Lowe
+  - V. P. Nagraj
+  - Stephen D. Turner
+  - "Benjam\xEDn Bejar"
+  - Christine Choirat
+  - Antoine Flahault
+  - Ekaterina Krymova
+  - Gavin Lee
+  - Elisa Manetti
+  - Kristen Namigai
+  - Guillaume Obozinski
+  - Tao Sun
+  - Dorina Thanou
+  - Xuegang Ban
+  - Yunfeng Shi
+  - Robert Walraven
+  - Qi-Jun Hong
+  - Axel van de Walle
+  - Michal Ben-Nun
+  - Steven Riley
+  - Pete Riley
+  - James Turtle
+  - Duy Cao
+  - Joseph Galasso
+  - Jae H. Cho
+  - Areum Jo
+  - David DesRoches
+  - Pedro Forli
+  - Bruce Hamory
+  - Ugur Koyluoglu
+  - Christina Kyriakides
+  - Helen Leis
+  - John Milliken
+  - Michael Moloney
+  - James Morgan
+  - Ninad Nirgudkar
+  - Gokce Ozcan
+  - Noah Piwonka
+  - Matt Ravi
+  - Chris Schrader
+  - Elizabeth Shakhnovich
+  - Daniel Siegel
+  - Ryan Spatz
+  - Chris Stiefeling
+  - Barrie Wilkinson
+  - Alexander Wong
+  - Sean Cavany
+  - "Guido Espa\xF1a"
+  - Sean Moore
+  - Rachel Oidtman
+  - Alex Perkins
+  - Julie S. Ivy
+  - Maria E. Mayorga
+  - Jessica Mele
+  - Erik T. Rosenstrom
+  - Julie L. Swann
+  - Andrea Kraus
+  - David Kraus
+  - Jiang Bian
+  - Wei Cao
+  - Zhifeng Gao
+  - Juan Lavista Ferres
+  - Chaozhuo Li
+  - Tie-Yan Liu
+  - Xing Xie
+  - Shun Zhang
+  - Shun Zheng
+  - Matteo Chinazzi
+  - Alessandro Vespignani
+  - Xinyue Xiong
+  - Jessica T. Davis
+  - Kunpeng Mu
+  - Ana Pastore y Piontti
+  - Jackie Baek
+  - Vivek Farias
+  - Andreea Georgescu
+  - Retsef Levi
+  - Deeksha Sinha
+  - Joshua Wilde
+  - Andrew Zheng
+  - Omar Skali Lami
+  - Amine Bennouna
+  - David Nze Ndong
+  - Georgia Perakis
+  - Divya Singhvi
+  - Ioannis Spantidakis
+  - Leann Thayaparan
+  - Asterios Tsiourvas
+  - Shane Weisberg
+  - Ali Jadbabaie
+  - Arnab Sarker
+  - Devavrat Shah
+  - Leo A. Celi
+  - Nicolas D. Penna
+  - Saketh Sundar
+  - Abraham Berlin
+  - Parth D. Gandhi
+  - Thomas McAndrew
+  - Matthew Piriya
+  - Ye Chen
+  - William Hlavacek
+  - Yen Ting Lin
+  - Abhishek Mallela
+  - Ely Miller
+  - Jacob Neumann
+  - Richard Posner
+  - Russ Wolfinger
+  - Lauren Castro
+  - Geoffrey Fairchild
+  - Isaac Michaud
+  - Dave Osthus
+  - Daniel Wolffram
+  - Dean Karlen
+  - Mark J. Panaggio
+  - Matt Kinsey
+  - Luke C. Mullany
+  - Kaitlin Rainwater-Lovett
+  - Lauren Shin
+  - Katharine Tallaksen
+  - Shelby Wilson
+  - Michael Brenner
+  - Marc Coram
+  - Jessie K. Edwards
+  - Keya Joshi
+  - Ellen Klein
+  - Juan Dent Hulse
+  - Kyra H. Grantz
+  - Alison L. Hill
+  - Kathryn Kaminsky
+  - Joshua Kaminsky
+  - Lindsay T. Keegan
+  - Stephen A. Lauer
+  - Elizabeth C. Lee
+  - Joseph C. Lemaitre
+  - Justin Lessler
+  - Hannah R. Meredith
+  - Javier Perez-Saez
+  - Sam Shah
+  - Claire P. Smith
+  - Shaun A. Truelove
+  - Josh Wills
+  - Lauren Gardner
+  - Maximilian Marshall
+  - Kristen Nixon
+  - John C. Burant
+  - Jozef Budzinski
+  - Wen-Hao Chiang
+  - George Mohler
+  - Junyi Gao
+  - Lucas Glass
+  - Cheng Qian
+  - Justin Romberg
+  - Rakshith Sharma
+  - Jeffrey Spaeder
+  - Jimeng Sun
+  - Cao Xiao
+  - Lei Gao
+  - Zhiling Gu
+  - Myungjin Kim
+  - Xinyi Li
+  - Yueying Wang
+  - Guannan Wang
+  - Lily Wang
+  - Shan Yu
+  - Chaman Jain
+  - Sangeeta Bhatia
+  - Pierre Nouvellet
+  - Ryan Barber
+  - Emmanuela Gaikedu
+  - Simon Hay
+  - Steve Lim
+  - Chris Murray
+  - David Pigott
+  - Robert C. Reiner
+  - Prasith Baccam
+  - Heidi L. Gurung
+  - Steven A. Stage
+  - Bradley T. Suchoski
+  - Chung-Yan Fong
+  - Dit-Yan Yeung
+  - Bijaya Adhikari
+  - Jiaming Cui
+  - B. Aditya Prakash
+  - "Alexander Rodr\xEDguez"
+  - Anika Tabassum
+  - Jiajia Xie
+  - John Asplund
+  - Arden Baxter
+  - Pinar Keskinocak
+  - Buse Eylul Oruc
+  - Nicoleta Serban
+  - Sercan O. Arik
+  - Mike Dusenberry
+  - Arkady Epshteyn
+  - Elli Kanal
+  - Long T. Le
+  - Chun-Liang Li
+  - Tomas Pfister
+  - Rajarishi Sinha
+  - Thomas Tsai
+  - Nate Yoder
+  - Jinsung Yoon
+  - Leyou Zhang
+  - Daniel Wilson
+  - Artur A. Belov
+  - Carson C. Chow
+  - Richard C. Gerkin
+  - Osman N. Yogurtcu
+  - Mark Ibrahim
+  - Timothee Lacroix
+  - Matthew Le
+  - Jason Liao
+  - Maximilian Nickel
+  - Levent Sagun
+  - Sam Abbott
+  - Nikos I. Bosse
+  - Sebastian Funk
+  - Joel Hellewell
+  - Sophie R. Meakin
+  - Katharine Sherratt
+  - Rahi Kalantari
+  - Mingyuan Zhou
+  - Morteza Karimzadeh
+  - Benjamin Lucas
+  - Thoai Ngo
+  - Hamidreza Zoraghein
+  - Behzad Vahedi
+  - Zhongying Wang
+  - ' Sen Pei'
+  - Jeffrey Shaman
+  - Teresa K. Yamana
+  - Dimitris Bertsimas
+  - Michael L. Li
+  - Saksham Soni
+  - Hamza Tazi Bouardi
+  - Madeline Adee
+  - Turgay Ayer
+  - Jagpreet Chhatwal
+  - Ozden O. Dalgic
+  - Mary A. Ladd
+  - Benjamin P. Linas
+  - Peter Mueller
+  - Jade Xiao
+  - Jurgen Bosch
+  - Austin Wilson
+  - Peter Zimmerman
+  - Qinxia Wang
+  - Yuanjia Wang
+  - Shanghong Xie
+  - Donglin Zeng
+  - Jacob Bien
+  - Logan Brooks
+  - Alden Green
+  - Addison J. Hu
+  - Maria Jahja
+  - Daniel McDonald
+  - Balasubramanian Narasimhan
+  - Collin Politsch
+  - Samyak Rajanala
+  - Aaron Rumack
+  - Noah Simon
+  - Ryan J. Tibshirani
+  - Rob Tibshirani
+  - Valerie Ventura
+  - Larry Wasserman
+  - John M. Drake
+  - "Eamon B. O\u2019Dea"
+  - Yaser Abu-Mostafa
+  - Rahil Bathwal
+  - Nicholas A. Chang
+  - Pavan Chitta
+  - Anne Erickson
+  - Sumit Goel
+  - Jethin Gowda
+  - Qixuan Jin
+  - HyeongChan Jo
+  - Juhyun Kim
+  - Pranav Kulkarni
+  - Samuel M. Lushtak
+  - Ethan Mann
+  - Max Popken
+  - Connor Soohoo
+  - Kushal Tirumala
+  - Albert Tseng
+  - Vignesh Varadarajan
+  - Jagath Vytheeswaran
+  - Christopher Wang
+  - Akshay Yeluri
+  - Dominic Yurk
+  - Michael Zhang
+  - Alexander Zlokapa
+  - Robert Pagano
+  - Chandini Jain
+  - Vishal Tomar
+  - Lam Ho
+  - Huong Huynh
+  - Quoc Tran
+  - Velma K. Lopez
+  - Jo W. Walker
+  - Rachel B. Slayton
+  - Michael A. Johansson
+  - Matthew Biggerstaff
+  - Nicholas G. Reich
+  publisher: Scientific Data
+  date: '2022-08-01'
+  link: https://doi.org/grq34s
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5281/ZENODO.6320982
+  title: 'Big Data Community Algorithms: Deep Learning for Mapping'
+  authors:
+  - Morteza Karimzadeh
+  publisher: Zenodo
+  date: '2022-03-01'
+  link: https://doi.org/g8dzgx
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s41060-021-00295-9
+  title: A spatiotemporal machine learning approach to forecasting COVID-19 incidence
+    at the county level in the USA
+  authors:
+  - Benjamin Lucas
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  publisher: International Journal of Data Science and Analytics
+  date: '2022-01-15'
+  link: https://doi.org/g8dzg3
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: ':'
+  title: 'Report on new methods for representing and interacting with qualitative
+    geographic information, stage 2: Task group 4 message-Focused use case'
+  date: '2020-02-17'
+  link: https://apps.dtic.mil/dtic/tr/fulltext/u2/a616154.pdf
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+  publisher: PENNSYLVANIA STATE UNIV STATE COLLEGE
+- id: doi:10.1038/s41467-021-26742-6
+  title: Spatiotemporal prediction of COVID-19 cases using inter- and intra-county
+    proxies of human interactions
+  authors:
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  - Hamidreza Zoraghein
+  publisher: Nature Communications
+  date: '2021-11-08'
+  link: https://doi.org/gns3kb
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.21203/rs.3.rs-203188/v1
+  title: 'Predicting County-Level COVID-19 Cases using Spatiotemporal Machine Learning:
+    Modeling Human Interactions using Social Media and Cell-Phone Data'
+  authors:
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  - Hamidreza Zoraghein
+  publisher: Research Square Platform LLC
+  date: '2021-02-10'
+  link: https://doi.org/g8dzg4
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.25436/E2B88Q
+  title: Classifying Narcotrafficking Spatial Event Documents using Transformers
+  authors:
+  - Morteza Karimzadeh
+  - Huilin Han
+  - Beth Tellman
+  - Erik Nielsen
+  publisher: Spatial Data Science Symposium 2021 (online)
+  date: '2021-01-01'
+  link: https://doi.org/g8dzg6
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.6084/M9.FIGSHARE.14772891.V1
+  title: Sea ice type classification in the Chukchi sea using deep learning
+  authors:
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  - Siri Jodha Khalsa
+  - Walt Meier
+  - Andrew Barret
+  - Benjamin Lucas
+  - Farnoush Banaei-Kashani
+  publisher: figshare
+  date: '2021-01-01'
+  link: https://doi.org/g8dzg7
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/vast50239.2020.00012
+  title: 'STULL: Unbiased Online Sampling for Visual Exploration of Large Spatiotemporal
+    Data'
+  authors:
+  - Guizhen Wang
+  - Jingjing Guo
+  - Mingjie Tang
+  - Jose Florencio de Queiroz Neto
+  - Calvin Yau
+  - Anas Daghistani
+  - Morteza Karimzadeh
+  - Walid G. Aref
+  - David S. Ebert
+  publisher: 2020 IEEE Conference on Visual Analytics Science and Technology (VAST)
+  date: '2020-10-01'
+  link: https://doi.org/k8ss
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tvcg.2019.2934266
+  title: 'VASSL: A Visual Analytics Toolkit for Social Spambot Labeling'
+  authors:
+  - Mosab Khayat
+  - Morteza Karimzadeh
+  - Jieqiong Zhao
+  - David S. Ebert
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2020-01-01'
+  link: https://doi.org/ggnsm9
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1037/0000193-008
+  title: Human-guided visual analytics for big data.
+  authors:
+  - Morteza Karimzadeh
+  - Jieqiong Zhao
+  - Guizhen Wang
+  - Luke S. Snyder
+  - David S. Ebert
+  publisher: Big data in psychological research.
+  date: '2020-01-01'
+  link: https://doi.org/g8dzhb
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.24251/hicss.2020.168
+  title: 'Route Packing: Geospatially-Accurate Visualization of Route Networks'
+  authors:
+  - Jieqiong Zhao
+  - Morteza Karimzadeh
+  - Hanye Xu
+  - Abish Malik
+  - Shehzad Afzal
+  - Guizhen Wang
+  - Niklas Elmqvist
+  - David Ebert
+  publisher: Proceedings of the Annual Hawaii International Conference on System Sciences
+  date: '2020-01-01'
+  link: https://doi.org/g8dzhf
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/hst47167.2019.9033003
+  title: 'Situational Awareness Enhanced through Social Media Analytics: A Survey
+    of First Responders'
+  authors:
+  - Luke S. Snyder
+  - Morteza Karimzadeh
+  - Christina Stober
+  - David S. Ebert
+  publisher: 2019 IEEE International Symposium on Technologies for Homeland Security
+    (HST)
+  date: '2019-11-01'
+  link: https://doi.org/g8dzhg
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: arxiv:arXiv:1910.05441v1
+  title: Geovisual Analytics and Interactive Machine Learning for Situational Awareness
+  publisher: US National Report to the International Cartographic Association, ICC
+    2019, Tokyo, Japan
+  date: '2020-02-17'
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/visual.2019.8933619
+  title: 'FeatureExplorer: Interactive Feature Selection and Exploration of Regression
+    Models for Hyperspectral Images'
+  authors:
+  - Jieqiong Zhao
+  - Morteza Karimzadeh
+  - Ali Masjedi
+  - Taojun Wang
+  - Xiwen Zhang
+  - Melba M. Crawford
+  - David S. Ebert
+  publisher: 2019 IEEE Visualization Conference (VIS)
+  date: '2019-10-01'
+  link: https://doi.org/g8dzh2
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.5194/ica-abs-1-160-2019
+  title: 'Social Media for Sensing: Do Tweets Represent Events at Geo-Tagged Locations?'
+  authors:
+  - Morteza Karimzadeh
+  publisher: Abstracts of the ICA
+  date: '2019-07-15'
+  link: https://doi.org/g8dzh4
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/cgf.13696
+  title: "Bridging the Data Analysis Communication Gap Utilizing a Three\u2010Component\
+    \ Summarized Line Graph"
+  authors:
+  - C. Yau
+  - M. Karimzadeh
+  - C. Surakitbanharn
+  - N. Elmqvist
+  - D. S. Ebert
+  publisher: Computer Graphics Forum
+  date: '2019-06-01'
+  link: https://doi.org/gnd6hn
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/ijgi8040161
+  title: 'GeoAnnotator: A Collaborative Semi-Automatic Platform for Constructing Geo-Annotated
+    Text Corpora'
+  authors:
+  - Morteza Karimzadeh
+  - Alan M. MacEachren
+  publisher: ISPRS International Journal of Geo-Information
+  date: '2019-03-27'
+  link: https://doi.org/g8dzh7
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/tgis.12510
+  title: 'GeoTxt: A scalable geoparsing system for unstructured text geolocation'
+  authors:
+  - Morteza Karimzadeh
+  - Scott Pezanowski
+  - Alan M. MacEachren
+  - "Jan O. Wallgr\xFCn"
+  publisher: Transactions in GIS
+  date: '2019-01-16'
+  link: https://doi.org/gf952n
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3356471.3365243
+  title: City-level Geolocation of Tweets for Real-time Visual Analytics
+  authors:
+  - Luke S. Snyder
+  - Morteza Karimzadeh
+  - Ray Chen
+  - David S. Ebert
+  publisher: Proceedings of the 3rd ACM SIGSPATIAL International Workshop on AI for
+    Geographic Knowledge Discovery
+  date: '2019-11-05'
+  link: https://doi.org/g8dzjp
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tvcg.2019.2934614
+  title: Interactive Learning for Identifying Relevant Tweets to Support Real-time
+    Situational Awareness
+  authors:
+  - Luke S. Snyder
+  - Yi-Shan Lin
+  - Morteza Karimzadeh
+  - Dan Goldwasser
+  - David S. Ebert
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2019-01-01'
+  link: https://doi.org/g8dzjr
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tvcg.2019.2934603
+  title: 'MetricsVis: A Visual Analytics System for Evaluating Employee Performance
+    in Public Safety Agencies'
+  authors:
+  - Jieqiong Zhao
+  - Morteza Karimzadeh
+  - Luke S. Snyder
+  - Chittayong Surakitbanharn
+  - Zhenyu Cheryl Qian
+  - David S. Ebert
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2019-01-01'
+  link: https://doi.org/g8dzjv
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/tvcg.2019.2934264
+  title: The Validity, Generalizability and Feasibility of Summative Evaluation Methods
+    in Visual Analytics
+  authors:
+  - Mosab Khayat
+  - Morteza Karimzadeh
+  - David S. Ebert
+  - Arif Ghafoor
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2019-01-01'
+  link: https://doi.org/gf7hmh
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/13658816.2017.1368523
+  title: 'GeoCorpora: building a corpus to test and train microblog geoparsers'
+  authors:
+  - "Jan Oliver Wallgr\xFCn"
+  - Morteza Karimzadeh
+  - Alan M. MacEachren
+  - Scott Pezanowski
+  publisher: International Journal of Geographical Information Science
+  date: '2017-09-11'
+  link: https://doi.org/ggwjtb
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3003464.3003472
+  title: Performance evaluation measures for toponym resolution
+  authors:
+  - Morteza Karimzadeh
+  publisher: Proceedings of the 10th Workshop on Geographic Information Retrieval
+  date: '2016-10-31'
+  link: https://doi.org/g8dzjx
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/2837689.2837692
+  title: Towards contextualized models of spatial relations
+  authors:
+  - "Jan Oliver Wallgr\xFCn"
+  - Alexander Klippel
+  - Morteza Karimzadeh
+  publisher: Proceedings of the 9th Workshop on Geographic Information Retrieval
+  date: '2015-11-26'
+  link: https://doi.org/gjxh3k
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/2675354.2675701
+  title: Construction and first analysis of a corpus for the evaluation and training
+    of microblog/twitter geoparsers
+  authors:
+  - "Jan Oliver Wallgr\xFCn"
+  - Frank Hardisty
+  - Alan M. MacEachren
+  - Morteza Karimzadeh
+  - Yiting Ju
+  - Scott Pezanowski
+  publisher: Proceedings of the 8th Workshop on Geographic Information Retrieval
+  date: '2014-11-04'
+  link: https://doi.org/gmx6mk
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/2533888.2533942
+  title: GeoTxt
+  authors:
+  - Morteza Karimzadeh
+  - Wenyi Huang
+  - Siddhartha Banerjee
+  - "Jan Oliver Wallgr\xFCn"
+  - Frank Hardisty
+  - Scott Pezanowski
+  - Prasenjit Mitra
+  - Alan M. MacEachren
+  publisher: Proceedings of the 7th Workshop on Geographic Information Retrieval
+  date: '2013-11-05'
+  link: https://doi.org/gr9j84
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-81255162582
+  title: Communicating positional accuracy within a standard-based geospatial service
+    chain
+  publisher: International Review on Computers and Software
+  date: '2022-05-31'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-81255162582&partnerID=MN8TOARS
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.1371/journal.pcbi.1007128
@@ -182,27 +1041,50 @@
   - Casey S. Greene
   - Anthony Gitter
   publisher: PLOS Computational Biology
-  date: '2019-06-24'
+  date: '2020-12-04'
   link: https://doi.org/c7np
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/573782
-  title: Sequential compression of gene expression across dimensionalities and methods
-    reveals no single best method or dimensionality
+  type: paper
+  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.csbj.2020.05.017
+  title: Constructing knowledge graphs and their biomedical applications
   authors:
-  - Gregory P. Way
-  - Michael Zietz
-  - Vincent Rubinetti
-  - Daniel S. Himmelstein
+  - David N. Nicholson
   - Casey S. Greene
-  publisher: Cold Spring Harbor Laboratory
-  date: '2019-03-11'
-  link: https://doi.org/gfxjxf
-  orcid: 0000-0002-4655-3773
-  plugin: orcid.py
-  file: orcid.yaml
-- orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
+  publisher: Computational and Structural Biotechnology Journal
+  date: '2020-01-01'
+  link: https://doi.org/gg7m48
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7554/eLife.32822
+  title: Sci-Hub provides access to nearly all scholarly literature
+  authors:
+  - Daniel S Himmelstein
+  - Ariel Rodriguez Romero
+  - Jacob G Levernier
+  - Thomas Anthony Munro
+  - Stephen Reid McLaughlin
+  - Bastian Greshake Tzovaras
+  - Casey S Greene
+  publisher: eLife
+  date: '2018-03-01'
+  link: https://doi.org/ckcj
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
   plugin: sources.py
   file: sources.yaml
