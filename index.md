@@ -101,7 +101,7 @@ Browse through our many projects and team members to learn more!
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/member-images/Nederland-lunch1-min.jpg"
   link="team"
   title="Our team"
   flip=true
