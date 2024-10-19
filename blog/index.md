@@ -1,14 +1,13 @@
 ---
 title: Blog
 nav:
-  order: 5
+  order: 4
   tooltip: Musings and miscellany
 ---
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We do a lot of work that does not end up in publications for various reasons, sometimes simply because there is not enough space, or being a tangential finding. We are working to slowly put more on our blog. Check back soon! 
 
 {% include section.html %}
 
