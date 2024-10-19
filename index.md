@@ -63,7 +63,7 @@ Browse through our many projects and team members to learn more!
 
 {% capture text %}
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
+<!-- text -->
 
 {%
   include button-reverse.html
@@ -86,7 +86,7 @@ Browse through our many projects and team members to learn more!
 
 {% capture text %}
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
+<!-- text -->
 
 {%
   include button.html

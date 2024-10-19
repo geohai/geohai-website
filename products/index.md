@@ -1,14 +1,13 @@
 ---
 title: Products
 nav:
-  order: 2
+  order: 3
   tooltip: Software, datasets, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Products
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We believe in open and replicable science, and open-source software. If you need assistance with a product, please feel free to contact us. 
 
 {% include tags.html tags="publication, resource, website" %}
 

@@ -1,8 +1,11 @@
 ---
 title: Integrating Spatiotemporal Features in LSTM for Spatially Informed COVID-19 Hospitalization Forecasting
-author: zhongying-wang
+authors: 
+  - zhongying-wang
+  - morteza-karimzadeh
 tags: Spatiotemporal Forecasting, COVID-19, GeoHealth
-image: images/covid-hosp.png
+image: /images/project-images/covid-hosp.png
+thumbnail: /images/project-images/covid-hosp.png
 ---
 The COVID-19 pandemic's severe impact highlighted the need for accurate and timely hospitalization forecasting to enable effective healthcare planning. However, most forecasting models struggled, especially during new variant surges, when they were most needed. This study introduces a novel Long Short-Term Memory (LSTM) framework for forecasting daily state-level incident hospitalizations in the U.S. 
 

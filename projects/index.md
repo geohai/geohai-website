@@ -1,14 +1,14 @@
 ---
 title: Projects
 nav:
-  order: 3
-  tooltip: ADD TOOLTIP DESCRIPTION HERE
+  order: 1
+  tooltip: Project descriptions
 ---
 
 # {% include icon.html icon="fa-solid fa-project-diagram" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We thank our sponsors, including but not limited to [National Science Foundation](https://www.nsf.gov/), [NASA](https://www.nasa.gov/), [NREL](https://www.nrel.gov/), [NIH](https://www.nih.gov/) and [Population Council](https://popcouncil.org/). See each project for more details.   
+
 
 {% include section.html %}
 
