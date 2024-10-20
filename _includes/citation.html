@@ -18,6 +18,7 @@
         src="{{ citation.image | relative_url }}"
         alt="{{ citation.title | default: "citation image" }}"
         loading="lazy"
+        class="thumbnail"
         {% include fallback.html %}
       >
     </a>
