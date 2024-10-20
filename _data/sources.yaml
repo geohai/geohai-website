@@ -30,9 +30,52 @@
   # Morteza Karimzadeh
   #2024
 - id: doi:10.1371/journal.pntd.0012017
-  image: images/paper-thumbnails/2024-roell-zika.PNG
+  image: images/publication-thumbnails/2024-roell-zika.PNG
 
+  #2020
+- id: doi:10.1109/vast50239.2020.00012 
+  image: images/publication-thumbnails/2020-wang-stull.jpg
+- id: doi:10.24251/hicss.2020.168
+  image: images/publication-thumbnails/2020-wang-routepacking.jpg
+- id: doi:10.1037/0000193-008
+  image: images/publication-thumbnails/2020-karimzadeh-human-guided-va.jpg
+- id: doi:10.1109/tvcg.2019.2934266
+  image: images/publication-thumbnails/2020-khayat-vassl.jpg
   #2019
+- id: doi:10.1145/3356471.3365243 
+  image: images/publication-thumbnails/2019-snyder-city-level.jpg
+- id: doi:10.1109/hst47167.2019.9033003
+  image: images/publication-thumbnails/2019-snyder-survey.jpg
+- id: doi:10.1109/visual.2019.8933619 
+  image: images/publication-thumbnails/2019-zhao-featureexplorer.jpg
+- id: doi:10.5194/ica-abs-1-160-2019
+  image: images/publication-thumbnails/2019-karimzadeh-ica-geolocation.jpg
+- id: doi:10.1111/cgf.13696
+  image: images/publication-thumbnails/2019-Yau-line-graph.jpg
 - id: doi:10.3390/ijgi8040161
   image: https://www.mdpi.com/ijgi/ijgi-08-00161/article_deploy/html/images/ijgi-08-00161-g001.png
+- id: doi:10.1111/tgis.12510 
+  image: images/publication-thumbnails/2019-karimzadeh-geotxt.jpg
+- id: doi:10.1109/tvcg.2019.2934264 
+  image: images/publication-thumbnails/2019-khayat-eval.jpg
+- id: doi:10.1109/tvcg.2019.2934614
+  image: images/publication-thumbnails/2019-snyder-smart.jpg
+- id: doi:10.1109/tvcg.2019.2934603 
+  image: images/publication-thumbnails/2019-zhao-metricsvis.jpg
+  #2017
+- id: doi:10.1080/13658816.2017.1368523 
+  image: images/publication-thumbnails/2017-wallgrun-corpus.jpg
+  #2016
+- id: doi:10.1145/3003464.3003472
+  image: images/publication-thumbnails/2016-karimzadeh-eval.jpg
+  #2015
+- id: doi:10.1145/2837689.2837692 
+  image: images/publication-thumbnails/2015-wallgrun-relational.jpg
+  #2014 
+- id: doi:10.1145/2675354.2675701 
+  image: images/publication-thumbnails/2014-wallgrun-corpus.jpg
+  #2013
+- id: doi:10.1145/2533888.2533942 
+  image: images/publication-thumbnails/2013-karimzadeh-geotxt.jpg
+
 

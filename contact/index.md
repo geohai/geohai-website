@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Please feel free to contact the [director](/members/morteza-karimzadeh.html) using information listed in his page, or our members for specific projects.
+Please feel free to contact the [director]({{ site.baseurl }}/members/morteza-karimzadeh.html) using information listed in his page, or our members for specific projects.
 
 
 {% capture col1 %}
@@ -45,7 +45,7 @@ Boulder, CO 80309-0260
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
 
 
-**Note for Prospective students:** Students interested in a graduate degree in Geography or Computer Science whose research and interests align with GeoHAI: Please feel free to reach out to [Dr. Morteza Karimzadeh](/members/morteza-karimzadeh.html) with your CV, explaining how your research background and expertise may align with our work, and what areas you'd be interested in working on in the future. Please use the projects and research pages, or see our latest papers [here](https://scholar.google.com/citations?hl=en&user=Vy2oR2kAAAAJ&view_op=list_works&sortby=pubdate).
+**Note for Prospective students:** Students interested in a graduate degree in Geography or Computer Science whose research and interests align with GeoHAI: Please feel free to reach out to [Dr. Morteza Karimzadeh]({{ site.baseurl }}/members/morteza-karimzadeh.html) with your CV, explaining how your research background and expertise may align with our work, and what areas you'd be interested in working on in the future. Please use the [projects]({{ site.baseurl }}/projects/) and [publications]({{site.baseurl}}/research/) pages, or see our latest papers on [Google Scholar](https://scholar.google.com/citations?hl=en&user=Vy2oR2kAAAAJ&view_op=list_works&sortby=pubdate).
 
 {% include section.html %}
 
