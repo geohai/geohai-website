@@ -1,10 +1,20 @@
 - title: GeoDEN
   group: featured #remove this for non-featured products
   subtitle: Visual Analytics
-  image: images/product-images/geoden.jpg
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
   link: https://github.com/geohai/GeoDEN
-  description: GeoDEN is a visual analytics tool for exploratory analysis of spatiotemporal spread and interaction of dengue serotypes.
+  description: Exploratory analysis of spatiotemporal spread and interaction of dengue serotypes.
   repo: geohai/GeoDEN
+  tags:
+    - software
+    - website
+
+- title: Swastica Counter Map
+  subtitle: Visual Analytics
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729528270/88bbbc97-a3cc-4638-a72c-fac4f1d0dbc7.png
+  link: https://theswastikacounter.org/ 
+  description: Tracking Antisemitism and Harm across the United States.
+  repo: geohai/SwastikaCounterMap
   tags:
     - software
     - website
