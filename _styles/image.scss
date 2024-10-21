@@ -8,7 +8,8 @@ img {
 
 img.thumbnail {
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  max-width: 180x;
+  aspect-ratio: 4 / 3; 
+  object-fit: cover; 
+  max-width: 400px; 
 }
+
