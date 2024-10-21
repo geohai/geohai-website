@@ -4,7 +4,7 @@ authors:
     - aidan-marler
     - morteza-karimzadeh
 tags: visual-analytics, spatiotemporal, geospatial, geovis, epidemiology
-image: /images/project-images/geoden.png
+image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
 ---
 Dengue is a mosquito-born virus, endemic to regions populated by over half the globe. Its four serotypes move and interact at global and regional scales, although these patterns are not well understood by researchers.  GeoDEN aims to aid epidemiologists in this persuit. It is a visual analytics tool for investigating spatiotemporal patterns in dengue reports.  
 
