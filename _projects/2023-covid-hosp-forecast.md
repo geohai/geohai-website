@@ -4,8 +4,8 @@ authors:
   - zhongying-wang
   - morteza-karimzadeh
 tags: Spatiotemporal Forecasting, COVID-19, GeoHealth
-image: /images/project-images/covid-hosp.png
-thumbnail: /images/project-images/covid-hosp.png
+image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526915/covid-hosp_qbuppi.png
+thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_Banner 16:9/v1729526915/covid-hosp_qbuppi.png
 ---
 The COVID-19 pandemic's severe impact highlighted the need for accurate and timely hospitalization forecasting to enable effective healthcare planning. However, most forecasting models struggled, especially during new variant surges, when they were most needed. This study introduces a novel Long Short-Term Memory (LSTM) framework for forecasting daily state-level incident hospitalizations in the U.S. 
 
