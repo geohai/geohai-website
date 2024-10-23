@@ -31,6 +31,15 @@
   #2024
 - id: doi:10.1371/journal.pntd.0012017
   image: images/publication-thumbnails/2024-roell-zika.PNG
+  preprint: "testpreprint"
+- id: doi:10.1109/JSTARS.2024.3413003 #partial label learning
+  preprint: https://eartharxiv.org/repository/view/6568/
+
+
+  #2023 
+- id: 10.1109/TGRS.2023.3331276 # uncertainty MCD sea ice
+  image: images/publication-thumbnails/2020-wang-stull.jpg
+  preprint: https://eartharxiv.org/repository/view/6568/
 
   #2020
 - id: doi:10.1109/vast50239.2020.00012 
