@@ -49,9 +49,8 @@
   link: https://doi.org/g8dzgb
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: sources.py
-  file: sources.yaml
-  preprint: https://eartharxiv.org/repository/view/6568/
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/energyvis60781.2023.00009
   title: Alternatives to Contour Visualizations for Power Systems Data
   authors:
@@ -1062,19 +1061,5 @@
   date: '2024-03-22'
   link: https://doi.org/g8k4gj
   image: images/publication-thumbnails/2024-roell-zika.PNG
-  preprint: testpreprint
-  plugin: sources.py
-  file: sources.yaml
-- id: 10.1109/TGRS.2023.3331276
-  title: Model Ensemble With Dropout for Uncertainty Estimation in Sea Ice Segmentation
-    Using Sentinel-1 SAR
-  authors:
-  - Rafael Pires de Lima
-  - Morteza Karimzadeh
-  publisher: IEEE Transactions on Geoscience and Remote Sensing
-  date: '2023-01-01'
-  link: https://doi.org/gtx5zp
-  image: images/publication-thumbnails/2020-wang-stull.jpg
-  preprint: https://eartharxiv.org/repository/view/6568/
   plugin: sources.py
   file: sources.yaml
