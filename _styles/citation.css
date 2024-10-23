@@ -35,6 +35,17 @@
   z-index: 0;
 }
 
+.citation-preprint {
+  display: inline-block; /* Ensure the link doesn't take up extra space */
+  margin-top: 5px; /* Adjust spacing if necessary */
+  color: #007bff; /* Customize color */
+  text-decoration: underline;
+}
+
+.citation-preprint a {
+  color: inherit; /*inherits from the parent */
+}
+
 .citation-title,
 .citation-authors,
 .citation-details,
