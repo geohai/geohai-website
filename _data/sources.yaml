@@ -32,17 +32,14 @@
 - id: doi:10.1371/journal.pntd.0012017
   image: images/publication-thumbnails/2024-roell-zika.PNG
 
-  #2023git
-- id : doi:10.1109/TGRS.2023.3331276 # sea ice uncertainty ensemble
+  #2023
+  #sea ice uncertainty ensemble
+- id : doi:10.1109/TGRS.2023.3331276 
   buttons:
     - type: source
       link: https://github.com/geohai/sea-ice-segment
-    - type: website
-      text: preprint
-      link: https://eartharxiv.org/repository/view/6568/
     - type: preprint
       link: https://eartharxiv.org/repository/view/6568/
-
   #2021
 - id :  doi:10.1038/s41467-021-26742-6  # vahedi nature comm human interaction
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729777169/2020-COVID19_STGXB_q6k3cu.webp
