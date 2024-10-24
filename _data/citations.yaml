@@ -171,9 +171,6 @@
   buttons:
   - type: source
     link: https://github.com/geohai/sea-ice-segment
-  - type: website
-    text: preprint
-    link: https://eartharxiv.org/repository/view/6568/
   - type: preprint
     link: https://eartharxiv.org/repository/view/6568/
 - id: doi:10.1038/s41597-022-01517-w
