@@ -1178,7 +1178,8 @@
   date: '2024-02-28'
   link: https://doi.org/mkg3
   buttons:
-  - type: Full-text on Research Gate
+  - type: preprint
+    text: Full-text on Reserach Gate
     link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
   tags:
   - wearable devices
