@@ -115,7 +115,7 @@
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
   buttons:
   - type: preprint
-    link: https://arxiv.org/abs/2310.17122arxiv
+    link: https://arxiv.org/abs/2310.17122
   - type: source
     text: Repo
     link: https://github.com/geohai/sea-ice-segment
@@ -157,20 +157,8 @@
   link: https://doi.org/g8dzgn
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: sources.py
-  file: sources.yaml
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
-  buttons:
-  - type: preprint
-    link: https://arxiv.org/abs/2310.17135
-  - type: source
-    text: Repo
-    link: https://github.com/geohai/sea-ice-segment
-  tags:
-  - sea ice
-  - cryosphere
-  - remote sensing
-  - machine learning
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/igarss52108.2023.10281892
   title: 'Deep Learning on SAR Imagery: Transfer Learning Versus Randomly Initialized
     Weights'
@@ -260,7 +248,6 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
-  group: highlighted
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png
   buttons:
   - type: preprint
@@ -1179,7 +1166,8 @@
   date: '2024-02-28'
   link: https://doi.org/mkg3
   buttons:
-  - type: Full-text on Research Gate
+  - type: preprint
+    text: Full-text on Research Gate
     link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
   tags:
   - wearable devices
@@ -1244,5 +1232,28 @@
   - public health
   - Zika
   - Arbovirus
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IGARSS52108.2023.10282060
+  title: Comparison of Cross-Entropy, Dice, and Focal Loss for Sea Ice Type Segmentation
+  authors:
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  publisher: IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2023-07-16'
+  link: https://doi.org/g8dzgn
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2310.17135
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/sea-ice-segment
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
   plugin: sources.py
   file: sources.yaml
