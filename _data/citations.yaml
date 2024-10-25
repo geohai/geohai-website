@@ -59,7 +59,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
-  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/4609443/10330207/10568501/karim8-3413003-large.gif
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729823147/03984fd1-c25e-473b-a505-03eb03083670.png
   buttons:
   - type: source
     text: Repo
@@ -260,7 +260,6 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
-  group: highlighted
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png
   buttons:
   - type: preprint
