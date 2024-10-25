@@ -11,6 +11,7 @@ aliases:
   - I Lyons-Galante
   - Isaiah Lyons-Glaante
 links:
+  google-scholar: qCk5kWQAAAAJ
   github: isaiahlg
   email: isaiah.lyons-galante@colorado.edu
   home-page: https://isaiahlg.com

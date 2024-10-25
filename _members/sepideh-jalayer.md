@@ -10,7 +10,7 @@ links:
   email: sepideh.jalayer@colorado.edu
   # home-page: 
   # orcid: 
-  google-scholar: https://scholar.google.com.au/citations?user=KWW-bjsAAAAJ&hl=en 
+  google-scholar: KWW-bjsAAAAJ
 ---
 
 I am currently pursuing a Ph.D. in Geography with a focus on Remote Sensing and GIS at CU Boulder, under the guidance of Dr. Morteza Karimzadeh. I obtained a B.S. in Civil Engineering-Geomatics from K. N. Toosi University of Technology and completed an M.S.  in Surveying-Remote Sensing Engineering, gaining practical skills in remote sensing applications. 
