@@ -30,8 +30,16 @@
   link: https://doi.org/g8dzf9
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813111/8a99040a-41f0-4bed-b64e-b2b42e44f03e.png
+  type: book-chapter
+  tags:
+  - spatial analysis
+  - GIS
+  - Natural Language Processing
+  - Geographic Information Retrieval
+  - machine learning
 - id: doi:10.1109/JSTARS.2024.3413003
   title: Partial Label Learning With Focal Loss for Sea Ice Classification Based on
     Ice Charts
@@ -49,8 +57,19 @@
   link: https://doi.org/g8dzgb
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://ieeexplore.ieee.org/mediastore/IEEE/content/media/4609443/10330207/10568501/karim8-3413003-large.gif
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/PLL-sea-ice-classification
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - uncertainty
+  - machine learning
 - id: doi:10.1109/energyvis60781.2023.00009
   title: Alternatives to Contour Visualizations for Power Systems Data
   authors:
@@ -64,8 +83,19 @@
   link: https://doi.org/g8dzgc
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729803915/da42d74c-6fad-4f80-89af-6140afd2618c.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2308.09153
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/vite-vis-dss
+  tags:
+  - visualization
+  - electrical grid
+  - renewable energy
 - id: doi:10.1080/01431161.2023.2248560
   title: Enhancing sea ice segmentation in Sentinel-1 images with atrous convolutions
   authors:
@@ -80,8 +110,20 @@
   link: https://doi.org/g8dzgj
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2310.17122arxiv
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/sea-ice-segment
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
 - id: doi:10.5194/ica-adv-4-12-2023
   title: Characterizing Spatial Accessibility of COVID-19 Testing and Vaccination
     Sites using Dasymetric Mapping and GIS
@@ -96,8 +138,14 @@
   link: https://doi.org/g8dzgk
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
+  tags:
+  - spatial analysis
+  - covid-19
+  - public health
+  - epidimiology
 - id: doi:10.1109/igarss52108.2023.10282060
   title: Comparison of Cross-Entropy, Dice, and Focal Loss for Sea Ice Type Segmentation
   authors:
@@ -109,8 +157,20 @@
   link: https://doi.org/g8dzgn
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2310.17135
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/sea-ice-segment
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
 - id: doi:10.1109/igarss52108.2023.10281892
   title: 'Deep Learning on SAR Imagery: Transfer Learning Versus Randomly Initialized
     Weights'
@@ -122,8 +182,20 @@
   link: https://doi.org/g8dzgq
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814345/ce3ddd71-8f9a-4065-b36a-c3dea28b4d18.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2310.17126
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/sea-ice-segment
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
 - id: doi:10.1109/igarss52108.2023.10282685
   title: Increasing the Spatial Coverage of Atmospheric Aerosol Depth Measurements
     using Random Forest and Mean Filters
@@ -138,8 +210,17 @@
   link: https://doi.org/g8dzgr
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814130/7b644572-e37b-4a41-9cb5-5c56f06dfc6f.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2306.07242
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
 - id: doi:10.1007/s11524-022-00714-7
   title: 'Forecasting COVID-19 and Other Infectious Diseases for Proactive Policy:
     Artificial Intelligence Can Help'
@@ -153,8 +234,19 @@
   link: https://doi.org/g8dzgs
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814446/9fa95c51-d0cb-4e49-b1a3-65d1a682e237.png
+  buttons:
+  - type: preprint
+    text: PubMed Access
+    link: https://pubmed.ncbi.nlm.nih.gov/36689140/
+  tags:
+  - covid-19
+  - public health
+  - epidimiology
+  - spatiotemporal
+  - machine learning
 - id: doi:10.1109/TGRS.2023.3331276
   title: Model Ensemble With Dropout for Uncertainty Estimation in Sea Ice Segmentation
     Using Sentinel-1 SAR
@@ -168,10 +260,20 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  group: highlighted
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png
   buttons:
   - type: preprint
     link: https://eartharxiv.org/repository/view/6568/
-  repo: geohai/sea-ice-segment
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/sea-ice-segment
+  tags:
+  - sea ice
+  - cryosphere
+  - uncertainty
+  - remote sensing
+  - machine learning
 - id: doi:10.1038/s41597-022-01517-w
   title: The United States COVID-19 Forecast Hub dataset
   authors:
@@ -607,8 +709,22 @@
   link: https://doi.org/grq34s
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-022-01517-w/MediaObjects/41597_2022_1517_Fig1_HTML.png?as=webp
+  buttons:
+  - type: website
+    text: Website
+    link: https://covid19forecasthub.org/
+  - type: source
+    text: Repo
+    link: https://github.com/reichlab/covid19-forecast-hub
+  tags:
+  - spatiotemporal
+  - machine learning
+  - covid-19
+  - public health
+  - epidimiology
 - id: doi:10.5281/ZENODO.6320982
   title: 'Big Data Community Algorithms: Deep Learning for Mapping'
   authors:
@@ -618,8 +734,16 @@
   link: https://doi.org/g8dzgx
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: poster
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729797473/4b471cdd-c89c-4c3c-9846-32b956c6feea.png
+  tags:
+  - remote sensing
+  - machine learning
+  - sea ice
+  - cryosphere
+  - synthetic aparture radar
 - id: doi:10.1007/s41060-021-00295-9
   title: A spatiotemporal machine learning approach to forecasting COVID-19 incidence
     at the county level in the USA
@@ -632,8 +756,22 @@
   link: https://doi.org/g8dzg3
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729799749/2022-lucas-covidlstm_qwousp.jpg
+  buttons:
+  - type: preprint
+    text: PubMed Access
+    link: https://pmc.ncbi.nlm.nih.gov/articles/PMC8760128/
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/covid-lstm
+  tags:
+  - spatiotemporal
+  - machine learning
+  - covid-19
+  - public health
+  - epidimiology
 - id: doi:10.1038/s41467-021-26742-6
   title: Spatiotemporal prediction of COVID-19 cases using inter- and intra-county
     proxies of human interactions
@@ -649,12 +787,16 @@
   plugin: sources.py
   file: sources.yaml
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729777169/2020-COVID19_STGXB_q6k3cu.webp
-  repo: geohai/COVID19-STGXB
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/COVID19-STGXB
   tags:
-  - covid-19
-  - epidimiology
   - spatiotemporal
   - machine learning
+  - covid-19
+  - epidimiology
+  - public health
 - id: doi:10.25436/E2B88Q
   title: Classifying Narcotrafficking Spatial Event Documents using Transformers
   authors:
@@ -677,8 +819,8 @@
   tags:
   - text
   - natural language processing
+  - Geographic Information Retrieval
   - machine learning
-  repo: geohai/narco_nlp
 - id: doi:10.6084/M9.FIGSHARE.14772891.V1
   title: Sea ice type classification in the Chukchi sea using deep learning
   authors:
@@ -696,11 +838,13 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: poster
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729775459/071ee797-4e26-450e-879f-c26a892644e9.png
   tags:
+  - remote sensing
+  - machine learning
   - sea ice
   - cryosphere
-  - machine learning
 - id: doi:10.1109/vast50239.2020.00012
   title: 'STULL: Unbiased Online Sampling for Visual Exploration of Large Spatiotemporal
     Data'
@@ -753,6 +897,14 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2020-karimzadeh-human-guided-va.jpg
+  type: book-chapter
+  buttons:
+  - type: preprint
+    text: Full-Text on Research Gate
+    link: https://www.researchgate.net/publication/342188685_Human-guided_visual_analytics_for_big_data
+  tags:
+  - visual Analytics
+  - visualization
 - id: doi:10.24251/hicss.2020.168
   title: 'Route Packing: Geospatially-Accurate Visualization of Route Networks'
   authors:
@@ -1011,33 +1163,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2013-karimzadeh-geotxt.jpg
-- id: doi:10.3390/ijerph191912933
-  title: 'Global Impact of COVID-19 Pandemic on Physical Activity Habits of Competitive
-    Runners: An Analysis of Wearable Device Data'
-  authors:
-  - Julia Lee Romero
-  - Qin Lv
-  publisher: International Journal of Environmental Research and Public Health
-  date: '2022-10-10'
-  link: https://doi.org/g8k4gf
-  image: https://www.mdpi.com/ijerph/ijerph-19-12933/article_deploy/html/images/ijerph-19-12933-g005.png
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.3390/s23135879
-  title: 'Hang-Time HAR: A Benchmark Dataset for Basketball Activity Recognition Using
-    Wrist-Worn Inertial Sensors'
-  authors:
-  - Alexander Hoelzemann
-  - Julia Lee Romero
-  - Marius Bock
-  - Kristof Van Laerhoven
-  - Qin Lv
-  publisher: Sensors
-  date: '2023-06-25'
-  link: https://doi.org/g8k4gh
-  image: https://www.mdpi.com/sensors/sensors-23-05879/article_deploy/html/images/sensors-23-05879-g001.png
-  plugin: sources.py
-  file: sources.yaml
 - id: doi:10.1145/3638550.3641136
   title: 'OptiBreathe: An Earable-based PPG System for Continuous Respiration Rate,
     Breathing Phase, and Tidal Volume Monitoring'
@@ -1053,6 +1178,46 @@
     and Applications
   date: '2024-02-28'
   link: https://doi.org/mkg3
+  buttons:
+  - type: Full-text on Research Gate
+    link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
+  tags:
+  - wearable devices
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/ijerph191912933
+  title: 'Global Impact of COVID-19 Pandemic on Physical Activity Habits of Competitive
+    Runners: An Analysis of Wearable Device Data'
+  authors:
+  - Julia Lee Romero
+  - Qin Lv
+  publisher: International Journal of Environmental Research and Public Health
+  date: '2022-10-10'
+  link: https://doi.org/g8k4gf
+  image: https://www.mdpi.com/ijerph/ijerph-19-12933/article_deploy/html/images/ijerph-19-12933-g005.png
+  tags:
+  - covid-19
+  - public health
+  - wearable devices
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.3390/s23135879
+  title: 'Hang-Time HAR: A Benchmark Dataset for Basketball Activity Recognition Using
+    Wrist-Worn Inertial Sensors'
+  authors:
+  - Alexander Hoelzemann
+  - Julia Lee Romero
+  - Marius Bock
+  - Kristof Van Laerhoven
+  - Qin Lv
+  publisher: Sensors
+  date: '2023-06-25'
+  link: https://doi.org/g8k4gh
+  image: https://www.mdpi.com/sensors/sensors-23-05879/article_deploy/html/images/sensors-23-05879-g001.png
+  tags:
+  - public health
+  - action segmentation
+  - wearable devices
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pntd.0012017
@@ -1073,5 +1238,11 @@
   date: '2024-03-22'
   link: https://doi.org/g8k4gj
   image: images/publication-thumbnails/2024-roell-zika.PNG
+  tags:
+  - spatial analysis
+  - visualization
+  - public health
+  - Zika
+  - Arbovirus
   plugin: sources.py
   file: sources.yaml
