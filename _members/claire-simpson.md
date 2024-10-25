@@ -14,7 +14,6 @@ links:
   email: claire.simpson@colorado.edu
   #home-page: https://claire-simpson.github.io/
   linkedin: https://www.linkedin.com/in/claire-simpson-a96496104?original_referer=https%3A%2F%2Fwww.google.com%2F
-  #CV: https://julialromero.github.io/CV/Julia_Romero_CV.pdf
 ---
 
 I am a 2nd year Masters student in the Geography Department here at CU Boulder and a National Science Foundation Graduate Research Fellow. I received my BA from UCLA in Geography/Environmental Studies with minors in both Geospatial Information Systems & Technology and Conservation Biology. During my undergraduate years, I spent summers at NASA Goddard Space Flight Center and the International Arctic Research Center in Fairbanks, Alaska studying Arctic lakes using remote sensing, machine learning, and in situ measurements. I also performed data processing and analysis for projects studying supraglacial streams on the Greenland Ice Sheet and coral health in Hawaii. I have now pivoted to studying the impacts of fires on vegetation in the western U.S. 

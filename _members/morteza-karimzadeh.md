@@ -9,7 +9,7 @@ aliases:
   - Morteza Karimzadeh
   - Karimzadeh, M.
 links:
-  google-scholar: Vy2oR2kAAAAJ&
+  google-scholar: Vy2oR2kAAAAJ
   home-page: https://www.colorado.edu/geography/morteza-karimzadeh
   email: karimzadeh@colorado.edu
   orcid: 0000-0002-6498-1763

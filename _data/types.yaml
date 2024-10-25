@@ -90,7 +90,7 @@ google-scholar:
   icon: fa-brands fa-google
   text: Google Scholar
   tooltip: Google Scholar
-  link: https://scholar.google.com/citations?user=$VALUE
+  link: https://scholar.google.com/citations?user=$VALUE&sortby=pubdate
 
 github:
   icon: fa-brands fa-github
@@ -160,6 +160,16 @@ paper:
   icon: fa-solid fa-scroll
   text: Paper
   tooltip: Paper
+
+poster:
+  icon: fa-solid fa-image
+  text: Poster
+  tooltip: Poster
+
+book-chapter:
+  icon: fa-solid fa-book-open
+  text: Book Chapter
+  tooltip: Book Chapter
 
 book:
   icon: fa-solid fa-book
