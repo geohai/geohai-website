@@ -32,7 +32,7 @@
 #2024
 - id: doi:10.1145/3638550.3641136
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729871447/optibreathe-signals_wiopcv.jpg
-  type: proceedigns
+  type: proceedings
   buttons:
     - type: preprint
       text: Full-text on Reserach Gate
@@ -100,7 +100,7 @@
 
   #grid vis NREL
 - id: doi:10.1109/energyvis60781.2023.00009
-  type: proceedigns
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729803915/da42d74c-6fad-4f80-89af-6140afd2618c.png
   buttons:
     - type: preprint
@@ -131,7 +131,7 @@
 
     # COVID-19 testing and vaccination accessibility
 - id: doi:10.5194/ica-adv-4-12-2023
-  type: proceedigns
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
   tags:
     - spatial analysis
@@ -141,7 +141,7 @@
 
     # IGARSS increasing AOD coverage
 - id: doi:10.1109/igarss52108.2023.10282685
-  type: proceedigns
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814130/7b644572-e37b-4a41-9cb5-5c56f06dfc6f.png
   buttons:
     - type: preprint
@@ -154,7 +154,7 @@
 
     # IGARSS loss function
 - id: doi:10.1109/igarss52108.2023.10282060
-  type: proceedigns
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
   buttons:
     - type: preprint
@@ -170,7 +170,7 @@
 
     # IGARSS transfer learning
 - id: doi:10.1109/igarss52108.2023.10281892
-  type: proceedigns
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814345/ce3ddd71-8f9a-4065-b36a-c3dea28b4d18.png
   buttons:
     - type: preprint
@@ -227,7 +227,7 @@
     - machine learning
     - sea ice
     - cryosphere
-    - synthetic aparture radar
+    - synthetic aperture radar
 
   # covidlstm
 - id: doi:10.1007/s41060-021-00295-9
@@ -272,7 +272,7 @@
     - cryosphere
 
 - id: doi:10.25436/E2B88Q #narcoNLP
-  type: proceedigns
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729774456/e71ab003-0f48-4804-a1a1-93ae52173403.png
   buttons:
     - type: source
@@ -294,7 +294,7 @@
   type: book-chapter
   buttons:
     - type: preprint
-      text: Full-Text on Research Gate
+      text: Full-Text on ResearchGate
       link: https://www.researchgate.net/publication/342188685_Human-guided_visual_analytics_for_big_data
   tags:
     - visual Analytics
