@@ -1,7 +1,7 @@
 ---
 ---
 
-$thumb-size: 255px; // Reduced by about 15% from the previous 300px
+$thumb-size: 255px; // Desktop image size
 $wrap: 800px;
 
 .citation {
@@ -33,7 +33,7 @@ $wrap: 800px;
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 10px; // Slightly reduced for less vertical spacing
+  gap: 10px;
   max-width: 100%;
   height: min-content;
   padding: 20px;
@@ -48,7 +48,7 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
-  line-height: 1.2; // Reduced vertical text spacing
+  line-height: 1.2;
 }
 
 .citation-title {
@@ -95,6 +95,7 @@ $wrap: 800px;
   .citation-image {
     width: 100%;
     height: auto;
+    max-width: 180px; // Constrain image width on mobile for a balanced layout
   }
 
   .citation-image img {
