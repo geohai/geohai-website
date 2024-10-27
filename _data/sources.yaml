@@ -1,16 +1,16 @@
 # Isaiah Lyons-Galante #################################################################################
 # thesis
-- id: isbn:9798384104667
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729827301/338337fb-1eb8-4a19-ab20-129889647544.png
-  buttons:
-    - type: repo
-      link: https://github.com/geohai/mini-grid-nightlights
-  tags:
-    - spatial analysis
-    - remote sensing
-    - nightlights
-    - difference in difference
-    - renewable energy
+# - id: isbn:9798384104667
+#   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729827301/338337fb-1eb8-4a19-ab20-129889647544.png
+#   buttons:
+#     - type: repo
+#       link: https://github.com/geohai/mini-grid-nightlights
+#   tags:
+#     - spatial analysis
+#     - remote sensing
+#     - nightlights
+#     - difference in difference
+#     - renewable energy
 
 # Julia Romero #################################################################################
 #2024
