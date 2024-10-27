@@ -472,6 +472,13 @@
 
 <p>We believe in open and replicable science, and open-source software. If you need assistance with a product, please feel free to contact us.</p>
 
+<div class="search-box">
+  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
+  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
+    <i class="icon fa-solid fa-magnifying-glass"></i>
+  </button>
+</div>
+
 <div class="search-info"></div>
   </section>
 
@@ -515,11 +522,11 @@
 
   <div class="tags" data-repo="geohai/GeoDEN" data-link="/geohai-website/products/">
     
-      <a href='/geohai-website/products/?search="tag:%20software"' class="tag" data-tooltip='Show items with the tag "software"'>
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('software')" data-tooltip='Show items with the tag "software"'>
         software
       </a>
     
-      <a href='/geohai-website/products/?search="tag:%20website"' class="tag" data-tooltip='Show items with the tag "website"'>
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('website')" data-tooltip='Show items with the tag "website"'>
         website
       </a>
     
@@ -571,11 +578,11 @@
 
   <div class="tags" data-repo="geohai/SwastikaCounterMap" data-link="/geohai-website/products/">
     
-      <a href='/geohai-website/products/?search="tag:%20software"' class="tag" data-tooltip='Show items with the tag "software"'>
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('software')" data-tooltip='Show items with the tag "software"'>
         software
       </a>
     
-      <a href='/geohai-website/products/?search="tag:%20website"' class="tag" data-tooltip='Show items with the tag "website"'>
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('website')" data-tooltip='Show items with the tag "website"'>
         website
       </a>
     
@@ -600,7 +607,9 @@
 
     </div> -->
       <div>
-      Contact <a href="/geohai-website/contact">GeoHAI</a> or the <a href="/geohai-website/members/morteza-karimzadeh.html">Director</a>.
+      Contact <a href="/geohai-website/contact">GeoHAI</a> or the <a href="/geohai-website/members/morteza-karimzadeh.html">Director</a>
+         
+      Website built with <a href="https://github.com/greenelab/lab-website-template"> Lab Website Template </a>
     </div>
     
 

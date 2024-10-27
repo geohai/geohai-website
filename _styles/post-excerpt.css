@@ -27,4 +27,12 @@
   width: 100%;
 }
 
+.project-excerpt {
+  transition: box-shadow 0.3s ease;
+}
+
+.project-excerpt:hover {
+  box-shadow: var(--shadow-hover);
+}
+
 /*# sourceMappingURL=post-excerpt.css.map */
