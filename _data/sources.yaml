@@ -28,14 +28,14 @@
 #     - difference in difference
 #     - renewable energy
 
-# Julia Romero   #################################################################################
+# Julia Romero #################################################################################
 #2024
 - id: doi:10.1145/3638550.3641136
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729871447/optibreathe-signals_wiopcv.jpg
   type: proceedings
   buttons:
     - type: preprint
-      text: Full-text on Reserach Gate
+      text: Full-text on ResearchGate
       link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
   tags:
     - wearable devices
@@ -55,11 +55,11 @@
     - action segmentation
     - wearable devices
 
-  # Morteza Karimzadeh ##############################################
+# Morteza Karimzadeh ##############################################
 
-  #2024
+#2024
 
-  #Zika
+#Zika
 - id: doi:10.1371/journal.pntd.0012017
   image: images/publication-thumbnails/2024-roell-zika.PNG
   tags:
@@ -69,7 +69,7 @@
     - Zika
     - Arbovirus
 
-  #Partial Label Learning
+#Partial Label Learning
 - id: doi:10.1109/JSTARS.2024.3413003
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729823147/03984fd1-c25e-473b-a505-03eb03083670.png
   buttons:
@@ -83,7 +83,7 @@
     - uncertainty
     - machine learning
 
-  #UCGIS BoK Texts
+#UCGIS BoK Texts
 - id: doi:10.22224/gistbok/2024.1.8
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813111/8a99040a-41f0-4bed-b64e-b2b42e44f03e.png
   type: book-chapter
@@ -94,10 +94,10 @@
     - Geographic Information Retrieval
     - machine learning
 
-  #2023
-  #sea ice uncertainty ensemble
+#2023
+#sea ice uncertainty ensemble
 
-  #grid vis NREL
+#grid vis NREL
 - id: doi:10.1109/energyvis60781.2023.00009
   type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729803915/da42d74c-6fad-4f80-89af-6140afd2618c.png
@@ -112,7 +112,7 @@
     - electrical grid
     - renewable energy
 
-  # enhancing sea ice with atrous
+# enhancing sea ice with atrous
 - id: doi:10.1080/01431161.2023.2248560
   type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
@@ -128,7 +128,7 @@
     - remote sensing
     - machine learning
 
-    # COVID-19 testing and vaccination accessibility
+# COVID-19 testing and vaccination accessibility
 - id: doi:10.5194/ica-adv-4-12-2023
   type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
@@ -136,9 +136,9 @@
     - spatial analysis
     - covid-19
     - public health
-    - epidimiology
+    - epidemiology
 
-    # IGARSS increasing AOD coverage
+# IGARSS increasing AOD coverage
 - id: doi:10.1109/igarss52108.2023.10282685
   type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814130/7b644572-e37b-4a41-9cb5-5c56f06dfc6f.png
@@ -151,7 +151,7 @@
     - remote sensing
     - machine learning
 
-    # IGARSS loss function
+# IGARSS loss function
 - id: doi:10.1109/igarss52108.2023.10282060
   type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
@@ -167,7 +167,7 @@
     - remote sensing
     - machine learning
 
-    # IGARSS transfer learning
+# IGARSS transfer learning
 - id: doi:10.1109/igarss52108.2023.10281892
   type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814345/ce3ddd71-8f9a-4065-b36a-c3dea28b4d18.png
@@ -183,7 +183,7 @@
     - remote sensing
     - machine learning
 
-    # Urban Health editorial AI
+# Urban Health editorial AI
 - id: doi:10.1007/s11524-022-00714-7
   type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814446/9fa95c51-d0cb-4e49-b1a3-65d1a682e237.png
@@ -194,12 +194,12 @@
   tags:
     - covid-19
     - public health
-    - epidimiology
+    - epidemiology
     - spatiotemporal
     - machine learning
 
-  #2022
-  # US COVID-19 forecast hub dataset
+#2022
+# US COVID-19 forecast hub dataset
 - id: doi:10.1038/s41597-022-01517-w
   type: journal
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-022-01517-w/MediaObjects/41597_2022_1517_Fig1_HTML.png?as=webp
@@ -215,9 +215,9 @@
     - machine learning
     - covid-19
     - public health
-    - epidimiology
+    - epidemiology
 
-  # NASA community algorithm
+# NASA community algorithm
 - id: doi:10.5281/ZENODO.6320982
   type: poster
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729797473/4b471cdd-c89c-4c3c-9846-32b956c6feea.png
@@ -228,7 +228,7 @@
     - cryosphere
     - synthetic aperture radar
 
-  # covidlstm
+# covidlstm
 - id: doi:10.1007/s41060-021-00295-9
   type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729799749/2022-lucas-covidlstm_qwousp.jpg
@@ -244,9 +244,9 @@
     - machine learning
     - covid-19
     - public health
-    - epidimiology
+    - epidemiology
 
-  #2021
+#2021
 - id: doi:10.1038/s41467-021-26742-6 # vahedi nature comm human interaction
   type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729777169/2020-COVID19_STGXB_q6k3cu.webp
@@ -258,7 +258,7 @@
     - spatiotemporal
     - machine learning
     - covid-19
-    - epidimiology
+    - epidemiology
     - public health
 
 - id: doi:10.6084/M9.FIGSHARE.14772891.V1 # vahedi AUG chuckchi
@@ -283,11 +283,13 @@
     - Geographic Information Retrieval
     - machine learning
 
-  #2020 --local links need replaced
+#2020 --local links need replaced
 - id: doi:10.1109/vast50239.2020.00012
   image: images/publication-thumbnails/2020-wang-stull.jpg
+
 - id: doi:10.24251/hicss.2020.168
   image: images/publication-thumbnails/2020-wang-routepacking.jpg
+
 - id: doi:10.1037/0000193-008
   image: images/publication-thumbnails/2020-karimzadeh-human-guided-va.jpg
   type: book-chapter
@@ -296,43 +298,59 @@
       text: Full-Text on ResearchGate
       link: https://www.researchgate.net/publication/342188685_Human-guided_visual_analytics_for_big_data
   tags:
-    - visual Analytics
+    - visual analytics
     - visualization
+
 - id: doi:10.1109/tvcg.2019.2934266
   image: images/publication-thumbnails/2020-khayat-vassl.jpg
-  #2019
+
+#2019
 - id: doi:10.1145/3356471.3365243
   image: images/publication-thumbnails/2019-snyder-city-level.jpg
+
 - id: doi:10.1109/hst47167.2019.9033003
   image: images/publication-thumbnails/2019-snyder-survey.jpg
+
 - id: doi:10.1109/visual.2019.8933619
   image: images/publication-thumbnails/2019-zhao-featureexplorer.jpg
+
 - id: doi:10.5194/ica-abs-1-160-2019
   image: images/publication-thumbnails/2019-karimzadeh-ica-geolocation.jpg
+
 - id: doi:10.1111/cgf.13696
   image: images/publication-thumbnails/2019-Yau-line-graph.jpg
+
 - id: doi:10.3390/ijgi8040161
   image: https://www.mdpi.com/ijgi/ijgi-08-00161/article_deploy/html/images/ijgi-08-00161-g001.png
+
 - id: doi:10.1111/tgis.12510
   image: images/publication-thumbnails/2019-karimzadeh-geotxt.jpg
+
 - id: doi:10.1109/tvcg.2019.2934264
   image: images/publication-thumbnails/2019-khayat-eval.jpg
+
 - id: doi:10.1109/tvcg.2019.2934614
   image: images/publication-thumbnails/2019-snyder-smart.jpg
+
 - id: doi:10.1109/tvcg.2019.2934603
   image: images/publication-thumbnails/2019-zhao-metricsvis.jpg
-  #2017
+
+#2017
 - id: doi:10.1080/13658816.2017.1368523
   image: images/publication-thumbnails/2017-wallgrun-corpus.jpg
-  #2016
+
+#2016
 - id: doi:10.1145/3003464.3003472
   image: images/publication-thumbnails/2016-karimzadeh-eval.jpg
-  #2015
+
+#2015
 - id: doi:10.1145/2837689.2837692
   image: images/publication-thumbnails/2015-wallgrun-relational.jpg
-  #2014
+
+#2014
 - id: doi:10.1145/2675354.2675701
   image: images/publication-thumbnails/2014-wallgrun-corpus.jpg
-  #2013
+
+#2013
 - id: doi:10.1145/2533888.2533942
   image: images/publication-thumbnails/2013-karimzadeh-geotxt.jpg
