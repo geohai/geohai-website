@@ -169,10 +169,9 @@
   plugin: sources.py
   file: sources.yaml
   buttons:
-  - type: source
-    link: https://github.com/geohai/sea-ice-segment
   - type: preprint
     link: https://eartharxiv.org/repository/view/6568/
+  repo: geohai/sea-ice-segment
 - id: doi:10.1038/s41597-022-01517-w
   title: The United States COVID-19 Forecast Hub dataset
   authors:
@@ -650,9 +649,7 @@
   plugin: sources.py
   file: sources.yaml
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729777169/2020-COVID19_STGXB_q6k3cu.webp
-  buttons:
-  - type: source
-    link: https://github.com/geohai/COVID19-STGXB
+  repo: geohai/COVID19-STGXB
   tags:
   - covid-19
   - epidimiology
@@ -670,8 +667,18 @@
   link: https://doi.org/g8dzg6
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729774456/e71ab003-0f48-4804-a1a1-93ae52173403.png
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/narco_nlp
+  tags:
+  - text
+  - natural language processing
+  - machine learning
+  repo: geohai/narco_nlp
 - id: doi:10.6084/M9.FIGSHARE.14772891.V1
   title: Sea ice type classification in the Chukchi sea using deep learning
   authors:
@@ -715,13 +722,6 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2020-wang-stull.jpg
-  buttons:
-  - type: source
-    link: https://github.com/geohai/narco_nlp
-  tags:
-  - text
-  - natural language processing
-  - machine learning
 - id: doi:10.1109/tvcg.2019.2934266
   title: 'VASSL: A Visual Analytics Toolkit for Social Spambot Labeling'
   authors:
