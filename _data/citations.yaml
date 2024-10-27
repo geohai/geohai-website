@@ -148,7 +148,7 @@
   - spatial analysis
   - covid-19
   - public health
-  - epidimiology
+  - epidemiology
 - id: doi:10.1109/igarss52108.2023.10282060
   title: Comparison of Cross-Entropy, Dice, and Focal Loss for Sea Ice Type Segmentation
   authors:
@@ -251,7 +251,7 @@
   tags:
   - covid-19
   - public health
-  - epidimiology
+  - epidemiology
   - spatiotemporal
   - machine learning
 - id: doi:10.1109/TGRS.2023.3331276
@@ -732,7 +732,7 @@
   - machine learning
   - covid-19
   - public health
-  - epidimiology
+  - epidemiology
 - id: doi:10.5281/ZENODO.6320982
   title: 'Big Data Community Algorithms: Deep Learning for Mapping'
   authors:
@@ -780,7 +780,7 @@
   - machine learning
   - covid-19
   - public health
-  - epidimiology
+  - epidemiology
 - id: doi:10.1038/s41467-021-26742-6
   title: Spatiotemporal prediction of COVID-19 cases using inter- and intra-county
     proxies of human interactions
@@ -805,7 +805,7 @@
   - spatiotemporal
   - machine learning
   - covid-19
-  - epidimiology
+  - epidemiology
   - public health
 - id: doi:10.25436/E2B88Q
   title: Classifying Narcotrafficking Spatial Event Documents using Transformers
@@ -914,7 +914,7 @@
     text: Full-Text on ResearchGate
     link: https://www.researchgate.net/publication/342188685_Human-guided_visual_analytics_for_big_data
   tags:
-  - visual Analytics
+  - visual analytics
   - visualization
 - id: doi:10.24251/hicss.2020.168
   title: 'Route Packing: Geospatially-Accurate Visualization of Route Networks'
@@ -1193,7 +1193,7 @@
   type: proceedings
   buttons:
   - type: preprint
-    text: Full-text on Reserach Gate
+    text: Full-text on ResearchGate
     link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
   tags:
   - wearable devices
