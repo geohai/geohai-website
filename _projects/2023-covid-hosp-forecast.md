@@ -4,6 +4,7 @@ authors:
   - zhongying-wang
   - morteza-karimzadeh
 tags: Spatiotemporal Forecasting, COVID-19, GeoHealth
+search-tag: covid-19
 image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526915/covid-hosp_qbuppi.png
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_Banner 16:9/v1729526915/covid-hosp_qbuppi.png
 ---

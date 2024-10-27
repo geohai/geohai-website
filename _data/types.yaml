@@ -156,10 +156,10 @@ error:
 
 # publications
 
-paper:
+journal:
   icon: fa-solid fa-scroll
-  text: Paper
-  tooltip: Paper
+  text: Journal Article
+  tooltip: Journal Article
 
 poster:
   icon: fa-solid fa-image
@@ -176,15 +176,20 @@ book:
   text: Book
   tooltip: Book
 
-article:
-  icon: fa-solid fa-newspaper
-  text: Article
-  tooltip: Article
+presentation:
+  icon: fa-solid fa-chalkboard-teacher
+  text: Conference Presentation
+  tooltip: Conference Presentation
 
-journal:
-  icon: fa-regular fa-newspaper
-  text: Journal
-  tooltip: Journal
+proceedings:
+  icon: fa-regular fa-file-alt
+  text: Conference Proceedings
+  tooltip: Conference Proceedings
+
+white-paper:
+  icon: fa-solid fa-file-lines
+  text: White Paper or Report
+  tooltip: White Paper or Report
 
 preprint:
   icon: fa-regular fa-eye

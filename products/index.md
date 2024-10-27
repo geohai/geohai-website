@@ -11,6 +11,8 @@ We believe in open and replicable science, and open-source software. If you need
 
 {% include tags.html tags="publication, resource, website" %}
 
+{% include search-box.html %}
+
 {% include search-info.html %}
 
 {% include section.html %}

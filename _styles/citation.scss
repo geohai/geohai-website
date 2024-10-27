@@ -1,12 +1,13 @@
 ---
 ---
 
-$thumb-size: 180px;
+$thumb-size: 255px; // Reduced by about 15% from the previous 300px
 $wrap: 800px;
 
 .citation {
   display: flex;
-  margin: 15px 0;
+  align-items: center; // Vertically center the image
+  margin: 25px 0;
   border-radius: var(--rounded);
   background: var(--background);
   overflow: hidden;
@@ -16,8 +17,8 @@ $wrap: 800px;
 .citation-image {
   position: relative;
   width: $thumb-size;
+  height: calc(#{$thumb-size} * 0.75); // Maintain 4:3 aspect ratio
   flex-shrink: 0;
-  // box-shadow: var(--shadow);
 }
 
 .citation-image img {
@@ -25,14 +26,14 @@ $wrap: 800px;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .citation-text {
   position: relative;
   display: inline-flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 10px; // Slightly reduced for less vertical spacing
   max-width: 100%;
   height: min-content;
   padding: 20px;
@@ -47,7 +48,7 @@ $wrap: 800px;
 .citation-details,
 .citation-description {
   width: 100%;
-  line-height: calc(var(--spacing) - 0.4);
+  line-height: 1.2; // Reduced vertical text spacing
 }
 
 .citation-title {
@@ -90,7 +91,7 @@ $wrap: 800px;
   }
 
   .citation-image {
-    width: unset;
-    height: $thumb-size;
+    width: 100%;
+    height: auto;
   }
 }

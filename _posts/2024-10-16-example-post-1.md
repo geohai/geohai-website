@@ -1,6 +1,7 @@
 ---
 title: Example post 1
 author: morteza-karimzadeh
+search-tag: spatiotemporal
 tags:
   - spatiotemporal
   - deep learning

@@ -1,49 +1,42 @@
 {% assign project = site.projects 
-    | where_exp: "project", "project.slug == include.lookup"
-    | first
-    | default: include
-  %}
-  
-  <div class="project-excerpt">
-    <div class="project-content">
-      {% assign url = project.url %}
-      {% assign title = project.title %}
-      <a href="{{ url | relative_url }}">{{ title }}</a>
-      
-      {% if project.tags %}
-        <div>
-          {% include tags.html tags=project.tags link="projects" %}
-        </div>
-      {% endif %}  
-    
-      {% assign excerpt = project.content
-        | default: ""
-        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-        | default: project.excerpt
-        | default: ""
-        | strip_html
-      %}
-      {% assign search = project.content
-        | strip_html 
-        | strip_newlines
-        | regex_strip
-      %}
-      {% if project.tags and project.tags.size > 0 %}
-        <p data-search="{{ search }}" class="tags-excerpt">
-          {{ excerpt }}
-        </p>
-      {% else %}
-        <p data-search="{{ search }}" class="tags-no-excerpt">
-          {{ excerpt }}
-        </p>
-      {% endif %}  
-    </div>
+  | where_exp: "project", "project.slug == include.lookup"
+  | first
+  | default: include
+%}
 
-    {% if project.thumbnail %}
-      <div class="project-image-container">
-        <img src="{{ project.thumbnail }}" alt="{{ project.title | default: "project thumbnail" }}" class="project-image">
-      </div>
-    {% endif %}
-    
-  </div>
+<div class="project-excerpt">
+<div class="project-content">
+  {% assign url = project.url %}
+  {% assign title = project.title %}
+  <a href="{{ url | relative_url }}" class="project-title">{{ title }}</a>
   
+  {% if project.tags %}
+    <div class="project-tags">
+      {% include tags.html tags=project.tags link="projects" %}
+    </div>
+  {% endif %}  
+
+  {% assign excerpt = project.content
+    | default: ""
+    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+    | default: project.excerpt
+    | default: ""
+    | strip_html
+  %}
+  {% assign search = project.content
+    | strip_html 
+    | strip_newlines
+    | regex_strip
+  %}
+  <p data-search="{{ search }}" class="project-excerpt-content">
+    {{ excerpt | truncatewords: 50 }}
+    <a href="{{ url | relative_url }}" class="read-more">Learn more...</a>
+  </p>
+</div>
+
+{% if project.thumbnail %}
+  <div class="project-image-container">
+    <img src="{{ project.thumbnail }}" alt="{{ project.title | default: "project thumbnail" }}" class="project-image">
+  </div>
+{% endif %}
+</div>

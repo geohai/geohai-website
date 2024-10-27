@@ -1,24 +1,21 @@
-# example of a 'highlighted paper?' with tags
-# - id: doi:10.1371/journal.pcbi.1007128
-#   type: paper
-#   description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-#   date: 2020-12-4
-#   image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
-#   buttons:
-#     - type: manubot
-#       link: https://greenelab.github.io/meta-review/
-#     - type: source
-#       text: Manuscript Source
-#       link: https://github.com/greenelab/meta-review
-#     - type: website
-#       link: http://manubot.org/
-#   tags:
-#     - open science
-#     - collaboration
-#   repo: greenelab/meta-review
+- id: doi:10.1109/TGRS.2023.3331276
+  type: journal
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png
+  buttons:
+    - type: preprint
+      link: https://eartharxiv.org/repository/view/6568/
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/sea-ice-segment
+  tags:
+    - sea ice
+    - cryosphere
+    - uncertainty
+    - remote sensing
+    - machine learning
 
 # Isaiah Lyons-Galante #################################################################################
-#thesis
+# thesis
 # - id: isbn:9798384104667
 #   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729827301/338337fb-1eb8-4a19-ab20-129889647544.png
 #   buttons:
@@ -34,6 +31,8 @@
 # Julia Romero   #################################################################################
 #2024
 - id: doi:10.1145/3638550.3641136
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729871447/optibreathe-signals_wiopcv.jpg
+  type: proceedigns
   buttons:
     - type: preprint
       text: Full-text on Reserach Gate
@@ -97,30 +96,18 @@
 
   #2023
   #sea ice uncertainty ensemble
-- id: doi:10.1109/TGRS.2023.3331276
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png
-  buttons:
-    - type: preprint
-      link: https://eartharxiv.org/repository/view/6568/
-    - type: source
-      text: Repo
-      link: https://github.com/geohai/sea-ice-segment
-  tags:
-    - sea ice
-    - cryosphere
-    - uncertainty
-    - remote sensing
-    - machine learning
+-
 
   #grid vis NREL
 - id: doi:10.1109/energyvis60781.2023.00009
+  type: proceedigns
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729803915/da42d74c-6fad-4f80-89af-6140afd2618c.png
   buttons:
     - type: preprint
       link: https://arxiv.org/abs/2308.09153
     - type: source
       text: Repo
-      link: https://github.com/geohai/vite-vis-dss
+      link: https://github.com/isaiahlg/voltage-tiling
   tags:
     - visualization
     - electrical grid
@@ -128,6 +115,7 @@
 
   # enhancing sea ice with atrous
 - id: doi:10.1080/01431161.2023.2248560
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
   buttons:
     - type: preprint
@@ -143,6 +131,7 @@
 
     # COVID-19 testing and vaccination accessibility
 - id: doi:10.5194/ica-adv-4-12-2023
+  type: proceedigns
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
   tags:
     - spatial analysis
@@ -152,6 +141,7 @@
 
     # IGARSS increasing AOD coverage
 - id: doi:10.1109/igarss52108.2023.10282685
+  type: proceedigns
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814130/7b644572-e37b-4a41-9cb5-5c56f06dfc6f.png
   buttons:
     - type: preprint
@@ -164,6 +154,7 @@
 
     # IGARSS loss function
 - id: doi:10.1109/igarss52108.2023.10282060
+  type: proceedigns
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
   buttons:
     - type: preprint
@@ -179,6 +170,7 @@
 
     # IGARSS transfer learning
 - id: doi:10.1109/igarss52108.2023.10281892
+  type: proceedigns
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814345/ce3ddd71-8f9a-4065-b36a-c3dea28b4d18.png
   buttons:
     - type: preprint
@@ -194,6 +186,7 @@
 
     # Urban Health editorial AI
 - id: doi:10.1007/s11524-022-00714-7
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814446/9fa95c51-d0cb-4e49-b1a3-65d1a682e237.png
   buttons:
     - type: preprint
@@ -209,6 +202,7 @@
   #2022
   # US COVID-19 forecast hub dataset
 - id: doi:10.1038/s41597-022-01517-w
+  type: journal
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-022-01517-w/MediaObjects/41597_2022_1517_Fig1_HTML.png?as=webp
   buttons:
     - type: website
@@ -237,6 +231,7 @@
 
   # covidlstm
 - id: doi:10.1007/s41060-021-00295-9
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729799749/2022-lucas-covidlstm_qwousp.jpg
   buttons:
     - type: preprint
@@ -254,6 +249,7 @@
 
   #2021
 - id: doi:10.1038/s41467-021-26742-6 # vahedi nature comm human interaction
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729777169/2020-COVID19_STGXB_q6k3cu.webp
   buttons:
     - type: source
@@ -276,6 +272,7 @@
     - cryosphere
 
 - id: doi:10.25436/E2B88Q #narcoNLP
+  type: proceedigns
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729774456/e71ab003-0f48-4804-a1a1-93ae52173403.png
   buttons:
     - type: source

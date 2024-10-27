@@ -1,3 +1,18 @@
+<div class="related-entries"> See 
+  <a href="{{ '/research' | relative_url }}?search=%22tag: {{ page.search-tag | escape }}%22">
+     Publications
+  </a>
+  , 
+  <a href="{{ '/projects' | relative_url }}?search=%22tag: {{ page.search-tag | escape }}%22">
+    Projects
+ </a>
+ , or
+ <a href="{{ '/products' | relative_url }}?search=%22tag: {{ page.search-tag | escape }}%22">
+   Products
+</a> 
+related to this post.
+</div>
+
 <div class="post-nav">
   <span>
     {% if include.post.previous %}

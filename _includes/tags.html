@@ -18,8 +18,9 @@
   >
     {% for tag in tags %}
       <a
-        href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
+        href="javascript:void(0);"
         class="tag"
+        onclick="toggleTag('{{ tag }}')"
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}
