@@ -85,13 +85,14 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729803915/da42d74c-6fad-4f80-89af-6140afd2618c.png
   buttons:
   - type: preprint
     link: https://arxiv.org/abs/2308.09153
   - type: source
     text: Repo
-    link: https://github.com/geohai/vite-vis-dss
+    link: https://github.com/isaiahlg/voltage-tiling
   tags:
   - visualization
   - electrical grid
@@ -112,6 +113,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
   buttons:
   - type: preprint
@@ -140,6 +142,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
   tags:
   - spatial analysis
@@ -159,6 +162,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814071/2023-karimzadeh-loss_comparison_qayliy.png
   buttons:
   - type: preprint
@@ -184,6 +188,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814345/ce3ddd71-8f9a-4065-b36a-c3dea28b4d18.png
   buttons:
   - type: preprint
@@ -212,6 +217,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814130/7b644572-e37b-4a41-9cb5-5c56f06dfc6f.png
   buttons:
   - type: preprint
@@ -236,6 +242,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729814446/9fa95c51-d0cb-4e49-b1a3-65d1a682e237.png
   buttons:
   - type: preprint
@@ -260,6 +267,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png
   buttons:
   - type: preprint
@@ -710,6 +718,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41597-022-01517-w/MediaObjects/41597_2022_1517_Fig1_HTML.png?as=webp
   buttons:
   - type: website
@@ -742,7 +751,7 @@
   - machine learning
   - sea ice
   - cryosphere
-  - synthetic aparture radar
+  - synthetic aperture radar
 - id: doi:10.1007/s41060-021-00295-9
   title: A spatiotemporal machine learning approach to forecasting COVID-19 incidence
     at the county level in the USA
@@ -757,6 +766,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729799749/2022-lucas-covidlstm_qwousp.jpg
   buttons:
   - type: preprint
@@ -785,6 +795,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729777169/2020-COVID19_STGXB_q6k3cu.webp
   buttons:
   - type: source
@@ -810,6 +821,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: proceedings
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729774456/e71ab003-0f48-4804-a1a1-93ae52173403.png
   buttons:
   - type: source
@@ -899,7 +911,7 @@
   type: book-chapter
   buttons:
   - type: preprint
-    text: Full-Text on Research Gate
+    text: Full-Text on ResearchGate
     link: https://www.researchgate.net/publication/342188685_Human-guided_visual_analytics_for_big_data
   tags:
   - visual Analytics
@@ -1177,6 +1189,8 @@
     and Applications
   date: '2024-02-28'
   link: https://doi.org/mkg3
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729871447/optibreathe-signals_wiopcv.jpg
+  type: proceedings
   buttons:
   - type: preprint
     text: Full-text on Reserach Gate
