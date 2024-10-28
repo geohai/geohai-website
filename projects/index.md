@@ -14,7 +14,9 @@ We thank our sponsors, including but not limited to [National Science Foundation
 
 {% include search-box.html %}
 
-{% include tags.html tags=site.tags %}
+<!-- Added this to collect project tags -->
+{% assign project_tags = site.projects | map: "tags" | join: "," | split: "," | uniq %}
+{% include tags.html tags=project_tags %}
 
 {% include search-info.html %}
 

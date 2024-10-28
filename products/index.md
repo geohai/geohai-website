@@ -7,13 +7,20 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Products
 
-We believe in open and replicable science, and open-source software. If you need assistance with a product, please feel free to contact us. 
+We believe in open and replicable science, and open-source software. 
+Clicking on each card below takes you to the source code repository.
+Some projects have a "Visit Live Website" link, which takes you to the, well, live website for that project! 
+If you need assistance with a product, please feel free to contact us. 
 
-{% include tags.html tags="publication, resource, website" %}
+{% include section.html %}
 
 {% include search-box.html %}
 
 {% include search-info.html %}
+
+<!-- Collect and display unique tags from _data/products.yaml -->
+{% assign product_tags = site.data.products | map: "tags" | join: "," | split: "," | uniq %}
+{% include tags.html tags=product_tags %}
 
 {% include section.html %}
 

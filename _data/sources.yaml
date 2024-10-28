@@ -129,7 +129,7 @@
 
 # COVID-19 testing and vaccination accessibility
 - id: doi:10.5194/ica-adv-4-12-2023
-  type: proceedings
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
   tags:
     - spatial analysis

@@ -17,7 +17,7 @@ $wrap: 800px;
 .citation-image {
   position: relative;
   width: $thumb-size;
-  height: calc(#{$thumb-size} * 0.75); // Maintain 4:3 aspect ratio
+  height: calc(#{$thumb-size} * 0.75); // 4:3 aspect ratio for desktop
   flex-shrink: 0;
 }
 
@@ -89,20 +89,24 @@ $wrap: 800px;
 @media (max-width: $wrap) {
   .citation {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center; // Center-aligns entire citation content on mobile
   }
 
   .citation-image {
     width: 100%;
     height: auto;
-    max-width: 180px; // Constrain image width on mobile for a balanced layout
+    max-width: 70%;
+    aspect-ratio: 16 / 9; // Switch to 16:9 aspect ratio on mobile
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px; // Add slight spacing below the image
   }
 
   .citation-image img {
     position: static; // Allow natural positioning on mobile
     max-width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .citation-text {

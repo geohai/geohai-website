@@ -3,9 +3,13 @@
 
 Visit **[geohai.github.io/geohai-website](https://geohai.github.io/geohai-website)** 🚀
 
-_Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+_This lab website is heavily modified version and built from the wonderful [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+
+Update: All images are now hosted on Cloudinary to avoid taking up on unnecessary space on Github. Send your pictures (member or project or blog posts) to Morteza. 
 
 ## Setup Local Development Environment
+
+For GeeoHAI members who want to edit or add to the website.
 
 For Mac, you won’t be able to use the system Ruby. To install your own version of Ruby without sudo priveleges, here’s a way to do it with homebrew and rbenv for ruby version management.
 
@@ -14,7 +18,7 @@ For Mac, you won’t be able to use the system Ruby. To install your own version
 3. update your path to point to the new ruby environment by running\`export PATH="$HOME/.rbenv/shims:$PATH"\` or wherever you install rbenv
 4. install jekyll per <https://jekyllrb.com/docs/installation/macos/>
 
-For Windows, try the Ruby installation related steps from here: https://gorails.com/setup/windows/11. 
+For Windows, try the Ruby installation (we don't currently recommmend a specific link)
 
 ## Cloning & Running Locally
 
@@ -47,11 +51,12 @@ For Windows, try the Ruby installation related steps from here: https://gorails.
 5. Comment and uncomment/delete any areas that are/aren’t relevant to you
 6. <https://greene-lab.gitbook.io/lab-website-template-docs/basics/team-members>
 
-## Add Your Projects to the Website
-1. In the “\_projects” folder, add a file “\[year\]-\[title\].md”
+## Add Your Projects or Blog Posts to the Website
+1. In the “\_projects”  folder, add a file “\[year\]-\[title\].md”. For blog posts, look for the formatting examples under “\_posts”
     1. E.g. “2023-graphs-intel-project.md”
-2. Find a picture for your project”. Add it to the “images” folder inside “\_projects” and make sure the “image” prop points to your image
+2. Find a picture for your project”. Add it to the “images” folder inside “\_projects” and make sure the “image” prop points to your image, and also have a "thumbnail" for the project over view page.
 3. Fill out the page. Use “2023-graphs-intel-project.md” a guide (you can copy the file and paste it in, and then modify)
 4. Comment and uncomment/delete any areas that are/aren’t relevant to you
-5. Note: If there is more than one author, in the “author” field list the authors in the order you want them to appear, separated by “,“ (no spaces)
-6. For the thumbnail image of your project, please use an image with roughly a 1:1 aspect ratio and add it to the “images” folder inside “\_projects”. In your project md file, add a “thumbnail” property and then link to the image
+5. Note: If there is more than one author, in the “author” field list the authors in the order you want them to appear, separated by “,“ (no spaces). We want to include all lab members that have contributed to that project overall. 
+6. For the thumbnail image of your project, please use an image with roughly a 4:3 aspect ratio.
+

@@ -11,7 +11,7 @@ nav:
 
 ## Highlighted
 
-{% include citation.html lookup="Model Ensemble with Dropout for Uncertainty Estimation in Binary Sea Ice or Water Segmentation using Sentinel-1 SAR" style="rich" %}
+{% include citation.html lookup="Model Ensemble With Dropout for Uncertainty Estimation in Sea Ice Segmentation Using Sentinel-1 SAR" style="rich" %}
 
 {% include section.html %}
 
