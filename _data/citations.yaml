@@ -142,7 +142,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
-  type: proceedings
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813943/57a05aab-3225-44b0-b587-0015c76a21ae.png
   tags:
   - spatial analysis
