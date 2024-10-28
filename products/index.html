@@ -470,7 +470,22 @@
     <h1 id="products">
 <i class="icon fa-solid fa-wrench"></i>Products</h1>
 
-<p>We believe in open and replicable science, and open-source software. If you need assistance with a product, please feel free to contact us.</p>
+<p>We believe in open and replicable science, and open-source software. 
+Clicking on each card below takes you to the source code repository.
+Some projects have a “Visit Live Website” link, which takes you to the, well, live website for that project! 
+If you need assistance with a product, please feel free to contact us.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
 
 <div class="search-box">
   <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
@@ -480,6 +495,28 @@
 </div>
 
 <div class="search-info"></div>
+
+<!-- Collect and display unique tags from _data/products.yaml -->
+
+<div class="tags" data-link="/geohai-website/products/">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('software')" data-tooltip='Show items with the tag "software"'>
+        software
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('website')" data-tooltip='Show items with the tag "website"'>
+        website
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('dengue')" data-tooltip='Show items with the tag "dengue"'>
+        dengue
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('swastica-counter')" data-tooltip='Show items with the tag "swastica-counter"'>
+        swastica-counter
+      </a>
+    
+  </div>
   </section>
 
   
@@ -496,6 +533,7 @@
 <h2 id="featured">Featured</h2>
 
 <div class="card" data-style="">
+  <!-- Main Card Link directs to GitHub repo if available, else defaults to link -->
   <a href="https://github.com/geohai/GeoDEN" aria-label="GeoDEN" class="card-image">
     <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg" alt="GeoDEN" loading="lazy" onerror="this.src = '/geohai-website/images/fallback.svg'; this.onerror = null;">
   </a>
@@ -504,23 +542,33 @@
     
       <a href="https://github.com/geohai/GeoDEN" class="card-title">
         GeoDEN
-    </a>
+      </a>
     
 
     
       <span class="card-subtitle">Visual Analytics</span>
     
 
+
     
       <p>Exploratory analysis of spatiotemporal spread and interaction of dengue serotypes.</p>
 
+    
+
+    <!-- Website Live Link -->
+    
+      <div class="website-link" style="font-weight: bold; margin: 0;">
+        <a href="https://geoden.net" target="_blank" rel="noopener noreferrer" style="padding: 0;">
+          Visit Live Website
+        </a>
+      </div>
     
 
     
       
 
 
-  <div class="tags" data-repo="geohai/GeoDEN" data-link="/geohai-website/products/">
+  <div class="tags" data-link="/geohai-website/products/">
     
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('software')" data-tooltip='Show items with the tag "software"'>
         software
@@ -528,6 +576,10 @@
     
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('website')" data-tooltip='Show items with the tag "website"'>
         website
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('dengue')" data-tooltip='Show items with the tag "dengue"'>
+        dengue
       </a>
     
   </div>
@@ -552,31 +604,42 @@
 <h2 id="more">More</h2>
 
 <div class="card" data-style="small">
-  <a href="https://theswastikacounter.org/" aria-label="Swastica Counter Map" class="card-image">
+  <!-- Main Card Link directs to GitHub repo if available, else defaults to link -->
+  <a href="https://github.com/geohai/SwastikaCounterMap" aria-label="Swastica Counter Map" class="card-image">
     <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729528270/88bbbc97-a3cc-4638-a72c-fac4f1d0dbc7.png" alt="Swastica Counter Map" loading="lazy" onerror="this.src = '/geohai-website/images/fallback.svg'; this.onerror = null;">
   </a>
 
   <div class="card-text">
     
-      <a href="https://theswastikacounter.org/" class="card-title">
+      <a href="https://github.com/geohai/SwastikaCounterMap" class="card-title">
         Swastica Counter Map
-    </a>
+      </a>
     
 
     
       <span class="card-subtitle">Visual Analytics</span>
     
 
+
     
       <p>Tracking Antisemitism and Harm across the United States.</p>
 
+    
+
+    <!-- Website Live Link -->
+    
+      <div class="website-link" style="font-weight: bold; margin: 0;">
+        <a href="https://theswastikacounter.org/" target="_blank" rel="noopener noreferrer" style="padding: 0;">
+          Visit Live Website
+        </a>
+      </div>
     
 
     
       
 
 
-  <div class="tags" data-repo="geohai/SwastikaCounterMap" data-link="/geohai-website/products/">
+  <div class="tags" data-link="/geohai-website/products/">
     
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('software')" data-tooltip='Show items with the tag "software"'>
         software
@@ -584,6 +647,10 @@
     
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('website')" data-tooltip='Show items with the tag "website"'>
         website
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('swastica-counter')" data-tooltip='Show items with the tag "swastica-counter"'>
+        swastica-counter
       </a>
     
   </div>
@@ -609,9 +676,13 @@
       <div>
       Contact <a href="/geohai-website/contact">GeoHAI</a> or the <a href="/geohai-website/members/morteza-karimzadeh.html">Director</a>
          
-      Website built with <a href="https://github.com/greenelab/lab-website-template"> Lab Website Template </a>
+      © 2024
+      
+        |   Built on
+      <a href="https://github.com/greenelab/lab-website-template">
+        Lab Website Template
+      </a>
     </div>
-    
 
   <!-- removing the links for now. -->
   <!-- <div>
