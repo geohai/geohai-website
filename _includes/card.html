@@ -1,7 +1,10 @@
 {{ " " }}
 <div class="card" data-style="{{ include.style }}">
+  <!-- Main Card Link directs to GitHub repo if available, else defaults to link -->
   <a
-    {% if include.link %}
+    {% if include.repo %}
+      href="https://github.com/{{ include.repo }}"
+    {% elsif include.link %}
       href="{{ include.link | relative_url }}"
     {% endif %}
     aria-label="{{ include.title | default: "card link" }}"
@@ -18,7 +21,9 @@
   <div class="card-text">
     {% if include.title %}
       <a
-        {% if include.link %}
+        {% if include.repo %}
+          href="https://github.com/{{ include.repo }}"
+        {% elsif include.link %}
           href="{{ include.link | relative_url }}"
         {% endif %}
         {% if include.tooltip %}
@@ -27,19 +32,29 @@
         class="card-title"
       >
         {{ include.title }}
-    </a>
+      </a>
     {% endif %}
 
     {% if include.subtitle %}
       <span class="card-subtitle">{{ include.subtitle }}</span>
     {% endif %}
 
+
     {% if include.description %}
       {{ include.description | markdownify }}
     {% endif %}
 
+    <!-- Website Live Link -->
+    {% if include.link %}
+      <div class="website-link" style="font-weight: bold; margin: 0;">
+        <a href="{{ include.link | relative_url }}" target="_blank" rel="noopener noreferrer" style="padding: 0;">
+          Visit Live Website
+        </a>
+      </div>
+    {% endif %}
+
     {% if include.tags or include.repo %}
-      {% include tags.html tags=include.tags repo=include.repo %}
+      {% include tags.html tags=include.tags %}
     {% endif %}
   </div>
 </div>

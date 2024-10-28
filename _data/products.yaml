@@ -2,12 +2,13 @@
   group: featured #remove this for non-featured products
   subtitle: Visual Analytics
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
-  link: https://github.com/geohai/GeoDEN
+  link: https://geoden.net
   description: Exploratory analysis of spatiotemporal spread and interaction of dengue serotypes.
   repo: geohai/GeoDEN
   tags:
     - software
     - website
+    - dengue
 
 - title: Swastica Counter Map
   subtitle: Visual Analytics
@@ -18,3 +19,4 @@
   tags:
     - software
     - website
+    - swastica-counter

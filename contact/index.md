@@ -7,12 +7,12 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Please feel free to contact the [director]({{ site.baseurl }}/members/morteza-karimzadeh.html) using information listed in his page, or our members for specific projects.
+Please feel free to contact the [director]({{ site.baseurl }}/members/morteza-karimzadeh.html) using information listed in [his]({{ site.baseurl }}/members/morteza-karimzadeh.html) page, or our members for specific projects.
 
 
 {% capture col1 %}
 
-Mailing Address: Morteza Karimzadeh <br/>
+Mailing Address: GeoHAI lab <br/>
 GUGG 110, 260 UCB <br/>
 Boulder, CO 80309-0260
 {% endcapture %}
@@ -82,12 +82,3 @@ Boulder, CO 80309-0260
 {% endcapture %}
 
 {% include cols.html col1=col1 col2=col2 col3=col3 %}
-
-  <div>
-    &copy; {{ site.time | date: "%Y" }}
-    {{ site.title }}
-    &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
-  </div>
