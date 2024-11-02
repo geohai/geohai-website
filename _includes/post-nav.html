@@ -1,3 +1,4 @@
+{% if page.search-tag %}
 <div class="related-entries"> See 
   <a href="{{ '/research' | relative_url }}?search=%22tag: {{ page.search-tag | escape }}%22">
      Publications
@@ -12,6 +13,8 @@
 </a> 
 related to this post.
 </div>
+{% endif %}
+
 
 <div class="post-nav">
   <span>

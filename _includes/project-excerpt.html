@@ -5,38 +5,40 @@
 %}
 
 <div class="project-excerpt">
-<div class="project-content">
-  {% assign url = project.url %}
-  {% assign title = project.title %}
-  <a href="{{ url | relative_url }}" class="project-title">{{ title }}</a>
-  
-  {% if project.tags %}
-    <div class="project-tags">
-      {% include tags.html tags=project.tags link="projects" %}
-    </div>
-  {% endif %}  
+  <div class="project-content">
+    {% assign url = project.url %}
+    {% assign title = project.title %}
+    <a href="{{ url | relative_url }}" class="project-title">{{ title }}</a>
+    
+    {% if project.tags %}
+      <div class="project-tags">
+        {% include tags.html tags=project.tags link="projects" %}
+      </div>
+    {% endif %}  
 
-  {% assign excerpt = project.content
-    | default: ""
-    | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-    | default: project.excerpt
-    | default: ""
-    | strip_html
-  %}
-  {% assign search = project.content
-    | strip_html 
-    | strip_newlines
-    | regex_strip
-  %}
-  <p data-search="{{ search }}" class="project-excerpt-content">
-    {{ excerpt | truncatewords: 50 }}
-    <a href="{{ url | relative_url }}" class="read-more">Learn more...</a>
-  </p>
-</div>
-
-{% if project.thumbnail %}
-  <div class="project-image-container">
-    <img src="{{ project.thumbnail }}" alt="{{ project.title | default: "project thumbnail" }}" class="project-image">
+    {% assign excerpt = project.content
+      | default: ""
+      | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
+      | default: project.excerpt
+      | default: ""
+      | strip_html
+    %}
+    {% assign search = project.content
+      | strip_html 
+      | strip_newlines
+      | regex_strip
+    %}
+    <p data-search="{{ search }}" class="project-excerpt-content">
+      {{ excerpt | truncatewords: 50 }}
+      <a href="{{ url | relative_url }}" class="read-more">Learn more...</a>
+    </p>
   </div>
-{% endif %}
+
+  {% if project.thumbnail %}
+    <div class="project-image-container">
+      <a href="{{ url | relative_url }}" aria-label="View {{ project.title }}">
+        <img src="{{ project.thumbnail }}" alt="{{ project.title | default: "project thumbnail" }}" class="project-image">
+      </a>
+    </div>
+  {% endif %}
 </div>

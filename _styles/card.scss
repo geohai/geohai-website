@@ -12,8 +12,14 @@
   background: var(--background);
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  box-shadow: 0px 4px 10px var(--overlay); // Adjusted to use theme-based overlay color
   vertical-align: top;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 8px 20px var(--overlay); // Updated shadow color for hover effect
+  }
 }
 
 .card[data-style="small"] {
@@ -24,7 +30,6 @@
   aspect-ratio: 3 / 2;
   object-fit: cover;
   width: 100%;
-  // box-shadow: var(--shadow);
 }
 
 .card-text {
