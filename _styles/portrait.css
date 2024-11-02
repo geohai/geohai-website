@@ -14,6 +14,10 @@
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
 }
+.portrait:hover .portrait-image {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 15px var(--overlay);
+}
 
 .portrait[data-style=small] {
   width: 100px;
@@ -32,6 +36,7 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .portrait[data-style=tiny] .portrait-image {

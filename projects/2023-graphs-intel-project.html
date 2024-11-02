@@ -259,6 +259,10 @@
   
 
   
+    <link href="/geohai-website/_styles/rectangular-grid.css" rel="stylesheet">
+  
+
+  
     <link href="/geohai-website/_styles/rule.css" rel="stylesheet">
   
 
@@ -468,8 +472,24 @@
 
   <div class="tags" data-link="/geohai-website/projects">
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('graph-deep-learning')" data-tooltip='Show items with the tag "graph-deep-learning"'>
-        graph-deep-learning
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine')" data-tooltip='Show items with the tag "machine"'>
+        machine
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('learning')" data-tooltip='Show items with the tag "learning"'>
+        learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('graph')" data-tooltip='Show items with the tag "graph"'>
+        graph
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('neural')" data-tooltip='Show items with the tag "neural"'>
+        neural
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('networks')" data-tooltip='Show items with the tag "networks"'>
+        networks
       </a>
     
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('sensors')" data-tooltip='Show items with the tag "sensors"'>
@@ -478,10 +498,6 @@
     
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
         spatiotemporal
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('human-behavior')" data-tooltip='Show items with the tag "human-behavior"'>
-        human-behavior
       </a>
     
   </div>
@@ -499,9 +515,14 @@
 -->
 
 
-<p>In collaboration with <strong>Intel Labs</strong>, we are developing deep learning methods for human activity recognition in multimodal data collected from video, depth, and 10 accelerometers (the 50 Salads dataset). Specifically, we are exploring graph-based methods to model spatiotemporal information and to perform multimodal data fusion, such that the learning process is more data-efficient and resource-efficient.</p>
+<p>In collaboration with <a href="https://www.intel.com/content/www/us/en/research/overview.html"><strong>Intel Labs</strong></a>, we are developing deep learning methods for human activity recognition in multimodal data collected from video, depth, and 10 accelerometers (the 50 Salads dataset). Specifically, we are exploring graph-based methods to model spatiotemporal information and to perform multimodal data fusion, such that the learning process is more data-efficient and resource-efficient.</p>
 
 <p>With the rise of IoT technology there is an increasing number of ubiquitous sensors in settings including smart homes, patient monitoring, autonomous and connected vehicles, education, and workplace safety monitoring. These devices collect continuous streams of data from different spatial locations, temporal resolutions, and sensing modalities, resulting in large, messy data. Current algorithms are lacking in their ability to handle these challenges, with current solutions circumnavigating these problems with “brute force”-like models that require large training data and computational resources, while not effectively leveraging multimodal inputs. We explore (understudied) graph-based deep learning to encode spatiotemporal information and novel techniques to leverage cross-modal and intra-modal information, leading to higher data and resource efficiency. We use a high profile dataset called 50 Salads to evaluate our techniques on hierarchical (multi-tier) action segmentation.</p>
+
+
+
+
+  <img src="images/50salads.jpeg" alt="Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data">
   </section>
 
   
@@ -516,20 +537,8 @@
 -->
 
 
-<div class="related-entries"> See 
-  <a href="/geohai-website/research?search=%22tag:%20%22">
-     Publications
-  </a>
-  , 
-  <a href="/geohai-website/products?search=%22tag:%20%22">
-    Products
- </a>
- , or
- <a href="/geohai-website/blog?search=%22tag:%20%22">
-   Blog Posts
-</a> 
-related to this project.
-</div>
+
+
 
 
 <div class="project-nav">
@@ -564,9 +573,9 @@ related to this project.
          
       © 2024
       
-        |   Built on
-      <a href="https://github.com/greenelab/lab-website-template">
-        Lab Website Template
+        |   Website Source Forked From 
+      <a href="https://github.com/greenelab/lab-website-template" target="_blank">
+        LWT
       </a>
     </div>
 

@@ -9,6 +9,11 @@
   text-align: left;
   box-shadow: var(--shadow);
   align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-excerpt:hover {
+  transform: scale(1.01);
+  box-shadow: 0px 8px 15px var(--overlay);
 }
 
 .project-content {
@@ -36,6 +41,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
+  transition: box-shadow 0.2s ease;
+}
+.project-image-container:hover {
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
 }
 
 .project-image {
@@ -51,7 +61,6 @@
   text-decoration: none;
   margin-left: 5px;
 }
-
 .read-more:hover {
   text-decoration: underline;
 }
