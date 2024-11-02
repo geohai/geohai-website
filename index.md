@@ -1,7 +1,7 @@
 ---
 ---
 
-# Welcome to the Geospatial Human-Centered Artificial Intelligence lab!
+# The Geospatial Human-Centered Artificial Intelligence Research lab
 
 We are a team of spatial data scientists at the GeoHAI lab directed by [Dr. Morteza Karimzadeh]({{ site.baseurl }}/members/morteza-karimzadeh.html) at the [University of Colorado Boulder](https://www.colorado.edu/). Our research is use-inspired and interdisciplinary, where we tackle scientific challenges in the context of operational needs and urgent societal problems.
 
@@ -12,100 +12,37 @@ Browse through our many projects and team members to learn more!
 
 {% include section.html %}
 
-## Highlights
+<!-- ## Highlights -->
 
-{% capture text %}
+<div class="rectangular-grid">
+  <a href="/projects" class="rect-tile">
+    <div class="rect-content">Projects</div>
+    <i class="icon fa-solid fa-project-diagram"></i>
+  </a>
+  <a href="/products" class="rect-tile">
+    <div class="rect-content">Products</div>
+    <i class="icon fa-solid fa-wrench"></i>
+  </a>
+  <a href="/research" class="rect-tile">
+    <div class="rect-content">Publications</div>
+    <i class="icon fa-solid fa-book-open"></i>
+  </a>
+    <a href="/blog" class="rect-tile">
+    <div class="rect-content">Blog</div>
+    <i class="icon fa-solid fa-feather-pointed"></i>
+  </a>
+  <a href="/team" class="rect-tile">
+    <div class="rect-content">Team</div>
+    <i class="icon fa-solid fa-users"></i>
+  </a>
+</div>
 
-<!-- Check out our research papers -->
 
-{%
-  include button-reverse.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-left"
-  flip=true
-  style="bare"
-%}
 
-{% endcapture %}
 
-{%
-  include feature.html
-  image="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526915/HighParkFire_RGB_TS_wrdae0.png"
-  link="research"
-  title="Our Research"
-  text=text
-%}
 
-{% capture text %}
 
-<!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. -->
 
-{%
-  include button.html
-  link="products"
-  text="Browse our products"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
 
-{% endcapture %}
 
-{%
-  include feature.html
-  image="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg"
-  link="products"
-  title="Our Products"
-  flip=true
-  style="bare"
-  text=text
-%}
 
-{% capture text %}
-
-<!-- text -->
-
-{%
-  include button-reverse.html
-  link="projects"
-  text="Explore our projects"
-  icon="fa-solid fa-arrow-left"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729718116/nrel-bus-voronoi_ksufcs.png"
-  link="projects"
-  title="Our Projects"
-  text=text
-%}
-
-{% capture text %}
-
-<!-- text -->
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/member-images/Nederland-lunch1-min.jpg"
-  link="team"
-  title="Our team"
-  flip=true
-  style="bare"
-  text=text
-%}

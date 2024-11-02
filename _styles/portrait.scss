@@ -16,6 +16,12 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+
+  // Trigger image hover when hovering over the portrait container
+  &:hover .portrait-image {
+    transform: scale(1.05); // Subtle enlargement on hover
+    box-shadow: 0px 8px 15px var(--overlay); // Highlight shadow on hover based on theme
+  }
 }
 
 .portrait[data-style="small"] {
@@ -35,6 +41,7 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease; // Smooth transition for hover effects
 }
 
 .portrait[data-style="tiny"] .portrait-image {

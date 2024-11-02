@@ -1,0 +1,68 @@
+---
+---
+
+.rectangular-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.rect-tile {
+  width: 190px;
+  height: 130px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2em;
+  font-family: inherit;
+  font-weight: 800;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 10px var(--overlay); // Adapt shadow color for both themes
+  text-decoration: none;
+  
+  // Base color gradient with a lighter secondary color
+  background: linear-gradient(135deg, #051B2B, #0f4e63);
+
+  &:hover {
+    // Lighter gradient on hover for more contrast
+    background: linear-gradient(135deg, #092A3A, #14798b);
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px var(--overlay); // Adapt hover shadow for both themes
+  }
+
+  .rect-content {
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.9);
+    color: white;
+  }
+
+  .icon {
+    font-size: 2em;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.8); // Slightly transparent white for the icon
+    transition: color 0.3s ease;
+  }
+
+  &:hover .icon {
+    color: #ffffff; // Full white on hover
+  }
+}
+
+@media (max-width: 768px) {
+  .rect-tile {
+    width: 200px;
+    height: 130px;
+  }
+}

@@ -12,6 +12,12 @@
   text-align: left;
   box-shadow: var(--shadow);
   align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: scale(1.01); // Subtle hover scale effect on the card
+    box-shadow: 0px 8px 15px var(--overlay); // Theme-sensitive shadow
+  }
 }
 
 .project-content {
@@ -39,6 +45,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 4px; // Slight rounding for images
+  transition: box-shadow 0.2s ease; // Shadow effect without scaling
+
+  &:hover {
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); // Subtle shadow on hover
+  }
 }
 
 .project-image {
@@ -53,8 +65,8 @@
   font-weight: var(--semi-bold);
   text-decoration: none;
   margin-left: 5px;
-}
 
-.read-more:hover {
-  text-decoration: underline;
+  &:hover {
+    text-decoration: underline;
+  }
 }
