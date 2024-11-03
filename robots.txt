@@ -1,1 +1,1 @@
-Sitemap: /geohai-website/sitemap.xml
+Sitemap: /sitemap.xml
