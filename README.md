@@ -1,7 +1,7 @@
 
 # GeoHAI's Website
 
-Visit **[geohai.github.io/geohai-website](https://geohai.github.io/geohai-website)** 🚀
+Visit **[geohai.org](http://geohai.org)** 🚀
 
 _This lab website is heavily modified version and built from the wonderful [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
