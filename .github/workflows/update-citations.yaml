@@ -1,8 +1,8 @@
 name: update-citations
-run-name: Update Citations
+run-name: update citations
 
 on:
-  # Run when called from another workflow
+  # run when called from another workflow
   workflow_call:
     inputs:
       open-pr:
@@ -11,7 +11,7 @@ on:
       changed:
         value: ${{ jobs.update-citations.outputs.changed }}
 
-  # Run if user manually requests it
+  # run if user manually requests it
   workflow_dispatch:
 
 permissions:
@@ -28,17 +28,16 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # Debugging step
+      # for debugging
       - name: Print contexts
         uses: crazy-max/ghaction-dump-context@v1
 
-      # Check out branch contents
       - name: Checkout branch contents
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Ensure all branches are fetched
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
+          ref: ${{ github.head_ref }}
 
-      # Setup Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
@@ -46,17 +45,14 @@ jobs:
           cache: "pip"
           cache-dependency-path: "**/requirements.txt"
 
-      # Install Python packages
       - name: Install Python packages
         run: |
           python -m pip install --upgrade --requirement ./_cite/requirements.txt
 
-      # Build updated citations
       - name: Build updated citations
         run: python _cite/cite.py
         timeout-minutes: 15
 
-      # Check if citations changed
       - name: Check if citations changed
         id: changed
         uses: tj-actions/verify-changed-files@v13
@@ -64,26 +60,22 @@ jobs:
           files: |
             _data/citations.yaml
 
-      # Commit updated citations to a new branch
-      - name: Commit updated citations
-        if: steps.changed.outputs.files_changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -b citation-update
-          git add _data/citations.yaml
-          git commit -m "Update citations"
-          git push origin citation-update
+      - name: Commit updated citations to branch
+        if: |
+          steps.changed.outputs.files_changed == 'true' &&
+          inputs.open-pr != true
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update citations"
 
-      # Open pull request with updated citations
-      - name: Open pull request
-        if: steps.changed.outputs.files_changed == 'true'
+      - name: Open pull request with updated citations
+        if: |
+          steps.changed.outputs.files_changed == 'true' &&
+          inputs.open-pr == true
         uses: peter-evans/create-pull-request@v4
         with:
           branch: citation-update
-          title: "Periodic citation update"
-          body: "This pull request contains an automated update of the citations."
-          labels: ["automation", "citations-update"]
+          title: Periodic citation update
 
     outputs:
       changed: ${{ steps.changed.outputs.files_changed }}
