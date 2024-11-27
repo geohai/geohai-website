@@ -16,7 +16,7 @@
 .citation-image {
   position: relative;
   width: 255px;
-  height: calc(255px * 0.75);
+  height: calc(255px * 0.6667);
   flex-shrink: 0;
   border-radius: 4px;
   overflow: hidden;
@@ -96,7 +96,7 @@
   .citation-image {
     width: 100%;
     height: auto;
-    max-width: 70%;
+    max-width: 300px;
     aspect-ratio: 16/9;
     display: flex;
     justify-content: center;
