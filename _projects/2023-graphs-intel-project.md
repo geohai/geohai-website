@@ -3,7 +3,11 @@ title: Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data
 authors: 
     - julia-romero
     - morteza karimzadeh
-tags: machine learning, graph neural networks, sensors, spatiotemporal
+tags: 
+    - machine learning
+    - graph neural networks
+    - sensors
+    - spatiotemporal
 thumbnail: 
 image: images/50salads.jpeg
 ---

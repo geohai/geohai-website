@@ -3,14 +3,14 @@
 <img 
   src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1730601206/flatirons-longs-peak_htipeg.jpg" 
   alt="Flatirons and Longs Peak" 
-  title="Picture taken from Superior, CO, South of Boulder. From left to right: South Boulder Peak,
-  Bear Peak, Green Mountain, Flagstaff Mountain, and to the right,
-  the mighty Longs Peak in distance at the Rocky Mountain National Park!"
-  style="width: 100%; max-width: 1200px; margin: -25px auto -15px auto; display: block;" 
+  title="Picture taken from Superior, CO. From left to right: South Boulder Peak,
+  Bear Peak, Green Mountain, Flagstaff Mountain all adjacent to Boulder, CO. To the right,
+  the mighty Longs Peak in the distance at the Rocky Mountain National Park!"
+  style="width: 100%; max-width: 1200px; margin: -25px auto -15px auto; border-radius:4px; display: block;" 
 />
 
 
-# The Geospatial Human-Centered Artificial Intelligence Research lab
+# The Geospatial Human-Centered Artificial Intelligence Lab
 
 We are a team of spatial data scientists at the GeoHAI lab directed by [Dr. Morteza Karimzadeh]({{ site.baseurl }}/members/morteza-karimzadeh.html) at the [University of Colorado Boulder](https://www.colorado.edu/). Our research is use-inspired and interdisciplinary, where we tackle scientific challenges in the context of operational needs and urgent societal problems.
 

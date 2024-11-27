@@ -36,7 +36,7 @@
   image: https://www.mdpi.com/sensors/sensors-23-05879/article_deploy/html/images/sensors-23-05879-g001.png
   tags:
     - public health
-    - action segmentation
+    - human behavior
     - wearable devices
 
 # Morteza Karimzadeh ##############################################
@@ -117,7 +117,7 @@
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
   buttons:
     - type: preprint
-      link: https://arxiv.org/abs/2310.17122arxiv
+      link: https://arxiv.org/abs/2310.17122
     - type: source
       text: Repo
       link: https://github.com/geohai/sea-ice-segment

@@ -31,3 +31,28 @@
   text-align: center;
   white-space: nowrap;
 }
+
+
+---
+---
+
+.project-info-figure {
+  margin: 20px 0; // Adds spacing around the figure
+  text-align: center; // Centers the image and caption
+}
+
+.project-info-image {
+  max-width: 100%;  
+  border-radius: var(--rounded);  
+  box-shadow: 0px 4px 10px var(--overlay);  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-info-caption {
+  margin-top: 10px; // Adds space above the caption
+  font-family: var(--body); // Uses consistent font family
+  font-size: var(--medium); // Adjust font size for readability
+  color: var(--text); // Adapts to theme-based text color
+  line-height: 1.4; // Improves text spacing
+}
+
