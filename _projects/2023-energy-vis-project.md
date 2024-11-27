@@ -3,7 +3,10 @@ title: Novel Visualizations for Electricity Grid Distribution Systems
 authors: 
     - isaiah-lyons-galante
     - morteza-karimzadeh
-tags: vis, geovis, opendss, electric grid, deck.gl, power systems
+tags: 
+ - geovisualization
+ - visual analytics
+ - electrical grid
 image: /images/project-images/energy-vis.png
 ---
 Electrical grids are geographical and topological structures whose voltage states are challenging to represent accurately

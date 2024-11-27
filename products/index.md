@@ -19,7 +19,7 @@ If you need assistance with a product, please feel free to contact us.
 {% include search-info.html %}
 
 <!-- Collect and display unique tags from _data/products.yaml -->
-{% assign product_tags = site.data.products | map: "tags" | join: "," | split: "," | uniq %}
+{% assign product_tags = site.data.products | map: "tags" | join: "," | split: "," | uniq | sort %}
 {% include tags.html tags=product_tags %}
 
 {% include section.html %}

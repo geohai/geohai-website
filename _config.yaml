@@ -1,18 +1,20 @@
 # site properties and page defaults
-title:
-subtitle: 
-description: Research lab at the University of Colorado Boulder focused on human-centered AI use-inspired research.
+title: GeoHAI
+show-title: false
+subtitle: Geospatial Human-Centered Artificial Intelligence Research Lab 
+show-subtitle: false
+description: Advancing geospatial use-inspired research at the intersection of AI and human-centered design
 header: images/background.jpg
 footer: images/background.jpg
 
 # site social media and other links
 links:
-  email: contact@geohai.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email:
+  orcid: 0000-0002-6498-1763
+  google-scholar: Vy2oR2kAAAAJ
   github: geohai
-  twitter: geohai
-  youtube: geohai
+  twitter: geohai_lab
+  youtube: geohai_lab
 
 ### jekyll settings
 

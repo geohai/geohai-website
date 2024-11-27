@@ -23,7 +23,7 @@ $wrap: 800px;
 .citation-image {
   position: relative;
   width: $thumb-size;
-  height: calc(#{$thumb-size} * 0.75); // 4:3 aspect ratio for desktop
+  height: calc(#{$thumb-size} * 0.6667); // 3:2 aspect ratio for desktop
   flex-shrink: 0;
   border-radius: 4px; // Slight rounding of the image edges
   overflow: hidden;
@@ -102,16 +102,18 @@ $wrap: 800px;
     align-items: center;
   }
 
+
   .citation-image {
     width: 100%;
     height: auto;
-    max-width: 70%;
+    max-width: 300px;
     aspect-ratio: 16 / 9;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
     border-radius: 4px;
   }
+  
 
   .citation-image img {
     position: static;

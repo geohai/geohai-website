@@ -3,7 +3,11 @@ title: GeoDEN
 authors: 
     - aidan-marler
     - morteza-karimzadeh
-tags: visual-analytics, spatiotemporal, geospatial, geovis, epidemiology
+tags: 
+    - visual analytics
+    - spatiotemporal
+    - geovisualization
+    - epidemiology
 search-tag: dengue
 image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
 ---
