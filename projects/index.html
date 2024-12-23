@@ -90,9 +90,9 @@
 
 <!-- Font Awesome icons (load asynchronously due to size) -->
 
-<link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
 <noscript>
-  <link href="https://use.fontawesome.com/releases/v6.3.0/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="stylesheet">
 </noscript>
 
   <!-- third party styles -->
@@ -567,7 +567,7 @@
   <div class="project-content">
     
     
-    <a href="/projects/2023-covid-hosp-forecast.html" class="project-title">Integrating Spatiotemporal Features in LSTM for Spatially Informed COVID-19 Hospitalization Forecasting</a>
+    <a href="/projects/01-sea-ice-charting.html" class="project-title">Sea Ice Mapping and Uncertainty Quantification</a>
     
     
       <div class="project-tags">
@@ -580,12 +580,24 @@
         spatiotemporal
       </a>
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('COVID-19')" data-tooltip='Show items with the tag "COVID-19"'>
-        COVID-19
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
       </a>
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('public health')" data-tooltip='Show items with the tag "public health"'>
-        public health
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
+        cryosphere
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
+        sea ice
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
+        uncertainty
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
+        remote sensing
       </a>
     
   </div>
@@ -596,16 +608,132 @@
 
     
     
-    <p data-search="The COVID 19 pandemic s severe impact highlighted the need for accurate and timely hospitalization forecasting to enable effective healthcare planning  However  most forecasting models struggled  especially during new variant surges  when they were most needed  This study introduces a novel Long Short Term Memory  LSTM  framework for forecasting daily state level incident hospitalizations in the U S Notably  we present a spatiotemporal feature  Spatial Proximity to Hospitalizations  SPH   derived from Facebook s Connectedness Index to improve forecasts  SPH serves as a proxy for inter state population interaction  capturing transmission dynamics across space and time  Our parallel LSTM architecture balances short  and long term temporal dependencies  and our multi horizon ensembling strategy balances between consistency and forecasting error  Evaluating performance against COVID 19 Forecast Hub ensemble models during the Omicron surge reveals consistent superiority of our model  On average  our model surpasses the ensemble by 27  42  54  and 69 hospitalizations per state on the  7  th     14  th     21  st    and  28  th   forecast days  respectively  Data ablation experiments confirm SPH s predictive power  highlighting its innovation and effectiveness in enhancing forecasting models  This research not only advances hospitalization forecasting but also underscores the significance of spatial spillover features  such as SPH  in refining predictive performance in modeling the complex dynamics of infectious disease spread " class="project-excerpt-content">
-      The COVID-19 pandemic’s severe impact highlighted the need for accurate and timely hospitalization forecasting to enable effective healthcare planning. However, most forecasting models struggled, especially during new variant surges, when they were most needed. This study introduces a novel Long Short-Term Memory (LSTM) framework for forecasting daily state-level incident hospitalizations...
-      <a href="/projects/2023-covid-hosp-forecast.html" class="read-more">Continue reading.</a>
+    <p data-search="        Sea ice charting is vital for navigating safely through icy waters and for scientists studying climate change in polar regions  Traditionally  experts at national ice centers manually interpret various types of satellite data to create sea ice maps using a standard called SIGRID 3  This manual process is slow and struggles to keep up with rapidly changing conditions in the Arctic  Our project aims to speed this process up while making it more accurate by using geospatial principles in developing  deep learning methods  using high  and low resolution satellite imagery     We primarily use data from Synthetic Aperture Radar  SAR  and Passive Microwave sensors  and some lidar altimetry in  related projects    SAR works by sending radar signals from satellites and capturing the reflections  providing images that can see through clouds and darkness  Passive Microwave sensors detect natural microwave signals emitted by the sea ice  useful for understanding ice concentration and type  These technologies are powerful but come with challenges different ice types can look similar in satellite images  causing confusion for both a human or algorithm  and the level of detail  spatial resolution  varies with the sensor type  affecting the accuracy of ice charts                                 Example of SAR imagery  a  d  and g   sea ice charts  c  f  and i   and sea ice probability maps  b  e  and h                     Intellectual Merit    Our project advances the field by integrating SAR with Passive Microwave data through deep learning  and developing training methods to fully utilize limited training samples available to scientists  This integration partially helps tackle the problem of signal ambiguity where different ice types may appear similar  We are also developing new ways to enhance model accuracy using specialized algorithms that consider the varying levels of detail captured by different sensors  as well as partial concentrations of sea ice in training labels  Additionally  we explore how transfer learning  a method where a model developed for one task is reused on another  can be adapted for SAR data to handle different ice conditions more effectively     An essential part of our work involves quantifying how certain the model is about its predictions  This uncertainty measurement lets sea ice chart analysts trust  correct  or verify the automated maps  ensuring they can be used confidently in real world navigation and research                                 Sea ice charting example  Top row  high resolution Sentinel 1 SAR image  2nd row  Low  resolution passive Microwave imagery  3rd row  manually generated ice charts  4th row  Deep learning based generated ice charts  along with uncertainty map to the right                  Broader Impacts    By automating sea ice charting  we make it possible for ships to navigate polar regions more safely and efficiently  potentially opening up new maritime routes  More reliable and timely maps also aid climate scientists in monitoring how quickly ice is forming or melting  which is crucial for understanding global climate change  This project not only demonstrates the potential of AI in environmental science but also showcases technological applications in better monitoring and studying our planet " class="project-excerpt-content">
+      Sea ice charting is vital for navigating safely through icy waters and for scientists studying climate change in polar regions. Traditionally, experts at national ice centers manually interpret various types of satellite data to create sea ice maps using a standard called SIGRID-3. This manual process is slow and struggles...
+      <a href="/projects/01-sea-ice-charting.html" class="read-more">Continue reading.</a>
     </p>
   </div>
 
   
     <div class="project-image-container">
-      <a href="/projects/2023-covid-hosp-forecast.html" aria-label="View Integrating Spatiotemporal Features in LSTM for Spatially Informed COVID-19 Hospitalization Forecasting">
-        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/t_Banner%2016:9/v1729526915/covid-hosp_qbuppi.png" alt="Integrating Spatiotemporal Features in LSTM for Spatially Informed COVID-19 Hospitalization Forecasting" class="project-image">
+      <a href="/projects/01-sea-ice-charting.html" aria-label="View Sea Ice Mapping and Uncertainty Quantification">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/t_blue-fill-4-3/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png" alt="Sea Ice Mapping and Uncertainty Quantification" class="project-image">
+      </a>
+    </div>
+  
+</div>
+
+<div class="project-excerpt">
+  <div class="project-content">
+    
+    
+    <a href="/projects/03-fusing-altimetry.html" class="project-title">Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)</a>
+    
+    
+      <div class="project-tags">
+        
+
+
+  <div class="tags" data-link="/projects">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
+        spatiotemporal
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
+        cryosphere
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
+        sea ice
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
+        uncertainty
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
+        remote sensing
+      </a>
+    
+  </div>
+
+
+      </div>
+      
+
+    
+    
+    <p data-search="    This project integrates remote sensing and altimetry data to enhance sea ice mapping  with applications and methods generalizable to other application areas  including land remote sensing  We utilize Synthetic Aperture Radar  SAR  from Sentinel 1  which provides high resolution images capable of penetrating clouds and darkness  and optical satellite imagery from Sentinel 2  which captures visible and near infrared light to capture detailed ice surface characteristics  SAR measures volume scattering of active radar signals  whereas optical remote sensing measures surface reflectance and passively collected information  so they measure very different physical properties  However  both satellites face challenges  such as signal ambiguities in distinguishing ice types and limitations in spatial resolution and coverage under certain conditions  Additionally  while SAR can penetrate cloud cover  optical sensors like those on Sentinel 2 are hindered by it  yet they offer richer surface detail under clear conditions  Also  polar regions are dark 6 months at a time  so optical imagery is severely limited by lack of daylight                                 A comparison of ATL03 and ATL07 ICESat 2 products over Canadian Archipelago captured on 2022 01 05  Background image is Sentinel 1 HH polarization  ATL07 h coarse std has a 10km of coarse segment length                  Satellite altimetry  particularly from ICESat 2  offers precise measurements of ice surface heights using laser pulses  These measurements are crucial for measuring ice elevation freeboard and topography from space  ICESat 2 s lasers provide excellent precision  but as everything good in life goes  it has severe limitations  ICESat 2 has limited spatial coverage along linear track compared to the more extensive imaging swath of satellite imagery  such as those taken by Sentinel 1 or 2 satellites  Put differently  the altitudes are measured along a very narrow line  well  three narrow lines in this case   and not a grid  By the time ICESat 2 makes another pass in a closeby track  sea ice conditions may have drastically changed  so waiting for the satellite to cover the entire surface through multiple passes is simply not an option      Our project addresses the challenge of fusing these very different data sources combining grid based imagery from satellites with track based observations from altimetry over a highly dynamic phenomena of sea ice  By using deep learning  we aim to translate one type of data into another  enhancing our ability to map sea ice parameters accurately using both supervised and unsupervised methods  and striving for effective results with minimal training samples  Our goal is to increase the spatial coverage of ICESat 2 measurements by leveraging the information collected by Sentinel 1 SAR  primary  and hopefully Sentinel 2 optical  secondary       Intellectual Merit    This project makes scientific contributions in how satellite data can be integrated and interpreted  By developing algorithms that can fuse grid based SAR  and optical  scences with along the track laser altimetry  we tackle the core scientific challenge of resolving the ambiguities inherent in each data type alone  and expanding the spatial coverage of both  Our deep learning models aim to harness the strengths of each sensing method  providing a more comprehensive understanding of sea ice conditions  The techniques we develop for efficient data fusion with minimal samples have the potential to change data fusion for remote sensing applications in cryospheric sciences and beyond in environmental monitoring      Broader Impacts    The methods and products developed in this project have the potential to change sea ice mapping with significant implications for maritime navigation and climate monitoring  One of the major challenges in mapping sea ice is the lack of precise information related to sea ice thickness for training algorithms  Multi year ice  which has survived a summer melt event  can be tens of meters in thickness  with most of it under water  unobservable from space  can pose significant danger to marine navigation  Multi year ice also modifies the heat transfer between the ocean and atmosphere  among other environmentally significant characteristics  However  mapping it from space using SAR or optical data is a very challenging task  While ICESat 2 altimetry allows for observing sea ice elevation  the limited spatial footprint limits its use in mapping  With efficient fusion  which is the goal of this project  more accurate and timely sea ice charts help ensure safer navigation routes through polar regions  support climate change models with better data  and enable more effective monitoring of environmental changes in vulnerable ecosystems  This project not only enhances our scientific understanding of polar environments  but also demonstrates the potential of artificial intelligence to address global challenges  Publications and reports coming soon " class="project-excerpt-content">
+      This project integrates remote sensing and altimetry data to enhance sea ice mapping, with applications and methods generalizable to other application areas, including land remote sensing. We utilize Synthetic Aperture Radar (SAR) from Sentinel-1, which provides high-resolution images capable of penetrating clouds and darkness, and optical satellite imagery from Sentinel-2,...
+      <a href="/projects/03-fusing-altimetry.html" class="read-more">Continue reading.</a>
+    </p>
+  </div>
+
+  
+    <div class="project-image-container">
+      <a href="/projects/03-fusing-altimetry.html" aria-label="View Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1732734238/50546603-57dd-4b98-b2a7-9ed6364bbf48.png" alt="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)" class="project-image">
+      </a>
+    </div>
+  
+</div>
+
+<div class="project-excerpt">
+  <div class="project-content">
+    
+    
+    <a href="/projects/05-covid-forecast.html" class="project-title">Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence</a>
+    
+    
+      <div class="project-tags">
+        
+
+
+  <div class="tags" data-link="/projects">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
+        spatiotemporal
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('COVID-19')" data-tooltip='Show items with the tag "COVID-19"'>
+        COVID-19
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('public health')" data-tooltip='Show items with the tag "public health"'>
+        public health
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('epidemiology')" data-tooltip='Show items with the tag "epidemiology"'>
+        epidemiology
+      </a>
+    
+  </div>
+
+
+      </div>
+      
+
+    
+    
+    <p data-search="The COVID 19 pandemic s severe impact highlighted the need for accurate and timely forecasting of case and hospitalizations in each state and county to enable effective planning and resource allocation  The need for medical equipment across the country was so severe and timely that at times  states outbid each other to obtain such resources  Traveling nurses were sent around the country to help alleviate strain on local healthcare providers The US COVID 19 Forecast Hub  coordinated  standardized and created centralized infrastructure for scientists and epidemiologists around the country to submit case and hospitalization forecasts every week to help support operational planning  These forecasts were then evaluated  combined  and ensembled for reporting by the U S  Centers for Disease Control and Prevention  The methods standardized by the Forecast Hub has now become the standard way for forecasting flu  COVID 19  RSV  and even West Nile Virus forecasting in the US  and has inspired the European Forecast Hub During the pandemic  however  it became quickly clear how challenging the task of forecasting was  and how models were failing  Case forecasts were not reliable  and hospitalization and deaths forecasts  while more reliable  still left more to be desired  Most forecasting models struggled  especially during new variant surges  when they were most needed In collaboration with Population Council  we were one of the active teams throughout the pandemic to submit weekly forecasts to the Hub using machine learning by integrating spatiotemporal features  Our models  according to our own as well as independent evaluations  were relatively successful in capturing the trends within prediction intervals  especially during peaks  see our publications  linked below  We extended Long Short Term Memory  LSTM  networks for forecasting daily state level incident hospitalizations in the U S   as well as weekly case forecasts for U S  counties  Notably  we realized early on during the pandemic that county level and state level social media connectivity helped quantify the amount of spread from one county to another  or one state to another  We used social media connectivity to created proxies for inter state and inter county population interaction  capturing transmission dynamics across space and time  We also developed multi horizon ensembling strategy to balance between consistency and forecasting error Evaluations at multiple stages showed that our relatively simple models were effective and superior to most other models during the forecasting period  For instance  evaluating performance against the COVID 19 Forecast Hub ensemble model during the Omicron surge shows consistent superiority of our model  On average  our model surpasses the ensemble by 27  42  54  and 69 hospitalizations per state on the  7  th     14  th     21  st    and  28  th   forecast days  respectively  Data ablation experiments confirm the spatial features  predictive power  highlighting its effectiveness in enhancing forecasting models This research not only advances hospitalization forecasting but also underscores the significance of spatial spillover features refined using social media data  in improving predictive performance in modeling the complex dynamics of infectious disease spread " class="project-excerpt-content">
+      The COVID-19 pandemic’s severe impact highlighted the need for accurate and timely forecasting of case and hospitalizations in each state and county to enable effective planning and resource allocation. The need for medical equipment across the country was so severe and timely that at times, states outbid each other to...
+      <a href="/projects/05-covid-forecast.html" class="read-more">Continue reading.</a>
+    </p>
+  </div>
+
+  
+    <div class="project-image-container">
+      <a href="/projects/05-covid-forecast.html" aria-label="View Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/t_gen-fill-4-3/v1734975051/2020-COVID19_STGXB_hwjqcj.webp" alt="Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence" class="project-image">
       </a>
     </div>
   
@@ -654,6 +782,12 @@
     </p>
   </div>
 
+  
+    <div class="project-image-container">
+      <a href="/projects/2023-denv-va-project.html" aria-label="View GeoDEN">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/t_gen-fill-4-3/v1729526914/geoden_eexl8a.png" alt="GeoDEN" class="project-image">
+      </a>
+    </div>
   
 </div>
 
@@ -751,7 +885,7 @@ and efficiently for visual analysis. The current common practice is to use color
   <div class="project-content">
     
     
-    <a href="/projects/2023-graphs-intel-project.html" class="project-title">Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data</a>
+    <a href="/projects/spatiotemporal-graph-action.html" class="project-title">Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data</a>
     
     
       <div class="project-tags">
@@ -784,130 +918,17 @@ and efficiently for visual analysis. The current common practice is to use color
 
     
     
-    <p data-search="In collaboration with Intel Labs  we are developing deep learning methods for human activity recognition in multimodal data collected from video  depth  and 10 accelerometers  the 50 Salads dataset   Specifically  we are exploring graph based methods to model spatiotemporal information and to perform multimodal data fusion  such that the learning process is more data efficient and resource efficient With the rise of IoT technology there is an increasing number of ubiquitous sensors in settings including smart homes  patient monitoring  autonomous and connected vehicles  education  and workplace safety monitoring  These devices collect continuous streams of data from different spatial locations  temporal resolutions  and sensing modalities  resulting in large  messy data  Current algorithms are lacking in their ability to handle these challenges  with current solutions circumnavigating these problems with  brute force  like models that require large training data and computational resources  while not effectively leveraging multimodal inputs  We explore  understudied  graph based deep learning to encode spatiotemporal information and novel techniques to leverage cross modal and intra modal information  leading to higher data and resource efficiency  We use a high profile dataset called 50 Salads to evaluate our techniques on hierarchical  multi tier  action segmentation " class="project-excerpt-content">
-      In collaboration with Intel Labs, we are developing deep learning methods for human activity recognition in multimodal data collected from video, depth, and 10 accelerometers (the 50 Salads dataset). Specifically, we are exploring graph-based methods to model spatiotemporal information and to perform multimodal data fusion, such that the learning process...
-      <a href="/projects/2023-graphs-intel-project.html" class="read-more">Continue reading.</a>
-    </p>
-  </div>
+    <p data-search="Human activity recognition is inherently a spatiotemporal task  With the ever increasing availability of wearable technologies  identifying human actions is essential for responsive technology  and monitoring health and safety in manufacturing settings  among other use cases In collaboration with Intel Labs  we are developing spatiotemporal deep learning methods for human activity recognition in multimodal data collected from video  depth  and 10 accelerometers  Specifically  we are exploring graph based methods to model spatiotemporal information and to perform multimodal data fusion  such that the learning process is more data efficient and resource efficient With the rise of IoT technology there is an increasing number of ubiquitous sensors in settings including smart homes  patient monitoring  autonomous and connected vehicles  education  and workplace safety monitoring  These devices collect continuous streams of data from different spatial locations  temporal resolutions  and sensing modalities  resulting in large  messy data  Current algorithms are lacking in their ability to handle these challenges  with current solutions circumnavigating these problems with  brute force  like models that require large training data and computational resources  while not effectively leveraging multimodal inputs  We explore  understudied  graph based deep learning to encode spatiotemporal information and novel techniques to leverage cross modal and intra modal information  leading to higher data and resource efficiency                             Example sample from the  Ego Exo4D  benchmark  with multi modal ego  and exo centric videos  narrations  and commentaries                                  Publications coming soon " class="project-excerpt-content">
+      Human-activity recognition is inherently a spatiotemporal task. With the ever-increasing availability of wearable technologies, identifying human actions is essential for responsive technology, and monitoring health and safety in manufacturing settings, among other use cases.
 
-  
-</div>
-
-<div class="project-excerpt">
-  <div class="project-content">
-    
-    
-    <a href="/projects/fusing-altimetry.html" class="project-title">Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)</a>
-    
-    
-      <div class="project-tags">
-        
-
-
-  <div class="tags" data-link="/projects">
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
-        spatiotemporal
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
-        machine learning
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
-        cryosphere
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
-        sea ice
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
-        uncertainty
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
-        remote sensing
-      </a>
-    
-  </div>
-
-
-      </div>
-      
-
-    
-    
-    <p data-search="    This project integrates remote sensing and altimetry data to enhance sea ice mapping  with applications and methods generalizable to other application areas  including land remote sensing  We utilize Synthetic Aperture Radar  SAR  from Sentinel 1  which provides high resolution images capable of penetrating clouds and darkness  and optical satellite imagery from Sentinel 2  which captures visible and near infrared light to capture detailed ice surface characteristics  SAR measures volume scattering of active radar signals  whereas optical remote sensing measures surface reflectance and passively collected information  so they measure very different physical properties  However  both satellites face challenges  such as signal ambiguities in distinguishing ice types and limitations in spatial resolution and coverage under certain conditions  Additionally  while SAR can penetrate cloud cover  optical sensors like those on Sentinel 2 are hindered by it  yet they offer richer surface detail under clear conditions  Also  polar regions are dark 6 months at a time  so optical imagery is severely limited by lack of daylight                                 A comparison of ATL03 and ATL07 ICESat 2 products over Canadian Archipelago captured on 2022 01 05  Background image is Sentinel 1 HH polarization  ATL07 h coarse std has a 10km of coarse segment length                  Satellite altimetry  particularly from ICESat 2  offers precise measurements of ice surface heights using laser pulses  These measurements are crucial for measuring ice elevation freeboard and topography from space  ICESat 2 s lasers provide excellent precision  but as everything good in life goes  it has severe limitations  ICESat 2 has limited spatial coverage along linear track compared to the more extensive imaging swath of satellite imagery  such as those taken by Sentinel 1 or 2 satellites  Put differently  the altitudes are measured along a very narrow line  well  three narrow lines in this case   and not a grid  By the time ICESat 2 makes another pass in a closeby track  sea ice conditions may have drastically changed  so waiting for the satellite to cover the entire surface through multiple passes is simply not an option      Our project addresses the challenge of fusing these very different data sources combining grid based imagery from satellites with track based observations from altimetry over a highly dynamic phenomena of sea ice  By using deep learning  we aim to translate one type of data into another  enhancing our ability to map sea ice parameters accurately using both supervised and unsupervised methods  and striving for effective results with minimal training samples  Our goal is to increase the spatial coverage of ICESat 2 measurements by leveraging the information collected by Sentinel 1 SAR  primary  and hopefully Sentinel 2 optical  secondary       Intellectual Merit    This project makes scientific contributions in how satellite data can be integrated and interpreted  By developing algorithms that can fuse grid based SAR  and optical  scences with along the track laser altimetry  we tackle the core scientific challenge of resolving the ambiguities inherent in each data type alone  and expanding the spatial coverage of both  Our deep learning models aim to harness the strengths of each sensing method  providing a more comprehensive understanding of sea ice conditions  The techniques we develop for efficient data fusion with minimal samples have the potential to change data fusion for remote sensing applications in cryospheric sciences and beyond in environmental monitoring      Broader Impacts    The methods and products developed in this project have the potential to change sea ice mapping with significant implications for maritime navigation and climate monitoring  One of the major challenges in mapping sea ice is the lack of precise information related to sea ice thickness for training algorithms  Multi year ice  which has survived a summer melt event  can be tens of meters in thickness  with most of it under water  unobservable from space  can pose significant danger to marine navigation  Multi year ice also modifies the heat transfer between the ocean and atmosphere  among other environmentally significant characteristics  However  mapping it from space using SAR or optical data is a very challenging task  While ICESat 2 altimetry allows for observing sea ice elevation  the limited spatial footprint limits its use in mapping  With efficient fusion  which is the goal of this project  more accurate and timely sea ice charts help ensure safer navigation routes through polar regions  support climate change models with better data  and enable more effective monitoring of environmental changes in vulnerable ecosystems  This project not only enhances our scientific understanding of polar environments  but also demonstrates the potential of artificial intelligence to address global challenges  Publications and reports coming soon " class="project-excerpt-content">
-      This project integrates remote sensing and altimetry data to enhance sea ice mapping, with applications and methods generalizable to other application areas, including land remote sensing. We utilize Synthetic Aperture Radar (SAR) from Sentinel-1, which provides high-resolution images capable of penetrating clouds and darkness, and optical satellite imagery from Sentinel-2,...
-      <a href="/projects/fusing-altimetry.html" class="read-more">Continue reading.</a>
+      <a href="/projects/spatiotemporal-graph-action.html" class="read-more">Continue reading.</a>
     </p>
   </div>
 
   
     <div class="project-image-container">
-      <a href="/projects/fusing-altimetry.html" aria-label="View Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
-        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1732734238/50546603-57dd-4b98-b2a7-9ed6364bbf48.png" alt="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)" class="project-image">
-      </a>
-    </div>
-  
-</div>
-
-<div class="project-excerpt">
-  <div class="project-content">
-    
-    
-    <a href="/projects/sea-ice-charting.html" class="project-title">Sea Ice Mapping and Uncertainty Quantification</a>
-    
-    
-      <div class="project-tags">
-        
-
-
-  <div class="tags" data-link="/projects">
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
-        spatiotemporal
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
-        machine learning
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
-        cryosphere
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
-        sea ice
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
-        uncertainty
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
-        remote sensing
-      </a>
-    
-  </div>
-
-
-      </div>
-      
-
-    
-    
-    <p data-search="        Sea ice charting is vital for navigating safely through icy waters and for scientists studying climate change in polar regions  Traditionally  experts at national ice centers manually interpret various types of satellite data to create sea ice maps using a standard called SIGRID 3  This manual process is slow and struggles to keep up with rapidly changing conditions in the Arctic  Our project aims to speed this up by using and developing methods in deep learning  a type of artificial intelligence  to automatically interpret satellite data     We primarily use data from Synthetic Aperture Radar  SAR  and Passive Microwave sensors  and some lidar altimetry in  related projects    SAR works by sending radar signals from satellites and capturing the reflections  providing images that can see through clouds and darkness  Passive Microwave sensors detect natural microwave signals emitted by the sea ice  useful for understanding ice concentration and type  These technologies are powerful but come with challenges different ice types can look similar in satellite images  causing confusion for both a human or algorithm  and the level of detail  spatial resolution  varies with the sensor type  affecting the accuracy of ice charts                                 Example of SAR imagery  a  d  and g   sea ice charts  c  f  and i   and sea ice probability maps  b  e  and h                     Intellectual Merit    Our project advances the field by integrating SAR with Passive Microwave data through deep learning  and developing training methods to fully utilize limited training samples available to scientists  This integration partially helps tackle the problem of signal ambiguity where different ice types may appear similar  We are also developing new ways to enhance model accuracy using specialized algorithms that consider the varying levels of detail captured by different sensors  as well as partial concentrations of sea ice in training labels  Additionally  we explore how transfer learning  a method where a model developed for one task is reused on another  can be adapted for SAR data to handle different ice conditions more effectively     An essential part of our work involves quantifying how certain the model is about its predictions  This uncertainty measurement lets sea ice chart analysts trust  correct  or verify the automated maps  ensuring they can be used confidently in real world navigation and research     Broader Impacts    By automating sea ice charting  we make it possible for ships to navigate polar regions more safely and efficiently  potentially opening up new maritime routes  More reliable and timely maps also aid climate scientists in monitoring how quickly ice is forming or melting  which is crucial for understanding global climate change  This project not only demonstrates the potential of AI in environmental science but also showcases technological applications in better monitoring and studying our planet " class="project-excerpt-content">
-      Sea ice charting is vital for navigating safely through icy waters and for scientists studying climate change in polar regions. Traditionally, experts at national ice centers manually interpret various types of satellite data to create sea ice maps using a standard called SIGRID-3. This manual process is slow and struggles...
-      <a href="/projects/sea-ice-charting.html" class="read-more">Continue reading.</a>
-    </p>
-  </div>
-
-  
-    <div class="project-image-container">
-      <a href="/projects/sea-ice-charting.html" aria-label="View Sea Ice Mapping and Uncertainty Quantification">
-        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813611/fig12_wdh7dy_c_pad_w_400_h_400_ultszf.png" alt="Sea Ice Mapping and Uncertainty Quantification" class="project-image">
+      <a href="/projects/spatiotemporal-graph-action.html" aria-label="View Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png" alt="Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data" class="project-image">
       </a>
     </div>
   
@@ -921,21 +942,17 @@ and efficiently for visual analysis. The current common practice is to use color
 
 <footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
 
- 
-    <!-- <div>
-      <p>Contact <a href="/contact">GeoHAI</a> or the <a href="/members/morteza-karimzadeh.html">Director</a></p>
-
-    </div> -->
-      <div>
-      Contact <a href="/contact">GeoHAI</a> or the <a href="/members/morteza-karimzadeh.html">Director</a>
-         
-      © 2024
-      GeoHAI
-        |   Source forked from 
-      <a href="https://github.com/greenelab/lab-website-template" target="_blank">
-        LWT
-      </a>
-    </div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; max-width: 100%; margin: 0 auto; padding: 0 0px;">
+  <div style="flex: 1; text-align: left; min-width: 300px; padding-right: 20px;">
+    Contact <a href="/contact">GeoHAI</a> or the 
+    <a href="/members/morteza-karimzadeh.html">Director</a>
+  </div>
+  <div style="flex: 1; text-align: right; min-width: 300px; white-space: nowrap; padding-top: 0px;">
+    © 2024 GeoHAI
+      |   Source forked from 
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">LWT</a>
+  </div>
+</div>
 
   <!-- removing the links for now. -->
   <!-- <div>
