@@ -28,15 +28,15 @@ Browse through our many projects and team members to learn more!
     <div class="rect-content">Projects</div>
     <i class="icon fa-solid fa-project-diagram"></i>
   </a>
-  <a href="{{ site.baseurl }}/products/" class="rect-tile">
-    <div class="rect-content">Products</div>
-    <i class="icon fa-solid fa-wrench"></i>
-  </a>
   <a href="{{ site.baseurl }}/research/" class="rect-tile">
     <div class="rect-content">Publications</div>
     <i class="icon fa-solid fa-book-open"></i>
   </a>
-    <a href="{{ site.baseurl }}/blog/" class="rect-tile">
+  <a href="{{ site.baseurl }}/products/" class="rect-tile">
+    <div class="rect-content">Products</div>
+    <i class="icon fa-solid fa-wrench"></i>
+  </a>
+  <a href="{{ site.baseurl }}/blog/" class="rect-tile">
     <div class="rect-content">Blog</div>
     <i class="icon fa-solid fa-feather-pointed"></i>
   </a>

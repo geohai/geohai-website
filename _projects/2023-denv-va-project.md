@@ -9,7 +9,8 @@ tags:
     - geovisualization
     - epidemiology
 search-tag: dengue
-image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
+thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_gen-fill-4-3/v1729526914/geoden_eexl8a.png
+image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526914/geoden_eexl8a.png
 ---
 Dengue is a mosquito-born virus, endemic to regions populated by over half the globe. Its four serotypes move and interact at global and regional scales, although these patterns are not well understood by researchers.  GeoDEN aims to aid epidemiologists in this persuit. It is a visual analytics tool for investigating spatiotemporal patterns in dengue reports.  
 
