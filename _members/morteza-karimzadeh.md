@@ -14,6 +14,7 @@ links:
   email: karimzadeh@colorado.edu
   orcid: 0000-0002-6498-1763
   github: geohai
+  bluesky: karimzadeh
   linkedin: karimzadeh-m
   # twitter: 
 ---

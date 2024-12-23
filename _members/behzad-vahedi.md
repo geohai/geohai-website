@@ -3,7 +3,7 @@ name: Behzad Vahedi
 image: images/member-images/behzad-vahedi.jpg
 # description: PhD Student 
 role: phd
-#group: alum
+group: alum
 aliases:
   - B. Vahedi
   - Behzad Vahedi Torghabeh
@@ -19,8 +19,9 @@ links:
   # twitter: sarahjohnson
 ---
 
-I am a Ph.D. student in the Department of Geography at the University of Colorado Boulder, specializing in spatiotemporal deep learning. My research focuses on advancing Geospatial Artificial Intelligence by addressing key challenges that limit its potential. Specifically, I explore ways to better capture and leverage spatial dependence in AI models, train models with uncertain labels, and enable models to detect spatial patterns across multiple scales and contexts.
+I was a Ph.D. student in the Department of Geography at the University of Colorado Boulder, specializing in spatiotemporal deep learning. 
 
+My research focuses on advancing Geospatial Artificial Intelligence by addressing key challenges that limit its potential. Specifically, I explore ways to better capture and leverage spatial dependence in AI models, train models with uncertain labels, and enable models to detect spatial patterns across multiple scales and contexts.
 
 My work spans two primary application domains: geograhic forecasting of COVID-19, and sea ice mapping using satellite imagery. 
 
