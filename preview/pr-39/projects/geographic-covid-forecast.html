@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence | GeoHAI</title>
+
+<link rel="icon" href="/preview/pr-39/images/icon.png">
+
+<meta name="title" content="Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence">
+<meta name="description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+
+<meta property="og:title" content="Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence">
+<meta property="og:site_title" content="GeoHAI">
+<meta property="og:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+<meta property="og:url" content="">
+<meta property="og:image" content="/preview/pr-39/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence">
+<meta property="twitter:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+<meta property="twitter:url" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-39/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence",
+    "description": "Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design",
+    "headline": "Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-39/images/icon.png" }
+    },
+    "url": ""
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-39/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-39/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/project-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/project-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/project-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/project-portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/rectangular-grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-39/_styles/util.css" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-39/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-39/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-39/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-39/_scripts/search.js"></script>
+
+  <script src="/preview/pr-39/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-39/_scripts/tooltip.js"></script>
+
+
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+
+
+<header class="background" style="background-color: #051B2B;" data-dark="true">
+  <a href="/preview/pr-39/" class="home">
+    
+      <span class="logo logo-header">
+        <img src="/preview/pr-39/images/icon.png" alt="logo">
+        <img class="logo-name-1" src="/preview/pr-39/images/logo-name-1.png" alt="GEOHAI">
+        <img class="logo-name-2" src="/preview/pr-39/images/logo-name-2.png" alt="Research Lab">
+      </span>
+    
+    
+      <span class="title" data-tooltip="Home">
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-39/projects/" data-tooltip="Project descriptions">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/preview/pr-39/research/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-39/products/" data-tooltip="Software, datasets, and more">
+          Products
+        </a>
+      
+    
+      
+        <a href="/preview/pr-39/blog/" data-tooltip="Musings and miscellany">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/preview/pr-39/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-39/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 class="center">Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence</h1>
+
+<div class="project-info">
+  
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/preview/pr-39/members/zhongying-wang.html" class="project-portrait" data-style="tiny" aria-label="Zhongying Wang">
+      <img src="/preview/pr-39/images/member-images/zhongying-wang.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-39/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Zhongying Wang
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-graduation-cap"></i>
+              <span>PhD Student</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/preview/pr-39/members/behzad-vahedi.html" class="project-portrait" data-style="tiny" aria-label="Behzad Vahedi">
+      <img src="/preview/pr-39/images/member-images/behzad-vahedi.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-39/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Behzad Vahedi
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-graduation-cap"></i>
+              <span>PhD Student</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/preview/pr-39/members/morteza-karimzadeh.html" class="project-portrait" data-style="tiny" aria-label="Morteza Karimzadeh">
+      <img src="/preview/pr-39/images/member-images/morteza-karimzadeh.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-39/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Morteza Karimzadeh
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-microscope"></i>
+              <span>Director</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+  
+</div>
+
+
+
+  
+
+
+  <div class="tags" data-link="/preview/pr-39/projects">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
+        spatiotemporal
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('COVID-19')" data-tooltip='Show items with the tag "COVID-19"'>
+        COVID-19
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('public health')" data-tooltip='Show items with the tag "public health"'>
+        public health
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('epidemiology')" data-tooltip='Show items with the tag "epidemiology"'>
+        epidemiology
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<p>The COVID-19 pandemic’s severe impact highlighted the need for accurate and timely forecasting of case and hospitalizations in each state and county to enable effective planning and resource allocation. The need for medical equipment across the country was so severe and timely that at times, states <a href="https://abcnews.go.com/US/competition-state-local-governments-creates-bidding-war-medical/story?id=69961539" target="_blank" rel="noopener noreferrer">outbid each other</a> to obtain such resources. <a href="https://www.healthaffairs.org/content/forefront/covid-19-s-impact-nursing-shortages-rise-travel-nurses-and-price-gouging" target="_blank" rel="noopener noreferrer">Traveling nurses</a> were sent around the country to help alleviate strain on local healthcare providers.</p>
+
+<p>The <a href="https://covid19forecasthub.org/" target="_blank" rel="noopener noreferrer">US COVID-19 Forecast Hub</a>, coordinated, standardized and created centralized infrastructure for scientists and epidemiologists around the country to submit case and hospitalization forecasts every week to help support operational planning. These forecasts were then evaluated, combined, and ensembled for reporting by the <a href="https://archive.cdc.gov/www_cdc_gov/coronavirus/2019-ncov/science/forecasting/hospitalizations-forecasts.html" target="_blank" rel="noopener noreferrer">U.S. Centers for Disease Control and Prevention</a>. The methods standardized by the Forecast Hub has now become the standard way for forecasting <a href="https://www.cdc.gov/flu-forecasting/about/index.html" target="_blank" rel="noopener noreferrer">flu</a>, COVID-19, RSV, and even West Nile Virus forecasting in the US, and has inspired the <a href="https://covid19forecasthub.eu/" target="_blank" rel="noopener noreferrer">European Forecast Hub</a>.</p>
+
+<p>During the pandemic, however, it became quickly clear <a href="https://forecasters.org/blog/2021/09/28/on-the-predictability-of-covid-19/" target="_blank" rel="noopener noreferrer">how challenging</a> the task of forecasting was, and how models were <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7447267/" target="_blank" rel="noopener noreferrer">failing</a>. Case forecasts were not reliable, and hospitalization and deaths forecasts, while more reliable, still left more to be desired. Most forecasting models struggled, especially during new variant surges, when they were most needed.</p>
+
+<p>In collaboration with <a href="https://popcouncil.org/" target="_blank" rel="noopener noreferrer">Population Council</a>, we were one of the <a href="https://www.nature.com/articles/s41597-022-01517-w" target="_blank" rel="noopener noreferrer">active teams</a> throughout the pandemic to submit weekly forecasts to the Hub using machine learning by integrating spatiotemporal features. Our models, according to our own as well as independent evaluations, were relatively successful in capturing the trends within prediction intervals, especially during peaks (see our publications, linked below.)</p>
+
+<p>We extended Long Short-Term Memory (LSTM) networks for forecasting daily state-level incident hospitalizations in the U.S., as well as weekly case forecasts for U.S. counties. Notably, we <a href="https://www.nature.com/articles/s41467-021-26742-6" target="_blank" rel="noopener noreferrer">realized</a> early on during the pandemic that county-level and state-level social media connectivity helped quantify the amount of spread from one county to another (or one state to another).</p>
+
+<p>We used <a href="https://dataforgood.facebook.com/dfg/docs/methodology-social-connectedness-index" target="_blank" rel="noopener noreferrer">social media connectivity</a> to created proxies for inter-state and inter-county population interaction, capturing transmission dynamics across space and time. We also developed multi-horizon ensembling strategy to balance between consistency and forecasting error.</p>
+
+<p>Evaluations at multiple stages showed that our relatively simple models were effective and superior to most other models during the forecasting period. For instance, evaluating performance against the COVID-19 Forecast Hub ensemble model during the Omicron surge shows consistent superiority of our model. On average, our model surpasses the ensemble by 27, 42, 54, and 69 hospitalizations per state on the $7^{th}$, $14^{th}$, $21^{st}$, and $28^{th}$ forecast days, respectively. Data ablation experiments confirm the spatial features’ predictive power, highlighting its effectiveness in enhancing forecasting models.
+This research not only advances hospitalization forecasting but also underscores the significance of spatial spillover features refined using social media data, in improving predictive performance in modeling the complex dynamics of infectious disease spread.</p>
+
+
+
+  <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526915/covid-hosp_qbuppi.png" alt="Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence">
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+
+
+<div class="related-entries"> See 
+  <a href="/preview/pr-39/research?search=%22tag:%20covid-19%22">
+     Publications
+  </a>
+  , 
+  <a href="/preview/pr-39/products?search=%22tag:%20covid-19%22">
+    Products
+ </a>
+ , or
+ <a href="/preview/pr-39/blog?search=%22tag:%20covid-19%22">
+   Blog Posts
+</a> 
+related to this project.
+</div>
+
+
+
+<div class="project-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous project<br>
+      <a href="/preview/pr-39/projects/fusion-altimetry.html">
+        Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)
+      </a>
+    
+  </span>
+  <span>
+    
+      Next project <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/preview/pr-39/projects/network-vis-energy-grids.html">
+        Network Geovisualization for Electricity Grid Distribution Systems
+      </a>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-39/images/background.jpg')" data-dark="true" data-size="wide">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; max-width: 100%; margin: 0 auto; padding: 0 0px;">
+  <div style="flex: 1; text-align: left; min-width: 300px; padding-right: 20px;">
+    Contact <a href="/preview/pr-39/contact">GeoHAI</a> or the 
+    <a href="/preview/pr-39/members/morteza-karimzadeh.html">Director</a>
+  </div>
+  <div style="flex: 1; text-align: right; min-width: 300px; white-space: nowrap; padding-top: 0px;">
+    © 2024 GeoHAI
+      |   Source forked from 
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">LWT</a>
+  </div>
+</div>
+
+  <!-- removing the links for now. -->
+  <!-- <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="/preview/pr-39"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://orcid.org/0000-0002-6498-1763"
+      
+        data-tooltip="ORCID"
+      
+      data-style="bare"
+      
+      aria-label="ORCID"
+    >
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=Vy2oR2kAAAAJ&sortby=pubdate"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://github.com/geohai"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://twitter.com/geohai_lab"
+      
+        data-tooltip="Twitter"
+      
+      data-style="bare"
+      
+      aria-label="Twitter"
+    >
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://youtube.com/geohai_lab"
+      
+        data-tooltip="YouTube"
+      
+      data-style="bare"
+      
+      aria-label="YouTube"
+    >
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div> -->
+
+  <!-- moved to the contact page -->
+  <!-- <div>
+    &copy; 2024
+    GeoHAI
+    &nbsp; | &nbsp; Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div> -->
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
