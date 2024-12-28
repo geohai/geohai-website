@@ -1,5 +1,5 @@
 ---
-title: Novel Visualizations for Electricity Grid Distribution Systems 
+title: Network Geovisualization for Electricity Grid Distribution Systems 
 authors: 
     - isaiah-lyons-galante
     - morteza-karimzadeh

@@ -29,7 +29,6 @@ For COVID-19 forecasting, I have developed models that integrate human mobility 
 
 In the sea ice classification domain, I have worked on addressing challenges related to uncertain labels in remotely sensed radar imagery and have explored methods to incorporate spatial context at varying scales using CNN-based models. 
 
-
 My research aims to deepen our understanding of how spatial principles like connectedness, scale-dependent representations, and uncertainty can be better integrated into Geospatial AI models.
 
 

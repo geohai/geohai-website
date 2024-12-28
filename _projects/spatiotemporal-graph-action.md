@@ -1,5 +1,5 @@
 ---
-title: Learning Spatiotemporal Graphs for Action Segmentation in Multimodal Data
+title: Spatiotemporal Graph Neural Networks for Action Segmentation in Multimodal Data
 authors: 
     - julia-romero
     - morteza-karimzadeh
