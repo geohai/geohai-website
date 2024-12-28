@@ -12,6 +12,7 @@ tags:
   - remote sensing
 search-tag: 
 image: 
+date: 01-01-2024
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1732734238/50546603-57dd-4b98-b2a7-9ed6364bbf48.png
 ---
 

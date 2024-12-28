@@ -1,5 +1,5 @@
 ---
-title: GeoDEN
+title: Visual Analytics for Spatiotemporal Analysis of Dengue Serotypes
 authors: 
     - aidan-marler
     - morteza-karimzadeh
@@ -8,6 +8,7 @@ tags:
     - spatiotemporal
     - geovisualization
     - epidemiology
+#date: 01-01-1999
 search-tag: dengue
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_gen-fill-4-3/v1729526914/geoden_eexl8a.png
 image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526914/geoden_eexl8a.png
