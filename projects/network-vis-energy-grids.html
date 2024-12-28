@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Blog | GeoHAI</title>
+<title>Network Geovisualization for Electricity Grid Distribution Systems | GeoHAI</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="Blog">
+<meta name="title" content="Network Geovisualization for Electricity Grid Distribution Systems">
 <meta name="description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
 
-<meta property="og:title" content="Blog">
+<meta property="og:title" content="Network Geovisualization for Electricity Grid Distribution Systems">
 <meta property="og:site_title" content="GeoHAI">
 <meta property="og:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
 <meta property="og:url" content="">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Blog">
+<meta property="twitter:title" content="Network Geovisualization for Electricity Grid Distribution Systems">
 <meta property="twitter:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
 <meta property="twitter:url" content="">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "Blog",
+    "name": "Network Geovisualization for Electricity Grid Distribution Systems",
     "description": "Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design",
-    "headline": "Blog",
+    "headline": "Network Geovisualization for Electricity Grid Distribution Systems",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -298,58 +298,6 @@
     <link href="/_styles/util.css" rel="stylesheet">
   
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 <!-- include all css in styles folder -->
 
@@ -471,10 +419,94 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="blog">
-<i class="icon fa-solid fa-feather-pointed"></i>Blog</h1>
+    <h1 class="center">Network Geovisualization for Electricity Grid Distribution Systems</h1>
 
-<p>We do a lot of work that does not end up in publications for various reasons, sometimes simply because there is not enough space, or being a tangential finding. We are working to slowly put more on our blog. Check back soon!</p>
+<div class="project-info">
+  
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/members/isaiah-lyons-galante.html" class="project-portrait" data-style="tiny" aria-label="Isaiah Lyons-Galante">
+      <img src="/images/member-images/isaiah-lyons-galante.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Isaiah Lyons-Galante
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-graduation-cap"></i>
+              <span>Master's Student</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/members/morteza-karimzadeh.html" class="project-portrait" data-style="tiny" aria-label="Morteza Karimzadeh">
+      <img src="/images/member-images/morteza-karimzadeh.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Morteza Karimzadeh
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-microscope"></i>
+              <span>Director</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+  
+</div>
+
+
+
+  
+
+
+  <div class="tags" data-link="/projects">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('geovisualization')" data-tooltip='Show items with the tag "geovisualization"'>
+        geovisualization
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('visual analytics')" data-tooltip='Show items with the tag "visual analytics"'>
+        visual analytics
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('electrical grid')" data-tooltip='Show items with the tag "electrical grid"'>
+        electrical grid
+      </a>
+    
+  </div>
   </section>
 
   
@@ -488,109 +520,52 @@
   size: ;
 -->
 
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
-  </button>
-</div>
 
-<div class="tags" data-link="/blog/">
+<p>Electrical grids are geographical and topological structures whose voltage states are challenging to represent accurately
+and efficiently for visual analysis. The current common practice is to use colored contour maps, yet these can misrepresent the data.</p>
+
+<p>This project is both a web application and research examining the suitability of four alternative visualization methods for depicting voltage data in a geographically dense distribution system—Voronoi polygons, H3 tessellations, S2 tessellations, and a network-weighted contour map. We find that Voronoi tessellations and network-weighted contour maps more accurately represent the statistical distribution of the data than regular contour maps.</p>
+
+<p>This project is funded by the National Renewable Energy Laboratory in collaboration with the Visualization team.</p>
+
+
+
+  <img src="/images/project-images/energy-vis.png" alt="Network Geovisualization for Electricity Grid Distribution Systems">
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+
+
+
+
+<div class="project-nav">
+  <span>
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
-        spatiotemporal
+      <i class="icon fa-solid fa-angle-left"></i> Previous project<br>
+      <a href="/projects/geographic-covid-forecast.html">
+        Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence
       </a>
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('deep learning')" data-tooltip='Show items with the tag "deep learning"'>
-        deep learning
+  </span>
+  <span>
+    
+      Next project <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/projects/sea-ice-charting.html">
+        Sea Ice Mapping and Uncertainty Quantification
       </a>
     
-  </div>
-
-<div class="search-info"></div>
-
-<div class="post-excerpt">
-  
-  
-  <a href="/2024/10/16/example-post-1.html">Example post 1</a>
-
-  <div class="post-info">
-  
-    
-    
-      
-
-<div class="portrait-wrapper">
-  <a href="/members/morteza-karimzadeh.html" class="portrait" data-style="tiny" aria-label="Morteza Karimzadeh">
-    <img src="/images/member-images/morteza-karimzadeh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-text">
-        
-          <span class="portrait-name">
-            Morteza Karimzadeh
-          </span>
-        
-
-        
-          <span class="portrait-role">
-            
-            <i class="icon fa-solid fa-microscope"></i>
-            <span>Director</span>
-          </span>
-        
-      </span>
-    
-  </a>
-</div>
-
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>October 16, 2024</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>December 28, 2024</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="/blog">
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
-        spatiotemporal
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('deep learning')" data-tooltip='Show items with the tag "deep learning"'>
-        deep learning
-      </a>
-    
-  </div>
-
-
-
-
-
-  
-  
-  <p data-search="We do a lot of work that does not end up in publications for various reasons  sometimes simply because there is not enough space  or being a tangential finding  We are working to slowly put more on our blog  Check back soon ">
-    We do a lot of work that does not end up in publications for various reasons, sometimes simply because there is not enough space, or being a tangential finding. We are working to slowly put more on our blog. Check back soon!
-
-  </p>
+  </span>
 </div>
   </section>
 
