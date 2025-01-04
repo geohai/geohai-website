@@ -41,6 +41,20 @@
 
 # Morteza Karimzadeh ##############################################
 
+
+#2025
+
+# Air Pollution PM2.5
+- id: doi:10.3390/rs17010126
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735849138/remotesensing-17-00126-g004_jk83r3.png
+  tags:
+    - spatiotemporal
+    - machine learning
+    - remote sensing
+    - epidemiology
+    - public health
+    - air pollution
+
 #2024
 
 #Zika

@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Please feel free to contact the [director]({{ site.baseurl }}/members/morteza-karimzadeh.html) using information listed in [his]({{ site.baseurl }}/members/morteza-karimzadeh.html) page, or our members for specific projects.
+Please feel free to contact the [Dr. Morteza Karimzadeh]({{ site.baseurl }}/members/morteza-karimzadeh.html) or our members for specific projects.
 
 
 {% capture col1 %}
