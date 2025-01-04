@@ -523,6 +523,10 @@
         fire-ecology
       </a>
     
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('foundation model')" data-tooltip='Show items with the tag "foundation model"'>
+        foundation model
+      </a>
+    
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('geovisualization')" data-tooltip='Show items with the tag "geovisualization"'>
         geovisualization
       </a>
@@ -677,7 +681,7 @@
   <div class="project-content">
     
     
-    <a href="/projects/fusion-altimetry.html" class="project-title">Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)</a>
+    <a href="/projects/foundation-model-multi-source.html" class="project-title">Foundation Models for Multi-Source Pre-Fusion and Few-shot Learning</a>
     
     
       <div class="project-tags">
@@ -686,28 +690,16 @@
 
   <div class="tags" data-link="/projects">
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
-        spatiotemporal
-      </a>
-    
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
         machine learning
       </a>
     
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
-        cryosphere
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
-        sea ice
-      </a>
-    
-      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
-        uncertainty
-      </a>
-    
       <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
         remote sensing
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('foundation model')" data-tooltip='Show items with the tag "foundation model"'>
+        foundation model
       </a>
     
   </div>
@@ -718,16 +710,16 @@
 
     
     
-    <p data-search="    This project integrates remote sensing and altimetry data to enhance sea ice mapping  with applications and methods generalizable to other application areas  including land remote sensing  We utilize Synthetic Aperture Radar  SAR  from Sentinel 1  which provides high resolution images capable of penetrating clouds and darkness  and optical satellite imagery from Sentinel 2  which captures visible and near infrared light to capture detailed ice surface characteristics  SAR measures volume scattering of active radar signals  whereas optical remote sensing measures surface reflectance and passively collected information  so they measure very different physical properties  However  both satellites face challenges  such as signal ambiguities in distinguishing ice types and limitations in spatial resolution and coverage under certain conditions  Additionally  while SAR can penetrate cloud cover  optical sensors like those on Sentinel 2 are hindered by it  yet they offer richer surface detail under clear conditions  Also  polar regions are dark 6 months at a time  so optical imagery is severely limited by lack of daylight                                 A comparison of ATL03 and ATL07 ICESat 2 products over Canadian Archipelago captured on 2022 01 05  Background image is Sentinel 1 HH polarization  ATL07 h coarse std has a 10km of coarse segment length                  Satellite altimetry  particularly from ICESat 2  offers precise measurements of ice surface heights using laser pulses  These measurements are crucial for measuring ice elevation freeboard and topography from space  ICESat 2 s lasers provide excellent precision  but as everything good in life goes  it has severe limitations  ICESat 2 has limited spatial coverage along linear track compared to the more extensive imaging swath of satellite imagery  such as those taken by Sentinel 1 or 2 satellites  Put differently  the altitudes are measured along a very narrow line  well  three narrow lines in this case   and not a grid  By the time ICESat 2 makes another pass in a closeby track  sea ice conditions may have drastically changed  so waiting for the satellite to cover the entire surface through multiple passes is simply not an option      Our project addresses the challenge of fusing these very different data sources combining grid based imagery from satellites with track based observations from altimetry over a highly dynamic phenomena of sea ice  By using deep learning  we aim to translate one type of data into another  enhancing our ability to map sea ice parameters accurately using both supervised and unsupervised methods  and striving for effective results with minimal training samples  Our goal is to increase the spatial coverage of ICESat 2 measurements by leveraging the information collected by Sentinel 1 SAR  primary  and hopefully Sentinel 2 optical  secondary       Intellectual Merit    This project makes scientific contributions in how satellite data can be integrated and interpreted  By developing algorithms that can fuse grid based SAR  and optical  scences with along the track laser altimetry  we tackle the core scientific challenge of resolving the ambiguities inherent in each data type alone  and expanding the spatial coverage of both  Our deep learning models aim to harness the strengths of each sensing method  providing a more comprehensive understanding of sea ice conditions  The techniques we develop for efficient data fusion with minimal samples have the potential to change data fusion for remote sensing applications in cryospheric sciences and beyond in environmental monitoring      Broader Impacts    The methods and products developed in this project have the potential to change sea ice mapping with significant implications for maritime navigation and climate monitoring  One of the major challenges in mapping sea ice is the lack of precise information related to sea ice thickness for training algorithms  Multi year ice  which has survived a summer melt event  can be tens of meters in thickness  with most of it under water  unobservable from space  can pose significant danger to marine navigation  Multi year ice also modifies the heat transfer between the ocean and atmosphere  among other environmentally significant characteristics  However  mapping it from space using SAR or optical data is a very challenging task  While ICESat 2 altimetry allows for observing sea ice elevation  the limited spatial footprint limits its use in mapping  With efficient fusion  which is the goal of this project  more accurate and timely sea ice charts help ensure safer navigation routes through polar regions  support climate change models with better data  and enable more effective monitoring of environmental changes in vulnerable ecosystems  This project not only enhances our scientific understanding of polar environments  but also demonstrates the potential of artificial intelligence to address global challenges  Publications and reports coming soon " class="project-excerpt-content">
-      This project integrates remote sensing and altimetry data to enhance sea ice mapping, with applications and methods generalizable to other application areas, including land remote sensing. We utilize Synthetic Aperture Radar (SAR) from Sentinel-1, which provides high-resolution images capable of penetrating clouds and darkness, and optical satellite imagery from Sentinel-2,...
-      <a href="/projects/fusion-altimetry.html" class="read-more">Continue reading.</a>
+    <p data-search="This project develops a foundation model that leverages multi source satellite data to enable few shot learning for various environmental monitoring tasks  We utilize both Synthetic Aperture Radar  SAR  data from Sentinel 1 and optical imagery from Sentinel 2  SAR  which emits and receives radar signals  captures surface texture and moisture content and can penetrate cloud cover  making it invaluable for several applications such as flood detection during cloudy conditions  In contrast  optical sensors capture light in visible and near infrared spectra  providing detailed information on vegetation  soil  and water bodies  crucial for land use classification and fire detection These data sources are complementary  SAR provides reliable data under all weather conditions  while optical sensors offer high resolution surface details in clear weather  Our project aims to train foundation models using these diverse data sources  enabling them to pre fuse the information  This pre fusion helps the model perform robustly in downstream tasks  even if only one data source is available  such as using SAR data alone for flood mapping during overcast conditions  or optical alone for land use classification                             Sentinel 1 SAR  left column  and Sentinel 2 Optical  middle and right columns  capture different information during the four seasons  the four rows   with the two sensors complementing each other s information on moisture  greenness    SAR primarily captures volume scattering  while optical relies on surface reflectivity  Images taken from the SSL4EO  dataset            Intellectual MeritThe intellectual challenge of this project lies in the development of a foundation model trained on multi source data that also supports source specific encoders  This approach not only enhances the model s generalizability across different environmental monitoring tasks but also improves performance in single source scenarios  By integrating diverse data types from the outset  the model learns to extract and combine the unique strengths of each data source  thereby improving its predictive capabilities and adaptability to various environmental phenomena Broader ImpactsThe ability to accurately monitor and predict environmental changes with minimal data samples has profound implications for disaster response  environmental protection  and sustainable development  This project s advancements in multi source data fusion and few shot learning will help ensure that critical decisions in emergency management and conservation can be made swiftly and based on reliable data  regardless of weather conditions  Ultimately  this technology could greatly enhance our ability to respond to natural disasters and manage natural resources more effectively This project is a GeoHAI Lab collaborative effort among students and postdocs in the lab  and funded by NASA and NSF " class="project-excerpt-content">
+      This project develops a foundation model that leverages multi-source satellite data to enable few-shot learning for various environmental monitoring tasks. We utilize both Synthetic Aperture Radar (SAR) data from Sentinel-1 and optical imagery from Sentinel-2. SAR, which emits and receives radar signals, captures surface texture and moisture content and can...
+      <a href="/projects/foundation-model-multi-source.html" class="read-more">Continue reading.</a>
     </p>
   </div>
 
   
     <div class="project-image-container">
-      <a href="/projects/fusion-altimetry.html" aria-label="View Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
-        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1732734238/50546603-57dd-4b98-b2a7-9ed6364bbf48.png" alt="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)" class="project-image">
+      <a href="/projects/foundation-model-multi-source.html" aria-label="View Foundation Models for Multi-Source Pre-Fusion and Few-shot Learning">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735955434/eac27541-722d-4060-b1e1-899c7c073e5c.png" alt="Foundation Models for Multi-Source Pre-Fusion and Few-shot Learning" class="project-image">
       </a>
     </div>
   
@@ -1001,6 +993,66 @@
     </div>
   
 </div>
+
+<div class="project-excerpt">
+  <div class="project-content">
+    
+    
+    <a href="/projects/fusion-altimetry.html" class="project-title">Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)</a>
+    
+    
+      <div class="project-tags">
+        
+
+
+  <div class="tags" data-link="/projects">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
+        spatiotemporal
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
+        cryosphere
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
+        sea ice
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
+        uncertainty
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
+        remote sensing
+      </a>
+    
+  </div>
+
+
+      </div>
+      
+
+    
+    
+    <p data-search="    This project integrates remote sensing and altimetry data to enhance sea ice mapping  with applications and methods generalizable to other application areas  including land remote sensing  We utilize Synthetic Aperture Radar  SAR  from Sentinel 1  which provides high resolution images capable of penetrating clouds and darkness  and optical satellite imagery from Sentinel 2  which captures visible and near infrared light to capture detailed ice surface characteristics  SAR measures volume scattering of active radar signals  whereas optical remote sensing measures surface reflectance and passively collected information  so they measure very different physical properties  However  both satellites face challenges  such as signal ambiguities in distinguishing ice types and limitations in spatial resolution and coverage under certain conditions  Additionally  while SAR can penetrate cloud cover  optical sensors like those on Sentinel 2 are hindered by it  yet they offer richer surface detail under clear conditions  Also  polar regions are dark 6 months at a time  so optical imagery is severely limited by lack of daylight                                 A comparison of ATL03 and ATL07 ICESat 2 products over Canadian Archipelago captured on 2022 01 05  Background image is Sentinel 1 HH polarization  ATL07 h coarse std has a 10km of coarse segment length                  Satellite altimetry  particularly from ICESat 2  offers precise measurements of ice surface heights using laser pulses  These measurements are crucial for measuring ice elevation freeboard and topography from space  ICESat 2 s lasers provide excellent precision  but as everything good in life goes  it has severe limitations  ICESat 2 has limited spatial coverage along linear track compared to the more extensive imaging swath of satellite imagery  such as those taken by Sentinel 1 or 2 satellites  Put differently  the altitudes are measured along a very narrow line  well  three narrow lines in this case   and not a grid  By the time ICESat 2 makes another pass in a closeby track  sea ice conditions may have drastically changed  so waiting for the satellite to cover the entire surface through multiple passes is simply not an option      Our project addresses the challenge of fusing these very different data sources combining grid based imagery from satellites with track based observations from altimetry over a highly dynamic phenomena of sea ice  By using deep learning  we aim to translate one type of data into another  enhancing our ability to map sea ice parameters accurately using both supervised and unsupervised methods  and striving for effective results with minimal training samples  Our goal is to increase the spatial coverage of ICESat 2 measurements by leveraging the information collected by Sentinel 1 SAR  primary  and hopefully Sentinel 2 optical  secondary       Intellectual Merit    This project makes scientific contributions in how satellite data can be integrated and interpreted  By developing algorithms that can fuse grid based SAR  and optical  scences with along the track laser altimetry  we tackle the core scientific challenge of resolving the ambiguities inherent in each data type alone  and expanding the spatial coverage of both  Our deep learning models aim to harness the strengths of each sensing method  providing a more comprehensive understanding of sea ice conditions  The techniques we develop for efficient data fusion with minimal samples have the potential to change data fusion for remote sensing applications in cryospheric sciences and beyond in environmental monitoring      Broader Impacts    The methods and products developed in this project have the potential to change sea ice mapping with significant implications for maritime navigation and climate monitoring  One of the major challenges in mapping sea ice is the lack of precise information related to sea ice thickness for training algorithms  Multi year ice  which has survived a summer melt event  can be tens of meters in thickness  with most of it under water  unobservable from space  can pose significant danger to marine navigation  Multi year ice also modifies the heat transfer between the ocean and atmosphere  among other environmentally significant characteristics  However  mapping it from space using SAR or optical data is a very challenging task  While ICESat 2 altimetry allows for observing sea ice elevation  the limited spatial footprint limits its use in mapping  With efficient fusion  which is the goal of this project  more accurate and timely sea ice charts help ensure safer navigation routes through polar regions  support climate change models with better data  and enable more effective monitoring of environmental changes in vulnerable ecosystems  This project not only enhances our scientific understanding of polar environments  but also demonstrates the potential of artificial intelligence to address global challenges  Publications and reports coming soon " class="project-excerpt-content">
+      This project integrates remote sensing and altimetry data to enhance sea ice mapping, with applications and methods generalizable to other application areas, including land remote sensing. We utilize Synthetic Aperture Radar (SAR) from Sentinel-1, which provides high-resolution images capable of penetrating clouds and darkness, and optical satellite imagery from Sentinel-2,...
+      <a href="/projects/fusion-altimetry.html" class="read-more">Continue reading.</a>
+    </p>
+  </div>
+
+  
+    <div class="project-image-container">
+      <a href="/projects/fusion-altimetry.html" aria-label="View Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1732734238/50546603-57dd-4b98-b2a7-9ed6364bbf48.png" alt="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)" class="project-image">
+      </a>
+    </div>
+  
+</div>
   </section>
 
 
@@ -1012,11 +1064,10 @@
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; max-width: 100%; margin: 0 auto; padding: 0 0px;">
   <div style="flex: 1; text-align: left; min-width: 300px; padding-right: 20px;">
-    Contact <a href="/contact">GeoHAI</a> or the 
-    <a href="/members/morteza-karimzadeh.html">Director</a>
+    <a href="/contact">Contact Us</a>
   </div>
   <div style="flex: 1; text-align: right; min-width: 300px; white-space: nowrap; padding-top: 0px;">
-    © 2024 GeoHAI
+    © 2025 GeoHAI
       |   Source forked from 
     <a href="https://github.com/greenelab/lab-website-template" target="_blank">LWT</a>
   </div>
@@ -1173,7 +1224,7 @@
 
   <!-- moved to the contact page -->
   <!-- <div>
-    &copy; 2024
+    &copy; 2025
     GeoHAI
     &nbsp; | &nbsp; Built with
     <a href="https://github.com/greenelab/lab-website-template">
