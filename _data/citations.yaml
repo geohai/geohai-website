@@ -1,5 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.3390/rs17010126
+  title: High-Resolution Estimation of Daily PM2.5 Levels in the Contiguous US Using
+    Bi-LSTM with Attention
+  authors:
+  - Zhongying Wang
+  - James L. Crooks
+  - Elizabeth Anne Regan
+  - Morteza Karimzadeh
+  publisher: Remote Sensing
+  date: '2025-01-02'
+  link: https://doi.org/g8xnk5
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735849138/remotesensing-17-00126-g004_jk83r3.png
+  tags:
+  - spatiotemporal
+  - machine learning
+  - remote sensing
+  - epidemiology
+  - public health
+  - air pollution
 - id: doi:10.60692/zjk6x-4tj41
   title: Assessing vulnerability for future Zika virus outbreaks using seroprevalence
     data and environmental suitability maps
