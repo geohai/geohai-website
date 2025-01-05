@@ -15,7 +15,7 @@ tags:
  - foundation model
 search-tag: 
 image: 
-thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735955434/eac27541-722d-4060-b1e1-899c7c073e5c.png 
+thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_fit-grey-4-3/v1735955434/eac27541-722d-4060-b1e1-899c7c073e5c.png
 ---
 
 This project develops a foundation model that leverages multi-source satellite data to enable few-shot learning for various environmental monitoring tasks. We utilize both Synthetic Aperture Radar (SAR) data from Sentinel-1 and optical imagery from Sentinel-2. SAR, which emits and receives radar signals, captures surface texture and moisture content and can penetrate cloud cover, making it invaluable for several applications such as flood detection during cloudy conditions. In contrast, optical sensors capture light in visible and near-infrared spectra, providing detailed information on vegetation, soil, and water bodies, crucial for land use classification and fire detection.

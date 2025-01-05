@@ -5,7 +5,8 @@ image: images/member-images/zhongying-wang.jpg
 role: phd
 # group: alum
 aliases:
-  - Stephen Wang
+  - Zhongying Wang
+  - Z. Wang
 links:
   github: invictusying
   email: Zhongying.Wang@colorado.edu

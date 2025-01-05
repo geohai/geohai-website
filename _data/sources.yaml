@@ -44,14 +44,14 @@
 
 #2025
 
-# Air Pollution PM2.5
+# Air Pollution PM25
 - id: doi:10.3390/rs17010126
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735849138/remotesensing-17-00126-g004_jk83r3.png
+  type: journal
   tags:
     - spatiotemporal
     - machine learning
     - remote sensing
-    - epidemiology
     - public health
     - air pollution
 
@@ -60,6 +60,7 @@
 #Zika
 - id: doi:10.1371/journal.pntd.0012017
   image: images/publication-thumbnails/2024-roell-zika.PNG
+  type: journal
   tags:
     - spatial analysis
     - visualization
@@ -69,6 +70,7 @@
 
 #Partial Label Learning
 - id: doi:10.1109/JSTARS.2024.3413003
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729823147/03984fd1-c25e-473b-a505-03eb03083670.png
   buttons:
     - type: source

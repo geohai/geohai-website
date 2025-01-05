@@ -9,6 +9,7 @@ aliases:
   - J. Romero
   - J Romero
   - Julia Romero
+  - Julia Lee Romero
 links:
   github: julialromero
   email: julia.romero@colorado.edu
