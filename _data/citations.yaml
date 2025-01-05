@@ -16,11 +16,11 @@
   plugin: sources.py
   file: sources.yaml
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735849138/remotesensing-17-00126-g004_jk83r3.png
+  type: journal
   tags:
   - spatiotemporal
   - machine learning
   - remote sensing
-  - epidemiology
   - public health
   - air pollution
 - id: doi:10.60692/zjk6x-4tj41
@@ -82,6 +82,7 @@
   morteza-karimzadeh: true
   plugin: sources.py
   file: sources.yaml
+  type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729823147/03984fd1-c25e-473b-a505-03eb03083670.png
   buttons:
   - type: source
@@ -1275,6 +1276,7 @@
   date: '2024-03-22'
   link: https://doi.org/g8k4gj
   image: images/publication-thumbnails/2024-roell-zika.PNG
+  type: journal
   tags:
   - spatial analysis
   - visualization
