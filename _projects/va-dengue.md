@@ -2,6 +2,7 @@
 title: Visual Analytics for Spatiotemporal Analysis of Dengue Serotypes
 authors: 
     - aidan-marler
+    - thomas-jaenisch
     - morteza-karimzadeh
 tags: 
     - visual analytics
