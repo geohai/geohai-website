@@ -2,6 +2,7 @@
 title: Estimating Surface-Level Air Pollution
 authors: 
   - zhongying-wang
+  - james-crooks
   - morteza-karimzadeh
 tags: 
  - spatiotemporal

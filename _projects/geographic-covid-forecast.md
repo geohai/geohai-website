@@ -7,7 +7,7 @@ authors:
 tags: 
  - spatiotemporal
  - machine learning
- - COVID-19
+ - covid-19
  - public health
  - epidemiology
 search-tag: covid-19

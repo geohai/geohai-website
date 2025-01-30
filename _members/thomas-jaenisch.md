@@ -9,6 +9,7 @@ aliases:
   - Thomas Jaenisch
 links:
   #github: 
+  google-scholar: Jq_6fxoAAAAJ
   email: THOMAS.JAENISCH@cuanschutz.edu
   home-page: https://coloradosph.cuanschutz.edu/resources/directory/directory-profile/Jaenisch-Thomas-UCD6002869754
   linkedin: thomas-jaenisch-402b6496
