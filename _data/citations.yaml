@@ -23,6 +23,21 @@
   - remote sensing
   - public health
   - air pollution
+- id: doi:10.1109/bigdata62323.2024.10825475
+  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
+  authors:
+  - Samira Alkaee Taleghan
+  - Morteza Karimzadeh
+  - Andrew P. Barrett
+  - Walter N. Meier
+  - Farnoush Banaei-Kashani
+  publisher: 2024 IEEE International Conference on Big Data (BigData)
+  date: '2024-12-15'
+  link: https://doi.org/g83j8s
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.60692/zjk6x-4tj41
   title: Assessing vulnerability for future Zika virus outbreaks using seroprevalence
     data and environmental suitability maps
