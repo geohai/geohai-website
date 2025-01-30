@@ -1217,7 +1217,7 @@
   type: proceedings
   buttons:
   - type: preprint
-    text: Full-text on ResearchGate
+    text: Full text on ResearchGate
     link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
   tags:
   - wearable devices
@@ -1256,6 +1256,31 @@
   - public health
   - human behavior
   - wearable devices
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/BigData62323.2024.10825475
+  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
+  authors:
+  - Samira Alkaee Taleghan
+  - Morteza Karimzadeh
+  - Andrew P. Barrett
+  - Walter N. Meier
+  - Farnoush Banaei-Kashani
+  publisher: 2024 IEEE International Conference on Big Data (BigData)
+  date: '2024-12-15'
+  link: https://doi.org/g83j8s
+  type: proceedings
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1737398804/1a4dcb4f-724e-4d93-ac6e-c6a50f318688.png
+  buttons:
+  - type: preprint
+    text: Full text on ResearchGate
+    link: https://www.researchgate.net/publication/388095743_Semi-Supervised_Multi-Source_Sea_Ice_Classification_in_Small-Data_Regime
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - uncertainty
+  - machine learning
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.1371/journal.pntd.0012017
