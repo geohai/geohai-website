@@ -1,5 +1,41 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.31223/X5NM8J
+  title: Enhancing and Interpreting Deep Learning for Sea Ice Charting using the AutoICE
+    Benchmark
+  authors:
+  - Sepideh Jalayer
+  - Samira Alkaee Taleghan
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Nick Hughes
+  - Farnoush Banaei-Kashani
+  - Morteza Karimzadeh
+  publisher: California Digital Library (CDL)
+  date: '2025-04-26'
+  link: https://doi.org/g9gs8b
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.rsase.2025.101538
+  title: Enhancing and Interpreting Deep Learning for Sea Ice Charting using the AutoICE
+    Benchmark
+  authors:
+  - Sepideh Jalayer
+  - Samira Alkaee Taleghan
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Nick Hughes
+  - Farnoush Banaei-Kashani
+  - Morteza Karimzadeh
+  publisher: 'Remote Sensing Applications: Society and Environment'
+  date: '2025-04-01'
+  link: https://doi.org/g9dkjh
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1111/cgf.70087
   title: 'GeoDEN: A Visual Exploration Tool for Analyzing the Geographic Spread of
     Dengue Serotypes'
