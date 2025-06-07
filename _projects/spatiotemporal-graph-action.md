@@ -12,7 +12,7 @@ thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4d
 
 Keystep recognition is a fine-grained video understanding task that aims to temporally localize and classify small, heterogeneous steps within long-form videos of human activities. Current approaches have poor performance, reaching 35-42/% accuracy on the Ego-Exo4D benchmark dataset.
 
-In collaboration with [**Intel Labs**](https://www.intel.com/content/www/us/en/research/overview.html){:target="_blank" rel="noopener noreferrer"}, we 
+In collaboration with [**Intel Labs**], we 
 developed a flexible graph-learning framework for fine-grained keystep recognition that achieves state of the art performance. Our approach, termed GLEVR, consists of constructing a graph where each video clip of the egocentric video corresponds to a node. We further leverage alignment between egocentric and exocentric videos during training for improved inference on egocentric videos, as well as adding automatic captioning as an additional modality. This simple, graph-based approach is able to effectively learn long-term dependencies in egocentric videos. Furthermore, the graphs are sparse and computationally efficient, substantially outperforming larger models. 
 
 We perform extensive experiments on the Ego-Exo4D dataset and show that our proposed flexible graph-based framework notably outperforms existing methods. 
