@@ -9,12 +9,17 @@ tags:
     - spatiotemporal
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png
 ---
-Human-activity recognition is inherently a spatiotemporal task. With the ever-increasing availability of wearable technologies, identifying human actions is essential for responsive technology, and monitoring health and safety in manufacturing settings, among other use cases. 
 
-In collaboration with [**Intel Labs**](https://www.intel.com/content/www/us/en/research/overview.html){:target="_blank" rel="noopener noreferrer"}, we are developing spatiotemporal deep learning methods for human activity recognition in multimodal data collected from video, depth, and 10 accelerometers. Specifically, we are exploring graph-based methods to model spatiotemporal information and to perform multimodal data fusion, such that the learning process is more data-efficient and resource-efficient.
+Keystep recognition is a fine-grained video understanding task that aims to temporally localize and classify small, heterogeneous steps within long-form videos of human activities. Current approaches have poor performance, reaching 35-42/% accuracy on the Ego-Exo4D benchmark dataset.
 
-With the rise of IoT technology there is an increasing number of ubiquitous sensors in settings including smart homes, patient monitoring, autonomous and connected vehicles, education, and workplace safety monitoring. These devices collect continuous streams of data from different spatial locations, temporal resolutions, and sensing modalities, resulting in large, messy data. Current algorithms are lacking in their ability to handle these challenges, with current solutions circumnavigating these problems with "brute force"-like models that require large training data and computational resources, while not effectively leveraging multimodal inputs. We explore (understudied) graph-based deep learning to encode spatiotemporal information and novel techniques to leverage cross-modal and intra-modal information, leading to higher data and resource efficiency. 
+In collaboration with [**Intel Labs**](https://www.intel.com/content/www/us/en/research/overview.html){:target="_blank" rel="noopener noreferrer"}, we 
+developed a flexible graph-learning framework for fine-grained keystep recognition that achieves state of the art performance. Our approach, termed GLEVR, consists of constructing a graph where each video clip of the egocentric video corresponds to a node. We further leverage alignment between egocentric and exocentric videos during training for improved inference on egocentric videos, as well as adding automatic captioning as an additional modality. This simple, graph-based approach is able to effectively learn long-term dependencies in egocentric videos. Furthermore, the graphs are sparse and computationally efficient, substantially outperforming larger models. 
 
+We perform extensive experiments on the Ego-Exo4D dataset and show that our proposed flexible graph-based framework notably outperforms existing methods. 
+
+GLEVR won 1st place in the 2025 Ego-Exo4D keystep recognition challenge, out of more than 20 team submissions. Check out the [extended abstract on arxiv](https://arxiv.org/abs/2506.01102).
+
+[Check out the code repository](https://github.com/geohai/graphs-for-keystep-recognition).
 
 
 <figure class="project-info-figure">
