@@ -10,10 +10,9 @@ tags:
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png
 ---
 
-Keystep recognition is a fine-grained video understanding task that aims to temporally localize and classify small, heterogeneous steps within long-form videos of human activities. Current approaches have poor performance, reaching 35-42/% accuracy on the Ego-Exo4D benchmark dataset.
+Keystep recognition is a fine-grained video understanding task that aims to classify small, heterogeneous steps within long-form videos of human activities. Current approaches have poor performance, reaching 35-42% accuracy on the Ego-Exo4D benchmark dataset.
 
-In collaboration with **Intel Labs**, we 
-developed a flexible graph-learning framework for fine-grained keystep recognition that achieves state of the art performance. Our approach, termed GLEVR, consists of constructing a graph where each video clip of the egocentric video corresponds to a node. We further leverage alignment between egocentric and exocentric videos during training for improved inference on egocentric videos, as well as adding automatic captioning as an additional modality. This simple, graph-based approach is able to effectively learn long-term dependencies in egocentric videos. Furthermore, the graphs are sparse and computationally efficient, substantially outperforming larger models. 
+In collaboration with **Intel Labs**, we developed a flexible graph-learning framework for fine-grained keystep recognition that achieves state of the art performance. Our approach, termed GLEVR, consists of constructing a graph where each video clip of the egocentric video corresponds to a node. We further leverage alignment between egocentric and exocentric videos during training for improved inference on egocentric videos, as well as adding automatic captioning as an additional modality. This simple, graph-based approach is able to effectively learn long-term dependencies in egocentric videos. Furthermore, the graphs are sparse and computationally efficient, substantially outperforming larger models. 
 
 We perform extensive experiments on the Ego-Exo4D dataset and show that our proposed flexible graph-based framework notably outperforms existing methods. 
 
@@ -35,12 +34,11 @@ GLEVR won 1st place in the 2025 Ego-Exo4D keystep recognition challenge, out of 
 
 <figure class="project-info-figure">
         <img 
-            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png" 
+            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png](https://res.cloudinary.com/dz3zgmhnr/image/upload/b_rgb:FFFFFF/v1749317991/result-table-1_jvjgo7.png" 
             alt="localization example"
             class="project-info-image"
         >
         <figcaption class="project-info-caption">
         </figcaption>
 </figure>
-
-Publications coming soon! 
+ 
