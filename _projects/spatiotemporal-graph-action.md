@@ -4,9 +4,9 @@ authors:
     - julia-romero
     - morteza-karimzadeh
 tags: 
-    - machine learning
+    - action recognition
     - graph neural networks
-    - spatiotemporal
+    - video understanding
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png
 ---
 
