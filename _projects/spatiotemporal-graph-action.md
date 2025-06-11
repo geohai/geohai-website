@@ -34,7 +34,7 @@ GLEVR won 1st place in the 2025 Ego-Exo4D keystep recognition challenge, out of 
 
 <figure class="project-info-figure">
         <img 
-            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png](https://res.cloudinary.com/dz3zgmhnr/image/upload/b_rgb:FFFFFF/v1749317991/result-table-1_jvjgo7.png" 
+            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734927974/2a12e4dc-2fe6-4002-9c1c-1c8508e49638.png" 
             alt="localization example"
             class="project-info-image"
         >
