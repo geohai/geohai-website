@@ -14,7 +14,7 @@ links:
   github: julialromero
   email: julia.romero@colorado.edu
   #home-page: https://julialromero.github.io/
-  linkedin: https://www.linkedin.com/in/julialromero/
+  linkedin: julialromero
 Resume: https://julialromero.github.io/files/Julia_Romero_CV.pdf
 ---
 
