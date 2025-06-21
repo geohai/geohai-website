@@ -44,6 +44,54 @@
 
 #2025
 
+# PM and location encoding
+- id: doi:10.48550/arXiv.2505.18461
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
+  type: journal
+  tags:
+    - spatiotemporal
+    - machine learning
+    - remote sensing
+    - public health
+    - air pollution
+
+#sea ice geospatial encoding
+- id: doi:10.1016/j.rsase.2025.101538
+  type: journal
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734926905/e4155d7b-8ddb-4f07-b731-ef5264a10be1.png
+  buttons:
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/autoice-challenge-geospatial-encoding
+    - type: preprint
+      text: preprint
+      link: https://eartharxiv.org/repository/view/9036/ 
+  tags:
+    - sea ice
+    - cryosphere
+    - remote sensing
+    - uncertainty
+    - machine learning
+
+#GeoDen
+- id: doi:10.1111/cgf.70087
+  image:  https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
+  type: journal
+  buttons:
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2503.03953 
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/GeoDEN
+  tags:
+    - spatial analysis
+    - visual analytics
+    - visualization
+    - public health
+    - dengue
+    - Arbovirus
+
 # Air Pollution PM25
 - id: doi:10.3390/rs17010126
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735849138/remotesensing-17-00126-g004_jk83r3.png
@@ -175,10 +223,11 @@
     - type: preprint
       link: https://arxiv.org/abs/2306.07242
   tags:
-    - sea ice
-    - cryosphere
-    - remote sensing
+    - spatiotemporal
     - machine learning
+    - remote sensing
+    - public health
+    - air pollution
 
 # IGARSS loss function
 - id: doi:10.1109/igarss52108.2023.10282060

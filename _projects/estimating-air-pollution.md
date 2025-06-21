@@ -13,37 +13,25 @@ tags:
  - epidemiology
 search-tag: air pollution
 image: 
-thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_no-fill-4-3/v1735369769/image62_k3t8hs.png
+thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
 ---
 
-Ground-stations characterize air quality by observing air pollution concentrations at the air pollution [stations]( https://www.epa.gov/aqs){:target="_blank" rel="noopener noreferrer"}. On the other hand, people live and work in places relatively far from these sensors. So how do quantify or study the impacts of air pollution on public health? Satellite observations can help with that! However, satellites derive measures of pollution in columns of air as seen from space.  Air pollution, as experienced by humans, however, is on the surface! Therefore, the research challenge is to estimate surface-level air pollution at any given point, on any given day, by relying on the satellite observations of columns of air, and limited ground-based calibration data. 
+Ground-stations characterize air quality by observing air pollution concentrations at the air pollution [stations]( https://www.epa.gov/aqs){:target="_blank" rel="noopener noreferrer"}. On the other hand, people live and work in places relatively far from these sensors. So how do we quantify or study the impacts of air pollution on public health? Satellite observations can help with that! However, satellites derive measures of pollution in columns of air as seen from space.  Air pollution, as experienced by humans, however, is on the surface! Therefore, the research challenge is to estimate surface-level air pollution at any given point, on any given day, by relying on the satellite observations of columns of air, and limited ground-based calibration data. 
 
 In this project, we are estimating daily surface-level concentrations of PM2.5, Ozone (with NO2 in progress) in the U.S. with 1KM resolution, to support our public health and epidemeologist collaborators as well as other potential users interested in air pollution datasets. We develop and use specialized deep learning methods for this purpose. 
 
 
  <figure class="project-info-figure">
         <img 
-            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735369613/image233_yxclhp.png" 
+            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750452725/air-pollution-example_tawphp.png" 
             alt="MODIS AOD measurements"
             class="project-info-image"
         >
         <figcaption class="project-info-caption">
-            Satellite-measured Aerosol Optical Depth (AOD) by MODIS
+             Spatial and temporal analysis of PM2.5 predictions during the 2020 California August Complex Fire. The columns represent (1) CONUS-wide model predictions; (2) Zoomed-in predictions of the wildfire region (sharing the same colorbar as (1), ranging from 0 to 50 μg/m3); (3) HMS wildfire smoke density polygons; and (4) prediction bias errors. Rows correspond to four dates during different wildfire phases: ignition (18 August 2020), spreading (2 September 2020), intensification (18 September 2020), and later progression (2 October 2020). See the published <a target="_blank" rel="noopener noreferrer" href="https://doi.org/10.3390/rs17010126">paper</a>. 
         </figcaption>
   </figure>
 
-
-
-  <figure class="project-info-figure">
-        <img 
-            src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1735369769/image62_k3t8hs.png" 
-            alt="Ground-level PM2.5"
-            class="project-info-image"
-        >
-        <figcaption class="project-info-caption">
-            Our Deep Learning-based Estimation of Surface-level Concentrations of PM2.5 
-        </figcaption>
-  </figure>
 
 
 <h3>Deep Learning for Fusion of Ground- and Satellite-based Measurements for Estimating Surface-level Air Pollution Concentration</h3>
