@@ -8,8 +8,13 @@ nav:
 # {% include icon.html icon="fa-solid fa-wrench" %}Products
 
 We believe in open and replicable science, and open-source software. 
-Clicking on each card below takes you to the source code repository.
-Some projects have a "Visit Live Website" link, which takes you to the, well, live website for that project! 
+This page lists products such as software, visual analytics apps, code, dataset or models that are usable by others. 
+Not all our research leads to products like that, but still, coding is used to conduct the analysis. For those, see the code repos 
+linked on the [Publications]({{ site.baseurl }}/research/) page. 
+
+
+Clicking on each card below takes you to the source code repository, 
+and if there is a "Visit Live Website" link, it is linking to the live websire, dataset or models page. 
 If you need assistance with a product, please feel free to contact us. 
 
 {% include section.html %}

@@ -1,6 +1,6 @@
 - title: GeoDEN
   group: featured #remove this for non-featured products
-  subtitle: Visual Analytics
+  subtitle: Visual Analytics, Code
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
   link: https://geoden.net
   description: Exploratory analysis of spatiotemporal spread and interaction of dengue serotypes.
@@ -9,14 +9,91 @@
     - software
     - website
     - dengue
+    - spatiotemporal
 
-- title: Swastica Counter Map
-  subtitle: Visual Analytics
+- title: Swastika Counter Map
+  subtitle: Visual Analytics, Code
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729528270/88bbbc97-a3cc-4638-a72c-fac4f1d0dbc7.png
   link: https://theswastikacounter.org/ 
-  description: Tracking Antisemitism and Harm across the United States.
+  description: Tracking antisemitism and harm across the United States.
   repo: geohai/SwastikaCounterMap
   tags:
     - software
     - website
-    - swastica counter
+    - swastika counter
+    - spatiotemporal
+
+- title: PM2.5 Surface Concentration Estimates
+  group: featured
+  subtitle: Models, Code, Datasets
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
+  description: Daily estimates of PM2.5 across the continental US.
+  repo: geohai/PM2.5_CONUS_LSTM
+  tags:
+    - air pollution
+    - remote sensing
+    - machine learning
+    - spatiotemporal
+
+- title: State-level COVID-19 Hospitalization Forecasting
+  group: featured
+  subtitle: Models, Code, Datasets
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750460248/2022-01-03_prediction_error_map-min_erctgz.png
+  description: Probabilistic multi-horizon 28-day forecasts of state-level COVID-19 hospitalizations in the United States.
+  link: https://covid19forecasthub.org/
+  repo: geohai/covid-lstm-hosp
+  tags:
+    - machine learning
+    - public health
+    - epidemiology
+    - covid-19
+    - spatiotemporal
+
+- title: County-level COVID-19 Case Forecasting
+  subtitle: Models, Code, Datasets
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750460687/dca641db-ff8e-4eed-8ed6-ed10a82a5f15.png
+  description: Probabilistic forecasts of weekly county-level COVID-19 case incidence in the United States.
+  link: https://geohai.github.io/covid-lstm/
+  repo: geohai/covid-lstm
+  tags:
+    - machine learning
+    - public health
+    - epidemiology
+    - covid-19
+    - spatiotemporal
+
+
+- title: Multi-task Automated Sea Ice Charting
+  group: featured
+  subtitle: Models, Code
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750460562/deeplabv3_sea_ice_l4m4yg.png
+  description: End-to-end multi-task deep learning pipeline for mapping sea ice parameters (concentration, type, and floe size) from SAR and passive microwave. 
+  repo: geohai/autoice-challenge-geospatial-encoding 
+  tags:
+    - machine learning
+    - remote sensing
+    - cryosphere
+    - sea ice
+
+- title: Sea Ice Mapping
+  subtitle: Models, Code
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
+  description: End-to-end deep learning pipeline for mapping sea ice from SAR with random-augment sampler. 
+  repo: geohai/sea-ice-segment
+  tags:
+    - machine learning
+    - remote sensing
+    - cryosphere
+    - sea ice
+
+- title: Keystep Recognition with Graph Neural Networks
+  subtitle: Models, Code
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750461842/pic2_padtf9.png
+  description: 1st place in the Ego-Exo4D Keystep Recognition Challenge at the EgoVis Workshop at CVPR 2025. 
+  repo: geohai/graphs-for-keystep-recognition
+  tags:
+    - machine learning
+    - graph neural networks
+    - computer vision
+    - keystep recognition
+    - spatiotemporal
