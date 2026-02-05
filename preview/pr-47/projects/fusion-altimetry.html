@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MK50YGPJPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MK50YGPJPH');
+</script>
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2) | GeoHAI</title>
+
+<link rel="icon" href="/preview/pr-47/images/icon.png">
+
+<meta name="title" content="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
+<meta name="description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+
+<meta property="og:title" content="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
+<meta property="og:site_title" content="GeoHAI">
+<meta property="og:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+<meta property="og:url" content="">
+<meta property="og:image" content="/preview/pr-47/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)">
+<meta property="twitter:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+<meta property="twitter:url" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-47/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)",
+    "description": "Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design",
+    "headline": "Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-47/images/icon.png" }
+    },
+    "url": ""
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-47/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-47/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/project-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/project-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/project-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/project-portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/rectangular-grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-47/_styles/util.css" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-47/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-47/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-47/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-47/_scripts/search.js"></script>
+
+  <script src="/preview/pr-47/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-47/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+
+
+<header class="background" style="background-color: #051B2B;" data-dark="true">
+  <a href="/preview/pr-47/" class="home">
+    
+      <span class="logo logo-header">
+        <img src="/preview/pr-47/images/icon.png" alt="logo">
+        <img class="logo-name-1" src="/preview/pr-47/images/logo-name-1.png" alt="GEOHAI">
+        <img class="logo-name-2" src="/preview/pr-47/images/logo-name-2.png" alt="Research Lab">
+      </span>
+    
+    
+      <span class="title" data-tooltip="Home">
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-47/projects/" data-tooltip="Project descriptions">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/preview/pr-47/research/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-47/products/" data-tooltip="Software, datasets, and more">
+          Products
+        </a>
+      
+    
+      
+        <a href="/preview/pr-47/blog/" data-tooltip="Musings and miscellany">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/preview/pr-47/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-47/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 class="center">Fusing Remote Sensing Imagery and Satellite-Based Laser Altimetry (ICESat-2)</h1>
+
+<div class="project-info">
+  
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/preview/pr-47/members/morteza-karimzadeh.html" class="project-portrait" data-style="tiny" aria-label="Morteza Karimzadeh">
+      <img src="/preview/pr-47/images/member-images/morteza-karimzadeh.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-47/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Morteza Karimzadeh
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-microscope"></i>
+              <span>Director</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+      
+      
+        
+  
+  <div class="project-portrait-wrapper">
+    <a href="/preview/pr-47/members/daehyeon-han.html" class="project-portrait" data-style="tiny" aria-label="Daehyeon Han">
+      <img src="/preview/pr-47/images/member-images/daehyeon-han.jpg" class="project-portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-47/images/fallback.svg'; this.onerror = null;">
+  
+      
+        <span class="project-portrait-text">
+          
+            <span class="project-portrait-name">
+              Daehyeon Han
+            </span>
+          
+  
+          
+            <span class="project-portrait-role">
+              
+              <i class="icon fa-solid fa-glasses"></i>
+              <span>Postdoctoral Scholar</span>
+            </span>
+          
+        </span>
+      
+    </a>
+  </div>
+  
+      
+    
+  
+</div>
+
+
+
+  
+
+
+  <div class="tags" data-link="/preview/pr-47/projects">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
+        spatiotemporal
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('cryosphere')" data-tooltip='Show items with the tag "cryosphere"'>
+        cryosphere
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('sea ice')" data-tooltip='Show items with the tag "sea ice"'>
+        sea ice
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('uncertainty')" data-tooltip='Show items with the tag "uncertainty"'>
+        uncertainty
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
+        remote sensing
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<div class="project">
+    <p>This project integrates remote sensing and altimetry data to enhance sea ice mapping, with applications and methods generalizable to other application areas, including land remote sensing. We utilize Synthetic Aperture Radar (SAR) from Sentinel-1, which provides high-resolution images capable of penetrating clouds and darkness, and optical satellite imagery from Sentinel-2, which captures visible and near-infrared light to capture detailed ice surface characteristics. SAR measures volume scattering of active radar signals, whereas optical remote sensing measures surface reflectance and passively collected information, so they measure very different physical properties. However, both satellites face challenges, such as signal ambiguities in distinguishing ice types and limitations in spatial resolution and coverage under certain conditions. Additionally, while SAR can penetrate cloud cover, optical sensors like those on Sentinel-2 are hindered by it, yet they offer richer surface detail under clear conditions. Also, polar regions are dark 6 months at a time, so optical imagery is severely limited by lack of daylight!</p>
+
+    <figure class="project-info-figure">
+        <img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1732684590/f3d52d20-49a7-49e1-beb6-2c1a5e3b1104.png" alt="ICESAt-2 tracks (laser altimetry) on Sentinel-1 (SAR) image background over Arctic sea ice" class="project-info-image">
+        <figcaption class="project-info-caption">
+            A comparison of ATL03 and ATL07 ICESat-2 products over Canadian Archipelago captured on 2022-01-05. Background image is Sentinel-1 HH polarization. ATL07 h_coarse_std has a 10km of coarse segment length. 
+        </figcaption>
+    </figure>
+
+    <p>Satellite altimetry, particularly from ICESat-2, offers precise measurements of ice surface heights using laser pulses. These measurements are crucial for measuring ice elevation/freeboard and topography from space. ICESat-2’s lasers provide excellent precision, but as everything good in life goes, it has severe limitations. ICESat-2 has limited spatial coverage along linear track compared to the more extensive imaging swath of satellite imagery, such as those taken by Sentinel 1 or 2 satellites. Put differently, the altitudes are measured along a very narrow line (well, three narrow lines in this case), and not a grid. By the time ICESat-2 makes another pass in a closeby track, sea ice conditions may have drastically changed, so waiting for the satellite to cover the entire surface through multiple passes is simply not an option. </p>
+    <p>Our project addresses the challenge of fusing these very different data sources—combining grid-based imagery from satellites with track-based observations from altimetry over a highly dynamic phenomena of sea ice. By using deep learning, we aim to translate one type of data into another, enhancing our ability to map sea ice parameters accurately using both supervised and unsupervised methods, and striving for effective results with minimal training samples. Our goal is to increase the spatial coverage of ICESat-2 measurements by leveraging the information collected by Sentinel-1 SAR (primary) and hopefully Sentinel-2 optical (secondary). </p>
+
+    <h3>Intellectual Merit</h3>
+    <p>This project makes scientific contributions in how satellite data can be integrated and interpreted. By developing algorithms that can fuse grid-based SAR (and optical) scences with along-the-track laser altimetry, we tackle the core scientific challenge of resolving the ambiguities inherent in each data type alone, and expanding the spatial coverage of both. Our deep learning models aim to harness the strengths of each sensing method, providing a more comprehensive understanding of sea ice conditions. The techniques we develop for efficient data fusion with minimal samples have the potential to change data fusion for remote sensing applications in cryospheric sciences and beyond in environmental monitoring. </p>
+
+    <h3>Broader Impacts</h3>
+    <p>The methods and products developed in this project have the potential to change sea ice mapping with significant implications for maritime navigation and climate monitoring. One of the major challenges in mapping sea ice is the lack of precise information related to sea ice thickness for training algorithms. Multi-year ice (which has survived a summer melt event) can be tens of meters in thickness (with most of it under water, unobservable from space) can pose significant danger to marine navigation. Multi-year ice also modifies the heat transfer between the ocean and atmosphere, among other environmentally significant characteristics. However, mapping it from space using SAR or optical data is a very challenging task. While ICESat-2 altimetry allows for observing sea ice elevation, the limited spatial footprint limits its use in mapping. 
+
+With efficient fusion, which is the goal of this project, more accurate and timely sea ice charts help ensure safer navigation routes through polar regions, support climate change models with better data, and enable more effective monitoring of environmental changes in vulnerable ecosystems. This project not only enhances our scientific understanding of polar environments, but also demonstrates the potential of artificial intelligence to address global challenges.</p>
+
+<p> Publications and reports coming soon!</p>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+
+
+
+
+<div class="project-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous project<br>
+      <a href="/preview/pr-47/projects/foundation-model-multi-source.html">
+        Foundation Models for Multi-Source Pre-Fusion and Few-shot Learning
+      </a>
+    
+  </span>
+  <span>
+    
+      Next project <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/preview/pr-47/projects/geographic-covid-forecast.html">
+        Geographic Forecasting of COVID-19 Case and Hospitalizations Incidence
+      </a>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-47/images/background.jpg')" data-dark="true" data-size="wide">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; max-width: 100%; margin: 0 auto; padding: 0 0px;">
+  <div style="flex: 1; text-align: left; min-width: 300px; padding-right: 20px;">
+    <a href="/preview/pr-47/contact">Contact Us</a>
+  </div>
+  <div style="flex: 1; text-align: right; min-width: 300px; white-space: nowrap; padding-top: 0px;">
+    © 2026 GeoHAI
+      |   Source forked from 
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">LWT</a>
+  </div>
+</div>
+
+  <!-- removing the links for now. -->
+  <!-- <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="/preview/pr-47"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://orcid.org/0000-0002-6498-1763"
+      
+        data-tooltip="ORCID"
+      
+      data-style="bare"
+      
+      aria-label="ORCID"
+    >
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=Vy2oR2kAAAAJ&sortby=pubdate"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://github.com/geohai"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://twitter.com/geohai_lab"
+      
+        data-tooltip="Twitter"
+      
+      data-style="bare"
+      
+      aria-label="Twitter"
+    >
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://youtube.com/geohai_lab"
+      
+        data-tooltip="YouTube"
+      
+      data-style="bare"
+      
+      aria-label="YouTube"
+    >
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div> -->
+
+  <!-- moved to the contact page -->
+  <!-- <div>
+    &copy; 2026
+    GeoHAI
+    &nbsp; | &nbsp; Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div> -->
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
