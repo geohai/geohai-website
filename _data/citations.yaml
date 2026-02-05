@@ -1,20 +1,149 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1145/3789505
+  title: A Genealogy of Foundation Models in Remote Sensing
+  authors:
+  - Kevin Lane
+  - Morteza Karimzadeh
+  publisher: ACM Transactions on Spatial Algorithms and Systems
+  date: '2026-01-27'
+  link: https://doi.org/hbnckv
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  image: null
+  buttons:
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2504.17177
+  tags:
+  - foundation model
+  - remote sensing
+  - representation learning
+  - machine learning
+- id: doi:10.22541/essoar.176530396.67249606/v2
+  title: "AGU 2025 Fall Meeting Poster: Location Encoder Foundation Models\_ for Dynamic\
+    \ PM2.5 Estimation (Please cite the linked peer-reviewed\_ article)"
+  authors:
+  - Zhongying Wang
+  - Morteza Karimzadeh
+  - James Crooks
+  publisher: Wiley
+  date: '2026-01-14'
+  link: https://doi.org/hbkdcn
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/15481603.2025.2594797
+  title: "Performance and generalizability impacts of incorporating location encoders\
+    \ into deep learning for dynamic PM\n                    <sub>2.5</sub>\n    \
+    \                estimation"
+  authors:
+  - Morteza Karimzadeh
+  - Zhongying Wang
+  - James L. Crooks
+  publisher: GIScience &amp; Remote Sensing
+  date: '2025-12-15'
+  link: https://doi.org/hbggsh
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.22541/essoar.176530396.67249606/v1
+  title: "AGU 2025 Fall Meeting Poster: Location Encoder Foundation Models\_ for Dynamic\
+    \ PM2.5 Estimation (Please cite the linked peer-reviewed\_ article)"
+  authors:
+  - Zhongying Wang
+  - Morteza Karimzadeh
+  - James Crooks
+  publisher: Wiley
+  date: '2025-12-09'
+  link: https://doi.org/hbfmz9
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.22541/essoar.176530395.51816488/v1
+  title: 'Bridging Monitoring Gaps: Multi-Task Learning Enhances High-Resolution Surface-Level
+    O3, NO2, and NO Estimation'
+  authors:
+  - Zhongying Wang
+  - James Crooks
+  - Elizabeth Regan
+  - Morteza Karimzadeh
+  publisher: Wiley
+  date: '2025-12-09'
+  link: https://doi.org/hbfmz8
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3764922.3771202
+  title: Ice-FMBench A Foundation Model Benchmark for Sea Ice Type Segmentation
+  authors:
+  - Samira Alkaee Taleghan
+  - Morteza Karimzadeh
+  - Andrew P. Barrett
+  - Walter N Meier
+  - Farnoush Banaei-Kashani
+  publisher: Proceedings of the 1st ACM SIGSPATIAL International Workshop on Polar
+    Data Science
+  date: '2025-11-03'
+  link: https://doi.org/hbdtx3
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/cgf.70087
+  title: 'GeoDEN: A Visual Exploration Tool for Analyzing the Geographic Spread of
+    Dengue Serotypes'
+  authors:
+  - A. Marler
+  - Y. Roell
+  - S. Knoblauch
+  - J.P. Messina
+  - T. Jaenisch
+  - M. Karimzadeh
+  publisher: Computer Graphics Forum
+  date: '2025-03-11'
+  link: https://doi.org/g879jt
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
+  type: journal
+  buttons:
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2503.03953
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/GeoDEN
+  tags:
+  - spatial analysis
+  - visual analytics
+  - visualization
+  - public health
+  - dengue
+  - Arbovirus
 - id: doi:10.1101/2025.05.27.25328449
-  title: Respiratory Exacerbations Increase with Chronic PM<sub>2.5</sub>Exposure
-    in Current and Former Smokers
+  title: "Respiratory Exacerbations Increase with Chronic PM\n                  <sub>2.5</sub>\n\
+    \                  Exposure in Current and Former Smokers"
   authors:
   - James L. Crooks
   - Zhongying Wang
   - Morteza Karimzadeh
-  - David A. Lynch
   - Surya P. Bhatt
   - Craig P. Hersh
   - Dawn L. DeMeo
   - David Baraghoshi
   - Min Hyung Ryu
   - Elizabeth A. Regan
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-05-29'
   link: https://doi.org/g9mwdr
   orcid: 0000-0002-6498-1763
@@ -54,39 +183,6 @@
   - remote sensing
   - uncertainty
   - machine learning
-- id: doi:10.1111/cgf.70087
-  title: 'GeoDEN: A Visual Exploration Tool for Analyzing the Geographic Spread of
-    Dengue Serotypes'
-  authors:
-  - A. Marler
-  - Y. Roell
-  - S. Knoblauch
-  - J.P. Messina
-  - T. Jaenisch
-  - M. Karimzadeh
-  publisher: Computer Graphics Forum
-  date: '2025-03-11'
-  link: https://doi.org/g879jt
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: sources.py
-  file: sources.yaml
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729526913/geoden_zezrd9.jpg
-  type: journal
-  buttons:
-  - type: preprint
-    text: preprint
-    link: https://arxiv.org/abs/2503.03953
-  - type: source
-    text: Repo
-    link: https://github.com/geohai/GeoDEN
-  tags:
-  - spatial analysis
-  - visual analytics
-  - visualization
-  - public health
-  - dengue
-  - Arbovirus
 - id: doi:10.3390/rs17010126
   title: High-Resolution Estimation of Daily PM2.5 Levels in the Contiguous US Using
     Bi-LSTM with Attention
@@ -1370,8 +1466,8 @@
   plugin: sources.py
   file: sources.yaml
 - id: doi:10.48550/arXiv.2505.18461
-  title: Performance and Generalizability Impacts of Incorporating Geolocation into
-    Deep Learning for Dynamic PM2.5 Estimation
+  title: Performance and Generalizability Impacts of Incorporating Location Encoders
+    into Deep Learning for Dynamic PM2.5 Estimation
   authors:
   - Morteza Karimzadeh
   - Zhongying Wang
