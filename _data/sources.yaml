@@ -41,9 +41,22 @@
 
 # Morteza Karimzadeh ##############################################
 
+#2026
+#foundation model Genealogy 
+- id: doi:10.1145/3789505
+  type: journal
+  image: 
+  buttons:
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2504.17177
+  tags:
+    - foundation model
+    - remote sensing
+    - representation learning
+    - machine learning
 
 #2025
-
 # PM and location encoding
 - id: doi:10.48550/arXiv.2505.18461
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
