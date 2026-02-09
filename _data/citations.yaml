@@ -130,6 +130,22 @@
   - public health
   - dengue
   - Arbovirus
+- id: doi:10.1080/13658816.2025.2527266
+  title: Integrating spatiotemporal features in LSTM for spatially informed COVID-19
+    hospitalization forecasting
+  authors:
+  - Zhongying Wang
+  - Thoai D. Ngo
+  - Hamidreza Zoraghein
+  - Benjamin Lucas
+  - Morteza Karimzadeh
+  publisher: International Journal of Geographical Information Science
+  date: '2025-07-08'
+  link: https://doi.org/hbnznq
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.05.27.25328449
   title: "Respiratory Exacerbations Increase with Chronic PM\n                  <sub>2.5</sub>\n\
     \                  Exposure in Current and Former Smokers"
