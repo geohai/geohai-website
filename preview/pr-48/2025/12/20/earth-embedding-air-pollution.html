@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MK50YGPJPH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MK50YGPJPH');
+</script>
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation | GeoHAI</title>
+
+<link rel="icon" href="/preview/pr-48/images/icon.png">
+
+<meta name="title" content="Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation">
+<meta name="description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+
+<meta property="og:title" content="Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation">
+<meta property="og:site_title" content="GeoHAI">
+<meta property="og:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+<meta property="og:url" content="">
+<meta property="og:image" content="/preview/pr-48/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation">
+<meta property="twitter:description" content="Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design">
+<meta property="twitter:url" content="">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-48/images/share.jpg">
+
+
+  <meta name="author" content="morteza-karimzadeh">
+  <meta property="og:type" content="article">
+  <meta property="og:updated_time" content="2026-02-10T01:33:56+00:00">
+  <meta property="article:published_time" content="2025-12-20T00:00:00+00:00">
+  <meta property="article:modified_time" content="2026-02-10T01:33:56+00:00">
+  <meta name="revised" content="2026-02-10T01:33:56+00:00">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "BlogPosting",
+      "author": { "@type": "Person", "name": "Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation" },
+      "datePublished": "2025-12-20T00:00:00+00:00",
+      "dateModified": "2026-02-10T01:33:56+00:00",
+    
+    "name": "Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation",
+    "description": "Geospatial Human-Centered Artificial Intelligence Research Lab. Advancing geospatial use-inspired research at the intersection of AI and human-centered design",
+    "headline": "Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-48/images/icon.png" }
+    },
+    "url": ""
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-48/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="preload" as="style" onload="this.onload = null; this.rel = 'stylesheet';">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.1/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-48/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/project-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/project-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/project-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/project-portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/rectangular-grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-48/_styles/util.css" rel="stylesheet">
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-48/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-48/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-48/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-48/_scripts/search.js"></script>
+
+  <script src="/preview/pr-48/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-48/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+
+
+<header class="background" style="background-color: #051B2B;" data-dark="true">
+  <a href="/preview/pr-48/" class="home">
+    
+      <span class="logo logo-header">
+        <img src="/preview/pr-48/images/icon.png" alt="logo">
+        <img class="logo-name-1" src="/preview/pr-48/images/logo-name-1.png" alt="GEOHAI">
+        <img class="logo-name-2" src="/preview/pr-48/images/logo-name-2.png" alt="Research Lab">
+      </span>
+    
+    
+      <span class="title" data-tooltip="Home">
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-48/projects/" data-tooltip="Project descriptions">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/preview/pr-48/research/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-48/products/" data-tooltip="Software, datasets, and more">
+          Products
+        </a>
+      
+    
+      
+        <a href="/preview/pr-48/blog/" data-tooltip="Musings and miscellany">
+          Blog
+        </a>
+      
+    
+      
+        <a href="/preview/pr-48/team/" data-tooltip="About our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-48/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - wrap each table in div to allow for scrolling
+  - filter out blank sections
+-->
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 class="center">Locatoin Encoder Earth Embeddings as Priors for Dynamic Air Quality Estimation</h1>
+
+<div class="post-info">
+  
+    
+    
+      
+
+<div class="portrait-wrapper">
+  <a href="/preview/pr-48/members/morteza-karimzadeh.html" class="portrait" data-style="tiny" aria-label="Morteza Karimzadeh">
+    <img src="/preview/pr-48/images/member-images/morteza-karimzadeh.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/preview/pr-48/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-text">
+        
+          <span class="portrait-name">
+            Morteza Karimzadeh
+          </span>
+        
+
+        
+          <span class="portrait-role">
+            
+            <i class="icon fa-solid fa-microscope"></i>
+            <span>Director</span>
+          </span>
+        
+      </span>
+    
+  </a>
+</div>
+
+    
+  
+
+  
+  
+
+  
+    <span data-tooltip="Originally published on">
+      <i class="icon fa-regular fa-calendar"></i>
+      <span>December 20, 2025</span>
+    </span>
+  
+
+  
+    <span data-tooltip="Last updated on">
+      <i class="icon fa-solid fa-clock-rotate-left"></i>
+      <span>February 10, 2026</span>
+    </span>
+  
+</div>
+
+
+  
+
+
+  <div class="tags" data-link="/preview/pr-48/blog">
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('spatiotemporal')" data-tooltip='Show items with the tag "spatiotemporal"'>
+        spatiotemporal
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('machine learning')" data-tooltip='Show items with the tag "machine learning"'>
+        machine learning
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('remote sensing')" data-tooltip='Show items with the tag "remote sensing"'>
+        remote sensing
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('public health')" data-tooltip='Show items with the tag "public health"'>
+        public health
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('air pollution')" data-tooltip='Show items with the tag "air pollution"'>
+        air pollution
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('foundation model')" data-tooltip='Show items with the tag "foundation model"'>
+        foundation model
+      </a>
+    
+      <a href="javascript:void(0);" class="tag" onclick="toggleTag('earth embeddings')" data-tooltip='Show items with the tag "earth embeddings"'>
+        earth embeddings
+      </a>
+    
+  </div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+<p>There has been considerable excitement, along with reasonable amounts of skepticism, around <strong>geospatial foundation models</strong> and so-called <strong>Earth embeddings</strong>. These models promise reusable representations of places learned from large, heterogeneous datasets, and they are increasingly treated as a general-purpose building block for downstream geospatial machine learning tasks. Yet one question kept resurfacing: <strong>what actually happens when static Earth embeddings are used in a higly dynamic estimation problem?</strong></p>
+
+<p>In our paper published in <em>GIScience &amp; Remote Sensing</em>, we explored this question through the lens of <strong>daily surface-level PM2.5 estimation across the continental United States</strong>. This is a particularly demanding setting. Atmospheric transport, wildfire smoke, and weather systems can change rapidly from day to day, and deep-learning-based regression models often struggle not at the mean of the distribution but at its <strong>extremes</strong>—precisely where errors matter most for public health and policy, i.e., highly-polluted days.</p>
+
+<p>At the core of the problem is a familiar but difficult inference task. Satellites observe aerosols as <strong>vertical column measurements</strong>, yet the quantity of interest for exposure and health studies is the <strong>near-surface concentration</strong> of PM2.5, often in locations far from ground monitors (where we live and breathe!). Even with rich Earth observations such as aerosol optical depth (AOD), meteorology, and smoke indicators, learning this mapping remains challenging. Deep learning models frequently achieve strong average performance while systematically underestimating or smoothing away the high-concentration tail of the distribution.</p>
+
+<p>Most Earth embeddings proposed to date have been evaluated on relatively <strong>static or temporally smoothed targets</strong>, including long-term air temperature, biomass, land cover, or species distributions. These benchmarks are valuable, but they do not fully probe how static representations behave when embedded in a <strong>dynamic, nonlinear estimation problem</strong> where rare extremes make up the bulk of error. This gap motivated us to ask whether Earth embeddings can help in settings where temporal variability drives the signal.</p>
+
+<p>A key conceptual insight from our experiments is that <strong>Earth embeddings are most effective when treated as priors rather than as additional features</strong>. Instead of concatenating embeddings to the input and allowing the model to memorize location-specific relationships, we conditioned a strong <strong>Bi-LSTM with attention</strong> on <strong>pretrained, frozen Earth embeddings</strong> using a simple <strong>Hadamard (element-wise) fusion</strong>. Framed differently, the model is encouraged to ask: <em>given what we know about this place, how should today’s observations be interpreted?</em> This conditioning mechanism allows static geographic context to modulate the interpretation of dynamic satellite and meteorological signals.</p>
+
+<p>The architecture used in our experiments is shown below, illustrating how the Earth embedding interacts multiplicatively with the temporal representation learned from Earth observations:</p>
+
+<p><img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770494933/Bi-LSTM_Fusion_lz3ynz.png" alt="Model architecture with Hadamard fusion"></p>
+
+<p>One of the more surprising results was that this prior-conditioning strategy improved performance <strong>even during highly dynamic events</strong>, including wildfire smoke episodes. In particular, we observed consistent gains at the <strong>high-concentration tail of the PM2.5 distribution</strong>, where deep learning regression models typically degrade despite access to rich inputs such as AOD and meteorology. Seeing improvements in extreme-value behavior—rather than just marginal gains in average error—was both unexpected and encouraging.</p>
+
+<p>The figure below illustrates an example from the <strong>Dixie Fire</strong>, where conditioning on <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/1b57aaddf85ab01a2445a79c9edc1f4b-Abstract-Conference.html">GeoCLIP</a> Earth embeddings leads to markedly better recovery of high PM2.5 concentrations compared to an otherwise identical model without such conditioning:</p>
+
+<p><img src="https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770495204/Dixie_Fire_Pred_woWSD-min_ak9k7g.png" alt="Dixie Fire PM2.5 estimation comparison"></p>
+
+<p>Another notable finding emerged from comparing different sources of Earth embeddings. In the context of air-pollution estimation, <strong>ground-level imagery–based embeddings (GeoCLIP)</strong> consistently outperformed <strong>satellite-imagery–based embeddings (<a href="https://ojs.aaai.org/index.php/AAAI/article/view/32457">SatCLIP</a>)</strong>. This likely reflects the kinds of signals PM2.5 estimation depends on, including built environment characteristics, infrastructure, and proxies for human activity, which are often more directly captured by ground-level imagery. At the same time, this result highlights an important open question for the field: we need more controlled comparisons of Earth embeddings that differ <em>only</em> in imagery source, rather than also differing in positional encoding, embedding dimensionality, or training objective.</p>
+
+<p>To ground these conceptual insights empirically, we systematically evaluated four geolocation strategies within a unified Bi-LSTM + attention framework: no geolocation, raw latitude/longitude, sinusoidal latitude/longitude, and pretrained Earth embeddings. Across both within-region and out-of-region spatial evaluation schemes, a consistent pattern emerged. Naive coordinate encodings can improve interpolation but often harm generalization, whereas Earth embeddings—particularly when fused via Hadamard product—improve both accuracy and geographic transferability. These results reinforce the interpretation of Hadamard fusion as a mechanism for <strong>conditioning dynamic Earth-observation models on geographic priors</strong>, rather than simply adding more predictors.</p>
+
+<p>Taken together, these findings suggest a broader takeaway. <strong>Earth embedding foundation models are more than representations of place</strong>. When used appropriately, they act as a mechanism for injecting <strong>geographic prior knowledge</strong> into dynamic inference, stabilizing predictions and improving performance in rare but large extremes. This perspective matter in how Earth embeddings might be used in environmental machine learning, especially for applications where extremes matter more than averages.</p>
+
+<p>The full paper, <em>Performance and generalizability impacts of incorporating location encoders into deep learning for dynamic PM2.5 estimation</em>, is available in <em>GIScience &amp; Remote Sensing</em> (Karimzadeh, Wang, &amp; Crooks, 2025):
+<a href="https://doi.org/10.1080/15481603.2025.2594797">https://doi.org/10.1080/15481603.2025.2594797</a></p>
+
+<p>Code to reproduce the experiments is available at:
+<a href="https://github.com/geohai/PM2.5_CONUS_LSTM">https://github.com/geohai/PM2.5_CONUS_LSTM</a></p>
+
+<p>This work was made possible by a close collaboration with <strong>Zhongying Wang</strong>, our outstanding doctoral student who led much of the modeling effort, and <strong>James Crooks</strong>, whose expertise in health-relevant exposure modeling motivated the work, but also whose intimate knowledge of PM2.5 formation and EPA sensing helped us set up the modeling pipline and the framing of PM2.5 estimation throughout the study.</p>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+
+
+<div class="related-entries"> See 
+  <a href="/preview/pr-48/research?search=%22tag:%20air%20pollution%22">
+     Publications
+  </a>
+  , 
+  <a href="/preview/pr-48/projects?search=%22tag:%20air%20pollution%22">
+    Projects
+ </a>
+ , or
+ <a href="/preview/pr-48/products?search=%22tag:%20air%20pollution%22">
+   Products
+</a> 
+related to this post.
+</div>
+
+
+
+<div class="post-nav">
+  <span>
+    
+      <i class="icon fa-solid fa-angle-left"></i> Previous post<br>
+      <a href="/preview/pr-48/2022/06/01/social-media-for-covid-forecast.html">
+        Forecasting the Geographic Incidence of COVID-19 How Does Social Media Help?
+      </a>
+    
+  </span>
+  <span>
+    
+      Next post <i class="icon fa-solid fa-angle-right"></i><br>
+      <a href="/preview/pr-48/2026/02/08/geolocation-for-deep-learning.html">
+        Rethinking Geolocation Features in Deep Learning and Geospatial Applications
+      </a>
+    
+  </span>
+</div>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-48/images/background.jpg')" data-dark="true" data-size="wide">
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; max-width: 100%; margin: 0 auto; padding: 0 0px;">
+  <div style="flex: 1; text-align: left; min-width: 300px; padding-right: 20px;">
+    <a href="/preview/pr-48/contact">Contact Us</a>
+  </div>
+  <div style="flex: 1; text-align: right; min-width: 300px; white-space: nowrap; padding-top: 0px;">
+    © 2026 GeoHAI
+      |   Source forked from 
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">LWT</a>
+  </div>
+</div>
+
+  <!-- removing the links for now. -->
+  <!-- <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="/preview/pr-48"
+      
+        data-tooltip="Email"
+      
+      data-style="bare"
+      
+      aria-label="Email"
+    >
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://orcid.org/0000-0002-6498-1763"
+      
+        data-tooltip="ORCID"
+      
+      data-style="bare"
+      
+      aria-label="ORCID"
+    >
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://scholar.google.com/citations?user=Vy2oR2kAAAAJ&sortby=pubdate"
+      
+        data-tooltip="Google Scholar"
+      
+      data-style="bare"
+      
+      aria-label="Google Scholar"
+    >
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://github.com/geohai"
+      
+        data-tooltip="GitHub"
+      
+      data-style="bare"
+      
+      aria-label="GitHub"
+    >
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://twitter.com/geohai_lab"
+      
+        data-tooltip="Twitter"
+      
+      data-style="bare"
+      
+      aria-label="Twitter"
+    >
+      <i class="icon fa-brands fa-twitter"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a
+      class="button"
+      href="https://youtube.com/geohai_lab"
+      
+        data-tooltip="YouTube"
+      
+      data-style="bare"
+      
+      aria-label="YouTube"
+    >
+      <i class="icon fa-brands fa-youtube"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div> -->
+
+  <!-- moved to the contact page -->
+  <!-- <div>
+    &copy; 2026
+    GeoHAI
+    &nbsp; | &nbsp; Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div> -->
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
