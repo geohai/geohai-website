@@ -1,46 +1,4 @@
-# Isaiah Lyons-Galante #################################################################################
-# thesis
-# - id: isbn:9798384104667
-#   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729827301/338337fb-1eb8-4a19-ab20-129889647544.png
-#   buttons:
-#     - type: repo
-#       link: https://github.com/geohai/mini-grid-nightlights
-#   tags:
-#     - spatial analysis
-#     - remote sensing
-#     - nightlights
-#     - difference in difference
-#     - renewable energy
-
-# Julia Romero #################################################################################
-#2024
-- id: doi:10.1145/3638550.3641136
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729871447/optibreathe-signals_wiopcv.jpg
-  type: proceedings
-  buttons:
-    - type: preprint
-      text: Full text on ResearchGate
-      link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
-  tags:
-    - wearable devices
-
-#2022
-- id: doi:10.3390/ijerph191912933
-  image: https://www.mdpi.com/ijerph/ijerph-19-12933/article_deploy/html/images/ijerph-19-12933-g005.png
-  tags:
-    - covid-19
-    - public health
-    - wearable devices
-
-- id: doi:10.3390/s23135879
-  image: https://www.mdpi.com/sensors/sensors-23-05879/article_deploy/html/images/sensors-23-05879-g001.png
-  tags:
-    - public health
-    - human behavior
-    - wearable devices
-
 # Morteza Karimzadeh ##############################################
-
 #2026
 #foundation model Genealogy 
 - id: doi:10.1145/3789505
@@ -58,17 +16,136 @@
 
 #2025
 # PM and location encoding
-- id: doi:10.48550/arXiv.2505.18461
+- id: doi:10.1080/15481603.2025.2594797 
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
   type: journal
+  buttons:
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/pm25-geolocation
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2505.18461
   tags:
     - spatiotemporal
     - machine learning
     - remote sensing
     - public health
     - air pollution
+    - foundation model
+    - earth embeddings
 
-#sea ice geospatial encoding
+# copd exacerbations
+- id: doi:10.1101/2025.05.27.25328449
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666142/fdf684b2-8edd-495d-b73c-954b1a3d5142.png
+  type: journal
+  buttons:
+    - type: preprint
+      text: preprint
+      link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12148289/
+  tags:
+    - spatiotemporal
+    - public health
+    - air pollution
+    - earth embeddings
+
+
+ #COVID LSTM hospitalization 
+- id: doi:10.1080/13658816.2025.2527266 
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666335/65a39881-347c-4e94-83d8-0527a9fbdaf8.png
+  type: journal
+  buttons:
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/covid-lstm-hosp
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2506.05752
+  tags:
+    - spatiotemporal
+    - machine learning
+    - covid-19
+    - public health
+    - epidemiology
+
+
+#autoice fusion
+- id: doi:10.1109/IGARSS55030.2025.11243075
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770667148/3a9a682d-2406-4b20-96e6-dc2e345499df.png
+  tags:
+    - sea ice
+    - cryosphere
+    - remote sensing
+    - machine learning
+
+#ICESat-2 embeddings
+- id: doi:10.1109/IGARSS55030.2025.11242650
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666003/b6960440-ff8f-4117-bda4-c49a8226cd74.png
+  buttons:
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2504.18668
+  tags:
+    - sea ice
+    - cryosphere
+    - remote sensing
+    - representation learning
+    - machine learning
+
+  #ICE-FMBench
+- id: doi:10.1145/3764922.3771202
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770663420/9b9ebc68-4296-4329-bdf7-0974d8c1a317.png
+  buttons:
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2503.22516v1
+  tags:
+    - sea ice
+    - cryosphere
+    - remote sensing
+    - foundation model
+    - machine learning
+
+#long-form reasoning graph
+- id: doi:10.48550/arXiv.2506.01102
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770663028/d6d78b36-1ed8-469e-b8a1-8af9e0a9ed34.png
+  buttons:
+    - type: preprint
+      text: proceedings
+      link: https://openaccess.thecvf.com/content/ICCV2025W/SG2RL/html/Romero_Long-form_Reasoning_for_Keystep_Recognition_using_Graph_Neural_Networks_ICCVW_2025_paper.html
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/graphs-for-keystep-recognition
+  tags:
+    - spatiotemporal
+    - graph neural networks
+    - machine learning
+    
+# PM and location encoding
+- id: doi:10.1080/15481603.2025.2594797 
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
+  type: journal
+  buttons:
+    - type: source
+      text: Repo
+      link: https://github.com/geohai/pm25-geolocation
+    - type: preprint
+      text: preprint
+      link: https://arxiv.org/abs/2505.18461
+  tags:
+    - spatiotemporal
+    - machine learning
+    - remote sensing
+    - public health
+    - air pollution
+    - foundation model
+    - earth embeddings
+
+#sea ice geolocation
 - id: doi:10.1016/j.rsase.2025.101538
   type: journal
   image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1734926905/e4155d7b-8ddb-4f07-b731-ef5264a10be1.png
@@ -445,3 +522,31 @@
 #2013
 - id: doi:10.1145/2533888.2533942
   image: images/publication-thumbnails/2013-karimzadeh-geotxt.jpg
+
+
+# Julia Romero #################################################################################
+#2024
+- id: doi:10.1145/3638550.3641136
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729871447/optibreathe-signals_wiopcv.jpg
+  type: proceedings
+  buttons:
+    - type: preprint
+      text: Full text on ResearchGate
+      link: https://www.researchgate.net/publication/378548392_OptiBreathe_An_Earable-based_PPG_System_for_Continuous_Respiration_Rate_Breathing_Phase_and_Tidal_Volume_Monitoring
+  tags:
+    - wearable devices
+
+#2022
+- id: doi:10.3390/ijerph191912933
+  image: https://www.mdpi.com/ijerph/ijerph-19-12933/article_deploy/html/images/ijerph-19-12933-g005.png
+  tags:
+    - covid-19
+    - public health
+    - wearable devices
+
+- id: doi:10.3390/s23135879
+  image: https://www.mdpi.com/sensors/sensors-23-05879/article_deploy/html/images/sensors-23-05879-g001.png
+  tags:
+    - public health
+    - human behavior
+    - wearable devices

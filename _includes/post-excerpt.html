@@ -32,4 +32,8 @@
   <p data-search="{{ search }}">
     {{ excerpt }}
   </p>
+  <p data-search="{{ search }}" class="project-excerpt-content">
+    {{ excerpt | truncatewords: 50 }}
+    <a href="{{ url | relative_url }}" class="read-more">Continue reading.</a>
+  </p>  
 </div>
