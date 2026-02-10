@@ -13,7 +13,7 @@ tags:
  - machine learning
  - remote sensing
  - foundation model
-search-tag: 
+search-tag: foundatoin model
 image: 
 thumbnail: https://res.cloudinary.com/dz3zgmhnr/image/upload/t_fit-grey-4-3/v1735955434/eac27541-722d-4060-b1e1-899c7c073e5c.png
 ---
