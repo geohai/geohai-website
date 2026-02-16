@@ -23,52 +23,6 @@
   - remote sensing
   - representation learning
   - machine learning
-- id: doi:10.22541/essoar.176530396.67249606/v2
-  title: "AGU 2025 Fall Meeting Poster: Location Encoder Foundation Models\_ for Dynamic\
-    \ PM2.5 Estimation (Please cite the linked peer-reviewed\_ article)"
-  authors:
-  - Zhongying Wang
-  - Morteza Karimzadeh
-  - James Crooks
-  publisher: Wiley
-  date: '2026-01-14'
-  link: https://doi.org/hbkdcn
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1080/15481603.2025.2594797
-  title: "Performance and generalizability impacts of incorporating location encoders\
-    \ into deep learning for dynamic PM\n                    <sub>2.5</sub>\n    \
-    \                estimation"
-  authors:
-  - Morteza Karimzadeh
-  - Zhongying Wang
-  - James L. Crooks
-  publisher: GIScience &amp; Remote Sensing
-  date: '2025-12-15'
-  link: https://doi.org/hbggsh
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: sources.py
-  file: sources.yaml
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
-  type: journal
-  buttons:
-  - type: source
-    text: Repo
-    link: https://github.com/geohai/pm25-geolocation
-  - type: preprint
-    text: preprint
-    link: https://arxiv.org/abs/2505.18461
-  tags:
-  - spatiotemporal
-  - machine learning
-  - remote sensing
-  - public health
-  - air pollution
-  - foundation model
-  - earth embeddings
 - id: doi:10.22541/essoar.176530396.67249606/v1
   title: "AGU 2025 Fall Meeting Poster: Location Encoder Foundation Models\_ for Dynamic\
     \ PM2.5 Estimation (Please cite the linked peer-reviewed\_ article)"
@@ -159,6 +113,32 @@
   - public health
   - dengue
   - Arbovirus
+- id: doi:10.1109/igarss55030.2025.11242650
+  title: Exploring the Potential of Latent Embeddings for Sea Ice Characterization
+    using ICESat-2 Data
+  authors:
+  - Daehyeon Han
+  - Morteza Karimzadeh
+  publisher: IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2025-08-03'
+  link: https://doi.org/hbn3xz
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/igarss55030.2025.11243075
+  title: Fusion of Low- and High- Resolution Observations for Sea Ice Mapping using
+    Deep Learning
+  authors:
+  - Sepideh Jalayer
+  - Morteza Karimzadeh
+  publisher: IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2025-08-03'
+  link: https://doi.org/hbn3xx
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1080/13658816.2025.2527266
   title: Integrating spatiotemporal features in LSTM for spatially informed COVID-19
     hospitalization forecasting
@@ -277,17 +257,146 @@
   - remote sensing
   - public health
   - air pollution
-- id: doi:10.1109/bigdata62323.2024.10825475
-  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
+- id: doi:10.48550/arXiv.2504.17177
+  title: A Genealogy of Foundation Models in Remote Sensing
+  authors:
+  - Kevin Lane
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqk
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2503.22516
+  title: 'Ice-FMBench: A Foundation Model Benchmark for Sea Ice Type Segmentation'
   authors:
   - Samira Alkaee Taleghan
   - Morteza Karimzadeh
   - Andrew P. Barrett
   - Walter N. Meier
   - Farnoush Banaei-Kashani
-  publisher: 2024 IEEE International Conference on Big Data (BigData)
-  date: '2024-12-15'
-  link: https://doi.org/g83j8s
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqm
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2504.18668
+  title: Exploring the Potential of Latent Embeddings for Sea Ice Characterization
+    using ICESat-2 Data
+  authors:
+  - Daehyeon Han
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqn
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2503.03953
+  title: 'GeoDEN: A Visual Exploration Tool for Analysing the Geographic Spread of
+    Dengue Serotypes'
+  authors:
+  - Aidan Marler
+  - Yannik Roell
+  - Steffen Knoblauch
+  - Jane P. Messina
+  - Thomas Jaenisch
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqp
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2501.04121
+  title: Graph-Based Multimodal and Multi-view Alignment for Keystep Recognition
+  authors:
+  - Julia Lee Romero
+  - Kyle Min
+  - Subarna Tripathi
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqq
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2506.05752
+  title: Integrating Spatiotemporal Features in LSTM for Spatially Informed COVID-19
+    Hospitalization Forecasting
+  authors:
+  - Zhongying Wang
+  - Thoai D. Ngo
+  - Hamidreza Zoraghein
+  - Benjamin Lucas
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqr
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2507.20507
+  title: Investigating the Effect of Spatial Context on Multi-Task Sea Ice Segmentation
+  authors:
+  - Behzad Vahedi
+  - Rafael Pires de Lima
+  - Sepideh Jalayer
+  - Walter N. Meier
+  - Andrew P. Barrett
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbpjqs
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2506.01102
+  title: Keystep Recognition using Graph Neural Networks
+  authors:
+  - Julia Lee Romero
+  - Kyle Min
+  - Subarna Tripathi
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbn3x2
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770663028/d6d78b36-1ed8-469e-b8a1-8af9e0a9ed34.png
+  buttons:
+  - type: preprint
+    text: proceedings
+    link: https://openaccess.thecvf.com/content/ICCV2025W/SG2RL/html/Romero_Long-form_Reasoning_for_Keystep_Recognition_using_Graph_Neural_Networks_ICCVW_2025_paper.html
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/graphs-for-keystep-recognition
+  tags:
+  - spatiotemporal
+  - graph neural networks
+  - machine learning
+- id: doi:10.48550/arXiv.2505.18461
+  title: Performance and Generalizability Impacts of Incorporating Location Encoders
+    into Deep Learning for Dynamic PM2.5 Estimation
+  authors:
+  - Morteza Karimzadeh
+  - Zhongying Wang
+  - James L. Crooks
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g9qzdc
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
   plugin: orcid.py
@@ -371,6 +480,51 @@
   - remote sensing
   - uncertainty
   - machine learning
+- id: doi:10.48550/arXiv.2406.03645
+  title: Partial Label Learning with Focal Loss for Sea Ice Classification Based on
+    Ice Charts
+  authors:
+  - Behzad Vahedi
+  - Benjamin Lucas
+  - Farnoush Banaei-Kashani
+  - Andrew P. Barrett
+  - Walter N. Meier
+  - Siri Jodha Khalsa
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2024-01-01'
+  link: https://doi.org/hbpjqt
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1109/BigData62323.2024.10825475
+  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
+  authors:
+  - Samira Alkaee Taleghan
+  - Morteza Karimzadeh
+  - Andrew P. Barrett
+  - Walter N. Meier
+  - Farnoush Banaei-Kashani
+  publisher: 2024 IEEE International Conference on Big Data (BigData)
+  date: '2024-12-15'
+  link: https://doi.org/g83j8s
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  type: proceedings
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1737398804/1a4dcb4f-724e-4d93-ac6e-c6a50f318688.png
+  buttons:
+  - type: preprint
+    text: Full text on ResearchGate
+    link: https://www.researchgate.net/publication/388095743_Semi-Supervised_Multi-Source_Sea_Ice_Classification_in_Small-Data_Regime
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - uncertainty
+  - machine learning
 - id: doi:10.1109/energyvis60781.2023.00009
   title: Alternatives to Contour Visualizations for Power Systems Data
   authors:
@@ -398,35 +552,6 @@
   - visualization
   - electrical grid
   - renewable energy
-- id: doi:10.1080/01431161.2023.2248560
-  title: Enhancing sea ice segmentation in Sentinel-1 images with atrous convolutions
-  authors:
-  - Rafael Pires de Lima
-  - Behzad Vahedi
-  - Nick Hughes
-  - Andrew P. Barrett
-  - Walter Meier
-  - Morteza Karimzadeh
-  publisher: International Journal of Remote Sensing
-  date: '2023-09-02'
-  link: https://doi.org/g8dzgj
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: sources.py
-  file: sources.yaml
-  type: journal
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
-  buttons:
-  - type: preprint
-    link: https://arxiv.org/abs/2310.17122
-  - type: source
-    text: Repo
-    link: https://github.com/geohai/sea-ice-segment
-  tags:
-  - sea ice
-  - cryosphere
-  - remote sensing
-  - machine learning
 - id: doi:10.5194/ica-adv-4-12-2023
   title: Characterizing Spatial Accessibility of COVID-19 Testing and Vaccination
     Sites using Dasymetric Mapping and GIS
@@ -529,6 +654,92 @@
   - remote sensing
   - public health
   - air pollution
+- id: doi:10.48550/arXiv.2308.09153
+  title: Alternatives to Contour Visualizations for Power Systems Data
+  authors:
+  - Isaiah Lyons-Galante
+  - Morteza Karimzadeh
+  - Samantha Molnar
+  - Graham Johnson
+  - Kenny Gruchalla
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbpjqv
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2310.17135
+  title: Comparison of Cross-Entropy, Dice, and Focal Loss for Sea Ice Type Segmentation
+  authors:
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbpjqw
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2310.17126
+  title: 'Deep Learning on SAR Imagery: Transfer Learning Versus Randomly Initialized
+    Weights'
+  authors:
+  - Morteza Karimzadeh
+  - Rafael Pires de Lima
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbpjqx
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2310.17122
+  title: Enhancing sea ice segmentation in Sentinel-1 images with atrous convolutions
+  authors:
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Nick Hughes
+  - Andrew P. Barrett
+  - Walter Meier
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbpjqz
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/01431161.2023.2248560
+  title: Enhancing sea ice segmentation in Sentinel-1 images with atrous convolutions
+  authors:
+  - Rafael Pires de Lima
+  - Behzad Vahedi
+  - Nick Hughes
+  - Andrew P. Barrett
+  - Walter Meier
+  - Morteza Karimzadeh
+  publisher: International Journal of Remote Sensing
+  date: '2023-09-02'
+  link: https://doi.org/g8dzgj
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  type: journal
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1729813751/5fe09a00-0685-4831-84bd-e81e2f69c177_c_pad_w_400_h_400_lzybli.png
+  buttons:
+  - type: preprint
+    link: https://arxiv.org/abs/2310.17122
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/sea-ice-segment
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
 - id: doi:10.1007/s11524-022-00714-7
   title: 'Forecasting COVID-19 and Other Infectious Diseases for Proactive Policy:
     Artificial Intelligence Can Help'
@@ -556,6 +767,22 @@
   - epidemiology
   - spatiotemporal
   - machine learning
+- id: doi:10.48550/arXiv.2306.07242
+  title: Increasing the Spatial Coverage of Atmospheric Aerosol Depth Measurements
+    Using Random Forest and Mean Filters
+  authors:
+  - Zhongying Wang
+  - Rafael Pires de Lima
+  - James L. Crooks
+  - Elizabeth Anne Regan
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/hbpjq2
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/TGRS.2023.3331276
   title: Model Ensemble With Dropout for Uncertainty Estimation in Sea Ice Segmentation
     Using Sentinel-1 SAR
@@ -1109,6 +1336,20 @@
   - covid-19
   - epidemiology
   - public health
+- id: doi:10.48550/arXiv.2109.12094
+  title: A spatiotemporal machine learning approach to forecasting COVID-19 incidence
+    at the county level in the USA
+  authors:
+  - Benjamin Lucas
+  - Behzad Vahedi
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2021-01-01'
+  link: https://doi.org/hbpjq3
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.25436/E2B88Q
   title: Classifying Narcotrafficking Spatial Event Documents using Transformers
   authors:
@@ -1237,6 +1478,26 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2020-wang-routepacking.jpg
+- id: doi:10.48550/arxiv.2008.13028
+  title: 'STULL: Unbiased Online Sampling for Visual Exploration of Large Spatiotemporal
+    Data'
+  authors:
+  - Guizhen Wang
+  - Jingjing Guo
+  - Mingjie Tang
+  - "Jos\xE9 Florencio de Queiroz Neto"
+  - Calvin Yau
+  - Anas Daghistani
+  - Morteza Karimzadeh
+  - Walid G. Aref
+  - David S. Ebert
+  publisher: arXiv
+  date: '2020-01-01'
+  link: https://doi.org/hbpjq4
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/hst47167.2019.9033003
   title: 'Situational Awareness Enhanced through Social Media Analytics: A Survey
     of First Responders'
@@ -1347,6 +1608,51 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2019-snyder-city-level.jpg
+- id: doi:10.48550/arxiv.1910.02213
+  title: City-level Geolocation of Tweets for Real-time Visual Analytics
+  authors:
+  - Luke S. Snyder
+  - Morteza Karimzadeh
+  - Ray Chen
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjq5
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1908.00671
+  title: 'FeatureExplorer: Interactive Feature Selection and Exploration of Regression
+    Models for Hyperspectral Images'
+  authors:
+  - Jieqiong Zhao
+  - Morteza Karimzadeh
+  - Ali Masjedi
+  - Taojun Wang
+  - Xiwen Zhang
+  - Melba M. Crawford
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjq6
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1910.05441
+  title: Geovisual Analytics and Interactive Machine Learning for Situational Awareness
+  authors:
+  - Morteza Karimzadeh
+  - Luke S. Snyder
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/gtdnsr
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/tvcg.2019.2934614
   title: Interactive Learning for Identifying Relevant Tweets to Support Real-time
     Situational Awareness
@@ -1364,6 +1670,22 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2019-snyder-smart.jpg
+- id: doi:10.48550/arxiv.1908.02588
+  title: Interactive Learning for Identifying Relevant Tweets to Support Real-time
+    Situational Awareness
+  authors:
+  - Luke S. Snyder
+  - Yi-Shan Lin
+  - Morteza Karimzadeh
+  - Dan Goldwasser
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjq7
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/tvcg.2019.2934603
   title: 'MetricsVis: A Visual Analytics System for Evaluating Employee Performance
     in Public Safety Agencies'
@@ -1382,6 +1704,56 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2019-zhao-metricsvis.jpg
+- id: doi:10.48550/arxiv.1907.13601
+  title: 'MetricsVis: A Visual Analytics System for Evaluating Employee Performance
+    in Public Safety Agencies'
+  authors:
+  - Jieqiong Zhao
+  - Morteza Karimzadeh
+  - Luke S. Snyder
+  - Chittayong Surakitbanharn
+  - Zhenyu Cheryl Qian
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjq8
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1909.10173
+  title: 'Route Packing: Geospatially-Accurate Visualization of Route Networks'
+  authors:
+  - Jieqiong Zhao
+  - Morteza Karimzadeh
+  - Hanye Xu
+  - Abish Malik
+  - Shehzad Afzal
+  - Guizhen Wang
+  - Niklas Elmqvist
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjq9
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1909.07316
+  title: 'Situational Awareness Enhanced through Social Media Analytics: A Survey
+    of First Responders'
+  authors:
+  - Luke S. Snyder
+  - Morteza Karimzadeh
+  - Christina Stober
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjrb
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1109/tvcg.2019.2934264
   title: The Validity, Generalizability and Feasibility of Summative Evaluation Methods
     in Visual Analytics
@@ -1398,6 +1770,35 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2019-khayat-eval.jpg
+- id: doi:10.48550/arxiv.1907.13314
+  title: The Validity, Generalizability and Feasibility of Summative Evaluation Methods
+    in Visual Analytics
+  authors:
+  - Mosab Khayat
+  - Morteza Karimzadeh
+  - David S. Ebert
+  - Arif Ghafoor
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjrc
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arxiv.1907.13319
+  title: 'VASSL: A Visual Analytics Toolkit for Social Spambot Labeling'
+  authors:
+  - Mosab Khayat
+  - Morteza Karimzadeh
+  - Jieqiong Zhao
+  - David S. Ebert
+  publisher: arXiv
+  date: '2019-01-01'
+  link: https://doi.org/hbpjrd
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1080/13658816.2017.1368523
   title: 'GeoCorpora: building a corpus to test and train microblog geoparsers'
   authors:
@@ -1476,6 +1877,36 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2013-karimzadeh-geotxt.jpg
+- id: doi:10.1080/15481603.2025.2594797
+  title: "Performance and generalizability impacts of incorporating location encoders\
+    \ into deep learning for dynamic PM\n                    <sub>2.5</sub>\n    \
+    \                estimation"
+  authors:
+  - Morteza Karimzadeh
+  - Zhongying Wang
+  - James L. Crooks
+  publisher: GIScience &amp; Remote Sensing
+  date: '2025-12-15'
+  link: https://doi.org/hbggsh
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
+  type: journal
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/pm25-geolocation
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2505.18461
+  tags:
+  - spatiotemporal
+  - machine learning
+  - remote sensing
+  - public health
+  - air pollution
+  - foundation model
+  - earth embeddings
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1109/IGARSS55030.2025.11243075
   title: Fusion of Low- and High- Resolution Observations for Sea Ice Mapping using
     Deep Learning
@@ -1514,56 +1945,6 @@
   - cryosphere
   - remote sensing
   - representation learning
-  - machine learning
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.48550/arXiv.2506.01102
-  title: Keystep Recognition using Graph Neural Networks
-  authors:
-  - Julia Lee Romero
-  - Kyle Min
-  - Subarna Tripathi
-  - Morteza Karimzadeh
-  publisher: arXiv
-  date: '2025-01-01'
-  link: https://doi.org/hbn3x2
-  type: conference
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770663028/d6d78b36-1ed8-469e-b8a1-8af9e0a9ed34.png
-  buttons:
-  - type: preprint
-    text: proceedings
-    link: https://openaccess.thecvf.com/content/ICCV2025W/SG2RL/html/Romero_Long-form_Reasoning_for_Keystep_Recognition_using_Graph_Neural_Networks_ICCVW_2025_paper.html
-  - type: source
-    text: Repo
-    link: https://github.com/geohai/graphs-for-keystep-recognition
-  tags:
-  - spatiotemporal
-  - graph neural networks
-  - machine learning
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/BigData62323.2024.10825475
-  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
-  authors:
-  - Samira Alkaee Taleghan
-  - Morteza Karimzadeh
-  - Andrew P. Barrett
-  - Walter N. Meier
-  - Farnoush Banaei-Kashani
-  publisher: 2024 IEEE International Conference on Big Data (BigData)
-  date: '2024-12-15'
-  link: https://doi.org/g83j8s
-  type: proceedings
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1737398804/1a4dcb4f-724e-4d93-ac6e-c6a50f318688.png
-  buttons:
-  - type: preprint
-    text: Full text on ResearchGate
-    link: https://www.researchgate.net/publication/388095743_Semi-Supervised_Multi-Source_Sea_Ice_Classification_in_Small-Data_Regime
-  tags:
-  - sea ice
-  - cryosphere
-  - remote sensing
-  - uncertainty
   - machine learning
   plugin: sources.py
   file: sources.yaml
