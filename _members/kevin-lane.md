@@ -1,11 +1,13 @@
 ---
 name: Kevin Lane
-image: images/member-images/kevin-lane.jpg
+image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1782356004/cb3f825b-bf4a-4dd4-a88b-dcb6f3575463.png
 # description: Lead Programmer
-role: masters
+role: phd
 # group: 
 aliases:
-  - Lane, K. 
+  - Kevin Lane
+  - K. Lane 
+  - Kevin Lane,
 
 links:
   github: SoundWavesHello

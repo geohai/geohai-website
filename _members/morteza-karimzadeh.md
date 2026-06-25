@@ -18,7 +18,7 @@ links:
   linkedin: karimzadeh-m
   # twitter: 
 ---
-I am an assistant Professor of [Geography](https://www.colorado.edu/geography/), and [Computer Science](https://www.colorado.edu/cs/) and [Information Science](https://www.colorado.edu/cmci/infoscience) Departments by courtesy, and a Faculty Fellow of the [Institute of Behavioral Science](https://ibs.colorado.edu/), and [CU Population Center](https://cupc.colorado.edu/) at at CU Boulder. 
+I am an Associate Professor of [Geography](https://www.colorado.edu/geography/), and [Computer Science](https://www.colorado.edu/cs/) and [Information Science](https://www.colorado.edu/cmci/infoscience) Departments by courtesy, and a Faculty Fellow of the [Institute of Behavioral Science](https://ibs.colorado.edu/), and [CU Population Center](https://cupc.colorado.edu/) at at CU Boulder. 
 
 My research interests are rooted in geospatial data science, extended to both natural and social sciences. I contribute to and use methods from the fields of spatiotemporal machine learning, spatial statistics, human-centered visual analytics, and remote sensing. 
 
