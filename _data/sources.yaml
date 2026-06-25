@@ -44,22 +44,6 @@
     - machine learning
 
  
-# AGU presentation - Ozone
-- id: doi:10.22541/essoar.176530395.51816488/v1
-  type: conference
-  image: 
-  buttons:
-    - type: presentation
-      text: presentation
-      link: https://essopenarchive.org/doi/full/10.22541/essoar.176530395.51816488/v1
-  tags:
-    - foundation model
-    - remote sensing
-    - location encoders
-    - machine learning
-    - air pollution
-    - earth embeddings
-
 # AGU presentation - location encoder and PM25
 - id: doi:10.22541/essoar.176530395.51816488/v1
   type: conference
@@ -75,6 +59,7 @@
     - machine learning
     - air pollution
     - earth embeddings
+
 
 #2025
 # PM and location encoding
