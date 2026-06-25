@@ -2,9 +2,9 @@
 #2026
 
 #light in the dark
-- id:  DOI:10.1088/2634-4505/ae636d
+- id:  doi:10.1088/2634-4505/ae636d
   type: journal
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1782356735/12ff7aa4-8f7c-4dfb-8104-6ded5f9c27df.png
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1782356941/8caf7b04-1d6f-4e04-94c5-13182eb8500f.png
   tags:
     - spatiotemporal
     - remote sensing
@@ -32,7 +32,7 @@
 #foundation model Genealogy 
 - id: doi:10.1145/3789505
   type: journal
-  image: 
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1771421301/2026_foundation_models_u1sf0y.jpg
   buttons:
     - type: preprint
       text: preprint
@@ -44,6 +44,22 @@
     - machine learning
 
  
+# AGU presentation - Ozone
+- id: doi:10.22541/essoar.176530395.51816488/v1
+  type: conference
+  image: 
+  buttons:
+    - type: presentation
+      text: presentation
+      link: https://essopenarchive.org/doi/full/10.22541/essoar.176530395.51816488/v1
+  tags:
+    - foundation model
+    - remote sensing
+    - location encoders
+    - machine learning
+    - air pollution
+    - earth embeddings
+
 # AGU presentation - location encoder and PM25
 - id: doi:10.22541/essoar.176530395.51816488/v1
   type: conference
@@ -59,7 +75,6 @@
     - machine learning
     - air pollution
     - earth embeddings
-
 
 #2025
 # PM and location encoding
