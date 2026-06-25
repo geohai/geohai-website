@@ -50,8 +50,25 @@
   link: https://doi.org/hbggsh
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
+  type: journal
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/pm25-geolocation
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2505.18461
+  tags:
+  - spatiotemporal
+  - machine learning
+  - remote sensing
+  - public health
+  - air pollution
+  - foundation model
+  - earth embeddings
 - id: doi:10.22541/essoar.176530396.67249606/v1
   title: "AGU 2025 Fall Meeting Poster: Location Encoder Foundation Models\_ for Dynamic\
     \ PM2.5 Estimation (Please cite the linked peer-reviewed\_ article)"
@@ -95,8 +112,20 @@
   link: https://doi.org/hbdtx3
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770663420/9b9ebc68-4296-4329-bdf7-0974d8c1a317.png
+  buttons:
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2503.22516v1
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - foundation model
+  - machine learning
 - id: doi:10.1111/cgf.70087
   title: 'GeoDEN: A Visual Exploration Tool for Analyzing the Geographic Spread of
     Dengue Serotypes'
@@ -130,6 +159,37 @@
   - public health
   - dengue
   - Arbovirus
+- id: doi:10.1080/13658816.2025.2527266
+  title: Integrating spatiotemporal features in LSTM for spatially informed COVID-19
+    hospitalization forecasting
+  authors:
+  - Zhongying Wang
+  - Thoai D. Ngo
+  - Hamidreza Zoraghein
+  - Benjamin Lucas
+  - Morteza Karimzadeh
+  publisher: International Journal of Geographical Information Science
+  date: '2025-07-08'
+  link: https://doi.org/hbnznq
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666335/65a39881-347c-4e94-83d8-0527a9fbdaf8.png
+  type: journal
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/covid-lstm-hosp
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2506.05752
+  tags:
+  - spatiotemporal
+  - machine learning
+  - covid-19
+  - public health
+  - epidemiology
 - id: doi:10.1101/2025.05.27.25328449
   title: "Respiratory Exacerbations Increase with Chronic PM\n                  <sub>2.5</sub>\n\
     \                  Exposure in Current and Former Smokers"
@@ -148,8 +208,19 @@
   link: https://doi.org/g9mwdr
   orcid: 0000-0002-6498-1763
   morteza-karimzadeh: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666142/fdf684b2-8edd-495d-b73c-954b1a3d5142.png
+  type: journal
+  buttons:
+  - type: preprint
+    text: preprint
+    link: https://pmc.ncbi.nlm.nih.gov/articles/PMC12148289/
+  tags:
+  - spatiotemporal
+  - public health
+  - air pollution
+  - earth embeddings
 - id: doi:10.1016/j.rsase.2025.101538
   title: Enhancing and Interpreting Deep Learning for Sea Ice Charting using the AutoICE
     Benchmark
@@ -1405,6 +1476,97 @@
   plugin: sources.py
   file: sources.yaml
   image: images/publication-thumbnails/2013-karimzadeh-geotxt.jpg
+- id: doi:10.1109/IGARSS55030.2025.11243075
+  title: Fusion of Low- and High- Resolution Observations for Sea Ice Mapping using
+    Deep Learning
+  authors:
+  - Sepideh Jalayer
+  - Morteza Karimzadeh
+  publisher: IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2025-08-03'
+  link: https://doi.org/hbn3xx
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770667148/3a9a682d-2406-4b20-96e6-dc2e345499df.png
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - machine learning
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/IGARSS55030.2025.11242650
+  title: Exploring the Potential of Latent Embeddings for Sea Ice Characterization
+    using ICESat-2 Data
+  authors:
+  - Daehyeon Han
+  - Morteza Karimzadeh
+  publisher: IGARSS 2025 - 2025 IEEE International Geoscience and Remote Sensing Symposium
+  date: '2025-08-03'
+  link: https://doi.org/hbn3xz
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666003/b6960440-ff8f-4117-bda4-c49a8226cd74.png
+  buttons:
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2504.18668
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - representation learning
+  - machine learning
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.48550/arXiv.2506.01102
+  title: Keystep Recognition using Graph Neural Networks
+  authors:
+  - Julia Lee Romero
+  - Kyle Min
+  - Subarna Tripathi
+  - Morteza Karimzadeh
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/hbn3x2
+  type: conference
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770663028/d6d78b36-1ed8-469e-b8a1-8af9e0a9ed34.png
+  buttons:
+  - type: preprint
+    text: proceedings
+    link: https://openaccess.thecvf.com/content/ICCV2025W/SG2RL/html/Romero_Long-form_Reasoning_for_Keystep_Recognition_using_Graph_Neural_Networks_ICCVW_2025_paper.html
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/graphs-for-keystep-recognition
+  tags:
+  - spatiotemporal
+  - graph neural networks
+  - machine learning
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/BigData62323.2024.10825475
+  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
+  authors:
+  - Samira Alkaee Taleghan
+  - Morteza Karimzadeh
+  - Andrew P. Barrett
+  - Walter N. Meier
+  - Farnoush Banaei-Kashani
+  publisher: 2024 IEEE International Conference on Big Data (BigData)
+  date: '2024-12-15'
+  link: https://doi.org/g83j8s
+  type: proceedings
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1737398804/1a4dcb4f-724e-4d93-ac6e-c6a50f318688.png
+  buttons:
+  - type: preprint
+    text: Full text on ResearchGate
+    link: https://www.researchgate.net/publication/388095743_Semi-Supervised_Multi-Source_Sea_Ice_Classification_in_Small-Data_Regime
+  tags:
+  - sea ice
+  - cryosphere
+  - remote sensing
+  - uncertainty
+  - machine learning
+  plugin: sources.py
+  file: sources.yaml
 - id: doi:10.1145/3638550.3641136
   title: 'OptiBreathe: An Earable-based PPG System for Continuous Respiration Rate,
     Breathing Phase, and Tidal Volume Monitoring'
@@ -1463,50 +1625,5 @@
   - public health
   - human behavior
   - wearable devices
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.48550/arXiv.2505.18461
-  title: Performance and Generalizability Impacts of Incorporating Location Encoders
-    into Deep Learning for Dynamic PM2.5 Estimation
-  authors:
-  - Morteza Karimzadeh
-  - Zhongying Wang
-  - James L. Crooks
-  publisher: arXiv
-  date: '2025-01-01'
-  link: https://doi.org/g9qzdc
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1750457206/2021-07-05_pred_geoclip_with_boundary_cropped-min-min_r0z2yv.png
-  type: journal
-  tags:
-  - spatiotemporal
-  - machine learning
-  - remote sensing
-  - public health
-  - air pollution
-  plugin: sources.py
-  file: sources.yaml
-- id: doi:10.1109/BigData62323.2024.10825475
-  title: Semi-Supervised Multi-Source Sea Ice Classification in Small-Data Regime
-  authors:
-  - Samira Alkaee Taleghan
-  - Morteza Karimzadeh
-  - Andrew P. Barrett
-  - Walter N. Meier
-  - Farnoush Banaei-Kashani
-  publisher: 2024 IEEE International Conference on Big Data (BigData)
-  date: '2024-12-15'
-  link: https://doi.org/g83j8s
-  type: proceedings
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1737398804/1a4dcb4f-724e-4d93-ac6e-c6a50f318688.png
-  buttons:
-  - type: preprint
-    text: Full text on ResearchGate
-    link: https://www.researchgate.net/publication/388095743_Semi-Supervised_Multi-Source_Sea_Ice_Classification_in_Small-Data_Regime
-  tags:
-  - sea ice
-  - cryosphere
-  - remote sensing
-  - uncertainty
-  - machine learning
   plugin: sources.py
   file: sources.yaml
