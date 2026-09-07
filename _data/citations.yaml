@@ -23,6 +23,37 @@
   - remote sensing
   - representation learning
   - machine learning
+- id: doi:10.1080/13658816.2025.2527266
+  title: Integrating spatiotemporal features in LSTM for spatially informed COVID-19
+    hospitalization forecasting
+  authors:
+  - Zhongying Wang
+  - Thoai D. Ngo
+  - Hamidreza Zoraghein
+  - Benjamin Lucas
+  - Morteza Karimzadeh
+  publisher: International Journal of Geographical Information Science
+  date: '2025-07-08'
+  link: https://doi.org/hbnznq
+  orcid: 0000-0002-6498-1763
+  morteza-karimzadeh: true
+  plugin: sources.py
+  file: sources.yaml
+  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666335/65a39881-347c-4e94-83d8-0527a9fbdaf8.png
+  type: journal
+  buttons:
+  - type: source
+    text: Repo
+    link: https://github.com/geohai/covid-lstm-hosp
+  - type: preprint
+    text: preprint
+    link: https://arxiv.org/abs/2506.05752
+  tags:
+  - spatiotemporal
+  - machine learning
+  - covid-19
+  - public health
+  - epidemiology
 - id: doi:10.1088/2634-4505/ae636d
   title: 'A light in the dark: detectability of mini-grid electrification with remote
     sensing in sub-Saharan Africa'
@@ -173,37 +204,6 @@
   morteza-karimzadeh: true
   plugin: orcid.py
   file: orcid.yaml
-- id: doi:10.1080/13658816.2025.2527266
-  title: Integrating spatiotemporal features in LSTM for spatially informed COVID-19
-    hospitalization forecasting
-  authors:
-  - Zhongying Wang
-  - Thoai D. Ngo
-  - Hamidreza Zoraghein
-  - Benjamin Lucas
-  - Morteza Karimzadeh
-  publisher: International Journal of Geographical Information Science
-  date: '2025-07-08'
-  link: https://doi.org/hbnznq
-  orcid: 0000-0002-6498-1763
-  morteza-karimzadeh: true
-  plugin: sources.py
-  file: sources.yaml
-  image: https://res.cloudinary.com/dz3zgmhnr/image/upload/v1770666335/65a39881-347c-4e94-83d8-0527a9fbdaf8.png
-  type: journal
-  buttons:
-  - type: source
-    text: Repo
-    link: https://github.com/geohai/covid-lstm-hosp
-  - type: preprint
-    text: preprint
-    link: https://arxiv.org/abs/2506.05752
-  tags:
-  - spatiotemporal
-  - machine learning
-  - covid-19
-  - public health
-  - epidemiology
 - id: doi:10.1101/2025.05.27.25328449
   title: "Respiratory Exacerbations Increase with Chronic PM\n                  <sub>2.5</sub>\n\
     \                  Exposure in Current and Former Smokers"
